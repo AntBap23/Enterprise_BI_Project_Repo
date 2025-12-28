@@ -1,0 +1,2551 @@
+product_code,product_name,category,base_price,active_flag
+ SKU-000001 ,PRODUCT 1, Pet ,46.82,Y
+P000002, Product 2 ,Pet,114.23,Y
+000003,PRODUCT 3, Pet ,88.64,Y
+sku-000004,PRODUCT 4,Baby,73.04,Y
+SKU-000005,PRODUCT 5,Grocery,21.25,Y
+SKU-000006,Product 6,PET,21.25,Y
+ P000007 ,Product 7,baby,9.8,Y
+000008,Product 8,Pharmacy,104.34,N
+P000009,Product 9,PET,73.33,Y
+P000010,Product 10,PERSONAL CARE,85.84,Y
+P000011,Product 11,Pet,5.41,Y
+000012,Product 12, Grocery ,116.48,N
+ SKU-000013 ,PRODUCT 13,HOUSEHOLD,100.4,Y
+000014,product 14,Grocery,27.84,N
+000015,product 15,HOUSEHOLD,24.27,Y
+000016,Product 16, Pet ,24.46,Y
+SKU-000017,Product 17, Personal Care ,38.6,Y
+ P000018 ,PRODUCT 18,Household,64.4,Y
+P000019,Product 19, Electronics ,53.54,Y
+P000020, Product 20 ,Household,37.07,Y
+000021,PRODUCT 21,HOUSEHOLD,74.59,Y
+ SKU-000022 ,PRODUCT 22,household,19.32,Y
+P000023,PRODUCT 23,PET,37.18,N
+000024, Product 24 ,household,45.86,Y
+SKU-000025,product 25,Grocery,56.36,Y
+P000026,Product 26,BABY,94.87,Y
+P000027,PRODUCT 27,HOUSEHOLD,26.36,Y
+000028,Product 28,Household,63.17,Y
+P000029,Product 29,personal care,,Y
+SKU-000030, Product 30 ,pharmacy,8.43,Y
+P000031,Product 31,Grocery,74.08,Y
+ 000032 ,product 32,Pet,22.95,Y
+P000033,Product 33,Grocery,10.61,Y
+000034,PRODUCT 34,Personal Care,114.02,N
+ P000035 ,Product 35,BABY,115.98,Y
+P000036,PRODUCT 36,pet,97.58,N
+ SKU-000037 ,Product 37,PERSONAL CARE,38.64,Y
+ P000038 ,Product 38,Pharmacy,14.43,Y
+SKU-000039,PRODUCT 39,Baby,83.06,Y
+ SKU-000040 ,product 40,Pharmacy,54.5,Y
+000041,Product 41,Pharmacy,17.28,Y
+ 000042 , Product 42 , Grocery ,60.94,Y
+p000043,Product 43,Pharmacy,7.02,N
+000044,product 44,pharmacy,109.39,Y
+p000045,product 45,Baby,33.28,Y
+SKU-000046, Product 46 ,Pet,80.52,N
+sku-000047,PRODUCT 47, Pet ,39.47,Y
+ SKU-000048 ,Product 48,HOUSEHOLD,63.85,Y
+ P000049 ,Product 49,PET,66.97,N
+P000050,Product 50,Household,24.63,Y
+P000051,PRODUCT 51,electronics,116.44,N
+SKU-000052,Product 52,Personal Care,93.69,Y
+P000053,PRODUCT 53,electronics,112.92,Y
+SKU-000054,product 54,personal care,107.69,Y
+sku-000055,PRODUCT 55,BABY,72.95,Y
+SKU-000056,Product 56,electronics,110.86,N
+ P000057 ,Product 57,Grocery,13.35,Y
+P000058, Product 58 ,PHARMACY,25.93,Y
+ P000059 ,Product 59,personal care,8.29,Y
+P000060,product 60,Pharmacy,41.06,N
+P000061,product 61, Grocery ,48.48,Y
+ 000062 ,Product 62,Grocery,34.75,Y
+SKU-000063, Product 63 ,Personal Care,99.96,N
+ 000064 ,PRODUCT 64,PET,44.74,Y
+SKU-000065,Product 65, Pet ,35.87,Y
+000066,Product 66, Household ,66.5,Y
+SKU-000067, Product 67 ,Pet,19.49,Y
+ P000068 ,Product 68,household,96.86,N
+000069, Product 69 ,baby,11.72,Y
+SKU-000070,PRODUCT 70,electronics,118.47,N
+P000071,Product 71,Pharmacy,93.35,Y
+000072,Product 72,pharmacy,26.25,Y
+000073,Product 73,Electronics,3.65,N
+000074,product 74,baby,98.41,N
+000075,product 75,Household,85.7,Y
+sku-000076, Product 76 ,Grocery,88.29,Y
+P000077,PRODUCT 77,Pharmacy,93.24,Y
+SKU-000078,PRODUCT 78,HOUSEHOLD,11.66,N
+SKU-000079,product 79,Household,44.94,Y
+SKU-000080,Product 80,PHARMACY,16.56,Y
+p000081,PRODUCT 81,PERSONAL CARE,103.98,Y
+SKU-000082,Product 82,BABY,75.93,Y
+000083,product 83,Personal Care,41.72,Y
+P000084,Product 84,PHARMACY,10.44,Y
+ P000085 ,Product 85,Pet,39.38,N
+000086,Product 86,Electronics,,Y
+ SKU-000087 ,Product 87,Personal Care,88.36,Y
+sku-000088,Product 88, Baby ,77.59,Y
+000089,PRODUCT 89,Pharmacy,106.8,Y
+P000090, Product 90 ,Electronics,58.25,Y
+P000091,Product 91,Baby,16.99,N
+000092, Product 92 ,Personal Care,86.45,Y
+ SKU-000093 ,product 93, Pharmacy ,92.01,N
+ SKU-000094 ,PRODUCT 94,pharmacy,68.67,Y
+SKU-000095,PRODUCT 95,Household,93.2,N
+P000096, Product 96 ,Personal Care,60.77,Y
+sku-000097,Product 97,Pharmacy,64.16,Y
+000098,product 98,Pet,53.02,Y
+sku-000099,Product 99,Personal Care,5.97,Y
+sku-000100,Product 100,Personal Care,15.62,Y
+SKU-000101,PRODUCT 101,Grocery,6.68,N
+000102,product 102,Pet,77.46,Y
+P000103, Product 103 ,Grocery,39.78,Y
+sku-000104,Product 104, Personal Care ,62.5,Y
+P000105,Product 105,Baby,109.19,Y
+000106,Product 106,Pet,32.17,Y
+ SKU-000107 , Product 107 ,Grocery,51.01,Y
+sku-000108,Product 108, Baby ,91.4,N
+P000109,Product 109,Pet,29.77,N
+000110,Product 110, Personal Care ,12.01,N
+ P000111 ,PRODUCT 111,PHARMACY,36.9,Y
+P000112,Product 112,Pharmacy,21.86,Y
+ SKU-000113 , Product 113 ,Pharmacy,111.77,N
+SKU-000114,Product 114,PHARMACY,97.55,Y
+000115,PRODUCT 115,Personal Care,77.11,Y
+ P000116 ,PRODUCT 116,baby,104.96,Y
+P000117,Product 117,HOUSEHOLD,97.03,N
+P000118,Product 118,Personal Care,24.83,Y
+000119, Product 119 ,Household,107.43,N
+ P000120 ,Product 120, Household ,66.1,Y
+000121,Product 121, Personal Care ,97.47,Y
+000122, Product 122 , Baby ,107.84,Y
+P000123,PRODUCT 123,PHARMACY,40.21,N
+ SKU-000124 , Product 124 , Household ,15.88,Y
+P000125,Product 125,personal care,29.67,Y
+SKU-000126,product 126,Electronics,52.97,Y
+000127,Product 127,Pet,98.71,Y
+SKU-000128,product 128,HOUSEHOLD,103.71,Y
+p000129,product 129,Household,3.81,Y
+000130,Product 130,BABY,62.76,Y
+SKU-000131,Product 131, Grocery ,51.84,Y
+000132,product 132,Baby,28.99,Y
+P000133,product 133,Pharmacy,17.02,N
+ SKU-000134 , Product 134 ,Household,42.5,N
+ SKU-000135 ,Product 135, Pharmacy ,113.32,N
+ P000136 , Product 136 ,Grocery,40.81,Y
+p000137,Product 137,Electronics,63.7,Y
+SKU-000138,PRODUCT 138,pet,85.25,Y
+p000139, Product 139 ,PHARMACY,45.54,Y
+000140,PRODUCT 140,Grocery,116.7,N
+SKU-000141, Product 141 ,baby,115.61,Y
+p000142,PRODUCT 142,PERSONAL CARE,32.46,Y
+ P000143 ,PRODUCT 143,PET,61.18,Y
+P000144,Product 144, Household ,38.2,Y
+000145,PRODUCT 145,grocery,36.33,Y
+P000146,Product 146, Pet ,7.32,Y
+P000147,product 147,electronics,74.32,N
+ 000148 ,Product 148,Grocery,61.81,N
+SKU-000149, Product 149 ,pharmacy,9.02,Y
+ P000150 ,Product 150,GROCERY,35.6,Y
+000151,product 151,ELECTRONICS,109.27,N
+000152,Product 152,PET,31.03,Y
+ 000153 ,Product 153,PET,19.95,Y
+ P000154 ,product 154,Household,60.27,Y
+SKU-000155,product 155,Household,118.32,Y
+SKU-000156,product 156, Household ,31.32,Y
+000157,product 157,Personal Care,81.64,Y
+p000158,Product 158,pet,92.11,Y
+p000159,Product 159,Baby,30.8,Y
+P000160,Product 160,Baby,88.2,Y
+000161,Product 161,Baby,46.03,Y
+P000162,PRODUCT 162,Personal Care,76.98,Y
+P000163,Product 163,Electronics,77.12,Y
+p000164,Product 164,GROCERY,65.69,Y
+SKU-000165,Product 165, Baby ,13.56,Y
+ 000166 ,Product 166,PHARMACY,100.73,Y
+000167, Product 167 , Baby ,40.53,Y
+000168,product 168,GROCERY,24.82,N
+SKU-000169,PRODUCT 169,Personal Care,7.77,N
+sku-000170, Product 170 ,Pharmacy,72.13,N
+P000171,Product 171,pharmacy,82.28,Y
+ SKU-000172 ,Product 172,Pet,,Y
+000173, Product 173 , Pharmacy ,62.91,Y
+SKU-000174,product 174,Personal Care,29.5,Y
+SKU-000175,Product 175, Pet ,78.49,Y
+P000176,Product 176,personal care,23.4,Y
+ 000177 ,Product 177, Personal Care ,83.84,Y
+000178,Product 178,grocery,48.25,Y
+ SKU-000179 ,Product 179,Pet,112.6,Y
+SKU-000180,Product 180, Grocery ,19.09,Y
+SKU-000181,PRODUCT 181, Personal Care ,42.9,N
+000182,product 182, Baby ,16.28,Y
+SKU-000183,PRODUCT 183,Electronics,111.19,Y
+P000184, Product 184 ,Electronics,105.65,Y
+SKU-000185, Product 185 ,Pharmacy,33.18,Y
+ SKU-000186 ,PRODUCT 186, Grocery ,80.22,Y
+ P000187 ,PRODUCT 187,HOUSEHOLD,98.61,Y
+SKU-000188,Product 188, Personal Care ,67.96,Y
+p000189,Product 189,pet,64.97,N
+000190,Product 190,Pharmacy,31.3,Y
+000191,Product 191,PHARMACY,13.89,Y
+p000192,Product 192,PHARMACY,107.97,Y
+000193,Product 193,household,108.35,Y
+SKU-000194, Product 194 ,Grocery,77.07,Y
+P000195,Product 195,Pet,42.67,N
+SKU-000196,PRODUCT 196, Pharmacy ,43.86,N
+000197,Product 197,GROCERY,,Y
+000198,Product 198,Grocery,107.96,N
+ P000199 ,PRODUCT 199, Pet ,106.79,Y
+ P000200 ,Product 200,pet,94.25,Y
+P000201, Product 201 , Household ,78.12,Y
+SKU-000202,product 202,Electronics,12.84,Y
+P000203, Product 203 , Grocery ,21.91,Y
+000204,PRODUCT 204,PHARMACY,108.13,Y
+000205,Product 205,baby,73.95,Y
+000206,PRODUCT 206,baby,4.08,Y
+ P000207 , Product 207 ,electronics,14.87,Y
+000208,Product 208,Baby,80.63,Y
+P000209,product 209,Pharmacy,3.59,Y
+ P000210 ,product 210,Electronics,21.81,Y
+SKU-000211,product 211,Pharmacy,67.2,Y
+000212, Product 212 ,electronics,83.95,N
+000213,PRODUCT 213,Personal Care,79.28,Y
+P000214,PRODUCT 214,BABY,29.24,Y
+P000215,PRODUCT 215,Pharmacy,86.32,Y
+p000216,Product 216, Pet ,30.76,Y
+ SKU-000217 ,Product 217,Grocery,41.07,Y
+000218,Product 218, Pet ,90.34,Y
+000219, Product 219 ,pet,79.01,Y
+SKU-000220,PRODUCT 220, Pet ,102.36,N
+000221,Product 221,baby,79.94,Y
+000222, Product 222 ,Pharmacy,69.49,Y
+sku-000223,Product 223,GROCERY,13.96,Y
+P000224,Product 224,Pet,46.02,N
+P000225,product 225, Electronics ,34.03,N
+000226,PRODUCT 226,BABY,31.55,Y
+P000227,product 227,Electronics,116.84,Y
+000228, Product 228 , Grocery ,48.99,N
+P000229,PRODUCT 229,PERSONAL CARE,107.37,Y
+sku-000230,Product 230, Baby ,76.84,Y
+SKU-000231,PRODUCT 231,Pharmacy,95.99,Y
+P000232,product 232, Electronics ,61.81,Y
+SKU-000233,Product 233,Pet,70.5,Y
+P000234, Product 234 ,Pharmacy,60.62,Y
+SKU-000235,Product 235, Baby ,25.84,Y
+ P000236 ,Product 236,Pet,87.53,N
+000237,Product 237,personal care,35.85,Y
+SKU-000238,product 238, Grocery ,5.84,N
+ SKU-000239 ,product 239,Pharmacy,78.52,N
+000240,Product 240,GROCERY,23.72,N
+P000241, Product 241 ,Household,113.03,Y
+000242, Product 242 ,Pharmacy,114.61,N
+SKU-000243,PRODUCT 243, Pharmacy ,110.04,N
+P000244,Product 244,Electronics,46.31,N
+ 000245 ,Product 245, Pharmacy ,4.81,Y
+000246,Product 246,pet,111.61,N
+P000247,Product 247, Electronics ,53.1,Y
+P000248,product 248,Pharmacy,116.1,Y
+000249,Product 249,HOUSEHOLD,115.74,Y
+P000250,Product 250,PHARMACY,102.8,Y
+SKU-000251,product 251,pharmacy,37.45,Y
+ SKU-000252 ,Product 252, Baby ,48.06,Y
+000253,PRODUCT 253,electronics,102.58,N
+P000254,Product 254,PERSONAL CARE,40.08,Y
+P000255,product 255,ELECTRONICS,22.83,Y
+P000256,product 256,Pharmacy,68.15,N
+SKU-000257,Product 257, Personal Care ,112.53,Y
+000258,Product 258,Household,84.44,Y
+SKU-000259, Product 259 , Baby ,69.7,Y
+SKU-000260,Product 260,BABY,14.37,Y
+SKU-000261,product 261, Pharmacy ,74.96,Y
+000262,Product 262,Pet,118.84,Y
+P000263,Product 263,PERSONAL CARE,19.39,Y
+P000264, Product 264 ,pet,63.64,Y
+ P000265 , Product 265 ,Grocery,105.65,Y
+SKU-000266, Product 266 ,Household,89.67,Y
+ 000267 ,Product 267,Baby,84.55,N
+000268,PRODUCT 268,Pharmacy,85.19,Y
+P000269,product 269,Electronics,45.06,Y
+sku-000270,product 270,Pet,37.35,N
+p000271,product 271,personal care,97.7,Y
+ SKU-000272 ,product 272,pharmacy,97.78,Y
+000273,PRODUCT 273,PET,104.45,N
+P000274,PRODUCT 274,PERSONAL CARE,109.85,Y
+SKU-000275,Product 275,Household,62.83,Y
+P000276,product 276,Grocery,61.68,N
+000277,Product 277,PERSONAL CARE,96.4,Y
+000278,PRODUCT 278,electronics,79.05,Y
+ 000279 ,Product 279,Household,85.13,Y
+p000280,product 280,PERSONAL CARE,96.11,Y
+SKU-000281,Product 281,PHARMACY,107.13,Y
+SKU-000282, Product 282 ,Pharmacy,,Y
+ 000283 , Product 283 ,GROCERY,46.94,Y
+sku-000284,Product 284,Grocery,14.0,Y
+P000285,product 285,PET,70.66,Y
+SKU-000286,Product 286, Grocery ,7.21,Y
+ P000287 ,product 287,Household,57.47,Y
+ P000288 ,Product 288,pet,66.49,Y
+P000289,Product 289,Personal Care,36.53,N
+P000290,Product 290,GROCERY,72.13,Y
+SKU-000291,Product 291,household,6.57,Y
+P000292, Product 292 ,Pharmacy,7.37,N
+SKU-000293,product 293,Grocery,99.24,N
+SKU-000294,Product 294,Household,45.14,N
+SKU-000295,Product 295,Household,17.87,Y
+000296,Product 296,Electronics,64.1,Y
+ 000297 ,Product 297,ELECTRONICS,93.09,Y
+000298,PRODUCT 298,HOUSEHOLD,28.25,N
+ SKU-000299 , Product 299 ,Grocery,75.88,Y
+000300,PRODUCT 300,Pharmacy,12.99,Y
+000301,Product 301,PHARMACY,9.05,Y
+sku-000302,Product 302,Electronics,65.17,N
+000303,Product 303,Household,66.25,Y
+000304,product 304,HOUSEHOLD,77.58,N
+SKU-000305,PRODUCT 305, Household ,87.95,Y
+000306,product 306, Household ,,Y
+sku-000307,Product 307,Baby,63.41,Y
+P000308,Product 308,Electronics,40.79,Y
+SKU-000309,PRODUCT 309,Personal Care,96.04,Y
+000310,Product 310,grocery,34.69,Y
+SKU-000311,Product 311,Pet,54.36,Y
+SKU-000312,PRODUCT 312, Household ,12.18,Y
+ SKU-000313 , Product 313 ,baby,5.97,Y
+SKU-000314, Product 314 ,PET,115.63,N
+000315, Product 315 ,Pet,100.81,N
+SKU-000316,Product 316, Household ,84.43,Y
+000317, Product 317 ,Grocery,50.85,Y
+SKU-000318, Product 318 ,Electronics,23.28,Y
+SKU-000319, Product 319 ,PET,21.3,Y
+sku-000320,PRODUCT 320,Personal Care,32.28,N
+SKU-000321,Product 321,baby,67.26,Y
+P000322, Product 322 ,PET,86.61,Y
+P000323, Product 323 ,Household,80.24,Y
+SKU-000324,Product 324, Baby ,35.75,N
+SKU-000325,Product 325,PHARMACY,,Y
+SKU-000326, Product 326 ,Grocery,89.33,N
+ 000327 ,product 327,Electronics,67.86,Y
+SKU-000328,Product 328, Personal Care ,74.57,Y
+000329,product 329,Electronics,52.09,Y
+P000330,Product 330,GROCERY,31.98,Y
+P000331,product 331,Pet,44.65,Y
+ 000332 ,PRODUCT 332,Household,91.67,Y
+SKU-000333,PRODUCT 333,Pet,4.68,Y
+P000334,PRODUCT 334,Pet,,Y
+P000335,Product 335,ELECTRONICS,8.38,Y
+ P000336 , Product 336 ,Grocery,7.77,Y
+000337,Product 337,PERSONAL CARE,103.09,Y
+sku-000338,PRODUCT 338, Pet ,85.33,N
+ 000339 ,Product 339,PERSONAL CARE,58.48,Y
+ 000340 ,Product 340,grocery,14.45,Y
+SKU-000341,product 341, Personal Care ,60.52,N
+ P000342 ,PRODUCT 342,PET,58.4,Y
+SKU-000343, Product 343 ,Electronics,23.26,Y
+P000344,Product 344, Personal Care ,53.76,N
+SKU-000345,Product 345,Baby,49.63,Y
+000346, Product 346 , Household ,75.05,Y
+SKU-000347,product 347,PHARMACY,77.31,Y
+P000348,Product 348,Electronics,8.3,Y
+ 000349 , Product 349 ,pet,46.83,N
+P000350,PRODUCT 350,Pet,76.23,N
+SKU-000351,product 351,Pet,61.87,Y
+p000352,Product 352,ELECTRONICS,103.21,Y
+000353,Product 353, Grocery ,80.07,Y
+P000354,Product 354,Grocery,22.06,N
+P000355,PRODUCT 355,Electronics,11.26,Y
+ P000356 , Product 356 ,pet,78.16,Y
+000357,Product 357,Household,6.1,N
+P000358,Product 358,Pet,71.54,Y
+ P000359 ,Product 359,PET,113.01,N
+p000360,product 360,Baby,70.33,Y
+P000361,product 361,Personal Care,48.42,Y
+SKU-000362,product 362, Pet ,78.26,N
+SKU-000363, Product 363 , Pharmacy ,56.62,N
+000364, Product 364 ,pharmacy,66.84,Y
+ SKU-000365 ,Product 365,GROCERY,113.15,Y
+P000366,Product 366,Electronics,48.17,Y
+000367,Product 367,Personal Care,115.46,Y
+SKU-000368,Product 368,Pharmacy,108.93,Y
+000369,Product 369,Household,25.91,Y
+P000370,PRODUCT 370,BABY,11.12,Y
+ SKU-000371 ,Product 371,Grocery,14.79,Y
+000372, Product 372 ,Personal Care,5.13,Y
+SKU-000373,PRODUCT 373,household,14.05,N
+000374, Product 374 ,Household,82.91,Y
+SKU-000375,PRODUCT 375,ELECTRONICS,11.33,N
+000376, Product 376 ,Grocery,40.32,Y
+SKU-000377, Product 377 ,Electronics,101.85,Y
+000378, Product 378 , Pharmacy ,5.72,Y
+ P000379 , Product 379 ,Baby,98.29,Y
+000380, Product 380 ,BABY,35.98,Y
+SKU-000381,PRODUCT 381, Electronics ,,Y
+sku-000382,Product 382,Household,84.52,Y
+P000383,product 383,pharmacy,76.59,Y
+P000384,PRODUCT 384, Pet ,105.66,N
+ P000385 ,PRODUCT 385,electronics,89.0,N
+sku-000386,product 386,Pet,97.01,Y
+p000387,Product 387,baby,36.0,Y
+P000388,product 388, Electronics ,23.76,N
+P000389, Product 389 ,Pet,90.82,Y
+ 000390 ,PRODUCT 390,pet,97.4,Y
+000391, Product 391 ,Baby,118.89,Y
+SKU-000392,Product 392,Electronics,51.28,N
+P000393,PRODUCT 393, Household ,46.53,N
+ 000394 ,product 394,grocery,93.84,Y
+SKU-000395,product 395,BABY,42.87,N
+P000396,Product 396,Household,111.9,Y
+P000397, Product 397 , Baby ,103.43,Y
+sku-000398, Product 398 ,Pet,53.19,Y
+ P000399 , Product 399 ,household,90.85,Y
+SKU-000400,PRODUCT 400,baby,91.28,Y
+000401,Product 401,GROCERY,15.07,Y
+P000402,Product 402,Pharmacy,108.6,Y
+000403, Product 403 ,Grocery,62.11,Y
+P000404, Product 404 ,PET,99.7,Y
+ SKU-000405 ,Product 405,Electronics,40.45,N
+000406, Product 406 , Personal Care ,107.78,Y
+000407, Product 407 ,Electronics,48.54,Y
+ SKU-000408 ,product 408, Household ,4.27,Y
+P000409,product 409,electronics,108.93,Y
+P000410,Product 410,Household,13.68,N
+000411,PRODUCT 411,PHARMACY,40.36,Y
+000412,Product 412,Grocery,114.16,Y
+ 000413 ,product 413,Pharmacy,114.22,Y
+ SKU-000414 , Product 414 ,pharmacy,70.09,N
+ SKU-000415 ,PRODUCT 415,PHARMACY,76.92,Y
+ SKU-000416 ,product 416,PHARMACY,55.47,N
+ SKU-000417 ,PRODUCT 417, Baby ,37.31,N
+SKU-000418,PRODUCT 418, Grocery ,41.45,N
+SKU-000419,Product 419,Electronics,81.68,N
+P000420,Product 420,Pet,91.03,Y
+P000421,product 421,HOUSEHOLD,,N
+SKU-000422,Product 422,Baby,95.39,Y
+000423,PRODUCT 423,Baby,13.67,Y
+000424, Product 424 , Grocery ,60.85,Y
+SKU-000425,PRODUCT 425,Household,9.73,Y
+SKU-000426,Product 426, Baby ,67.29,Y
+p000427,PRODUCT 427, Pet ,54.66,Y
+SKU-000428,PRODUCT 428,Baby,106.86,Y
+000429, Product 429 ,household,44.06,Y
+sku-000430,Product 430,electronics,16.7,Y
+P000431,Product 431,Household,19.73,Y
+SKU-000432,Product 432,electronics,92.1,Y
+000433, Product 433 , Personal Care ,75.33,N
+P000434, Product 434 ,Grocery,14.83,Y
+P000435,Product 435,Personal Care,12.84,Y
+000436,product 436,grocery,85.01,Y
+SKU-000437,Product 437,household,11.51,Y
+000438,Product 438,Pharmacy,99.16,Y
+SKU-000439,Product 439, Personal Care ,85.63,Y
+P000440,Product 440,PERSONAL CARE,12.52,Y
+ 000441 ,product 441,Baby,12.93,Y
+ 000442 ,product 442,household,118.44,N
+p000443,Product 443,PET,46.79,Y
+P000444,Product 444, Electronics ,46.37,Y
+P000445,product 445,Electronics,98.1,Y
+ P000446 ,Product 446,Electronics,113.83,Y
+SKU-000447,PRODUCT 447,baby,118.36,Y
+ 000448 ,Product 448,PET,91.15,N
+000449,product 449,electronics,47.02,N
+P000450,Product 450, Personal Care ,12.77,N
+000451,product 451,baby,93.93,Y
+ P000452 ,product 452, Electronics ,68.33,N
+P000453, Product 453 ,Grocery,52.63,N
+ 000454 ,Product 454,grocery,109.04,Y
+000455,Product 455,grocery,16.01,Y
+000456,Product 456, Grocery ,60.64,Y
+ 000457 ,Product 457,Baby,4.33,Y
+ SKU-000458 ,Product 458, Pharmacy ,57.83,N
+sku-000459,Product 459,Grocery,9.59,Y
+000460,PRODUCT 460, Personal Care ,16.9,N
+P000461,PRODUCT 461,grocery,,N
+ SKU-000462 ,Product 462,PET,78.96,Y
+P000463,PRODUCT 463,Pharmacy,90.29,N
+p000464, Product 464 ,PERSONAL CARE,71.25,N
+000465,PRODUCT 465,grocery,115.57,Y
+SKU-000466,Product 466,Personal Care,46.86,Y
+sku-000467,Product 467,Baby,36.43,Y
+SKU-000468,Product 468,Baby,104.63,Y
+P000469, Product 469 ,Baby,29.16,Y
+ 000470 ,Product 470,Grocery,115.7,Y
+P000471,Product 471,Electronics,4.42,N
+SKU-000472,Product 472,Grocery,116.48,N
+000473, Product 473 ,HOUSEHOLD,8.05,Y
+000474,Product 474,Electronics,107.26,Y
+ P000475 , Product 475 ,Personal Care,64.74,Y
+sku-000476,Product 476,HOUSEHOLD,119.18,Y
+SKU-000477,PRODUCT 477, Electronics ,11.63,Y
+P000478, Product 478 , Pharmacy ,67.8,Y
+SKU-000479,PRODUCT 479,baby,116.41,N
+SKU-000480,Product 480,Personal Care,64.2,Y
+P000481, Product 481 ,electronics,76.64,N
+SKU-000482,PRODUCT 482, Household ,84.4,Y
+000483,Product 483,PERSONAL CARE,56.18,Y
+P000484, Product 484 ,Grocery,76.42,N
+p000485,PRODUCT 485,ELECTRONICS,71.36,Y
+000486,Product 486,Electronics,108.44,N
+SKU-000487,Product 487,Pharmacy,8.32,Y
+P000488,Product 488,GROCERY,35.87,Y
+P000489,Product 489,Baby,114.2,Y
+SKU-000490,Product 490,Pet,107.16,Y
+000491,Product 491,Grocery,56.31,Y
+000492,Product 492,Baby,,Y
+P000493,Product 493,HOUSEHOLD,35.45,Y
+P000494,Product 494, Baby ,25.01,Y
+P000495,PRODUCT 495,BABY,57.25,N
+000496,Product 496,Personal Care,44.34,Y
+ P000497 ,PRODUCT 497,Grocery,71.29,Y
+p000498, Product 498 ,Household,12.09,Y
+000499,product 499,Household,117.0,Y
+SKU-000500,product 500,Household,118.39,N
+P000501,PRODUCT 501,HOUSEHOLD,84.68,N
+000502,PRODUCT 502, Pharmacy ,65.72,Y
+P000503,Product 503,Electronics,39.21,N
+000504, Product 504 ,household,98.21,Y
+000505,product 505,Pharmacy,83.11,Y
+SKU-000506,Product 506,grocery,22.03,Y
+000507, Product 507 ,Grocery,109.58,Y
+ P000508 ,Product 508,Pet,99.24,N
+000509,Product 509,Pet,114.13,N
+SKU-000510, Product 510 ,Electronics,87.91,Y
+P000511,PRODUCT 511,Grocery,74.77,Y
+ 000512 ,PRODUCT 512,personal care,51.93,Y
+P000513,Product 513,GROCERY,112.13,Y
+000514, Product 514 ,PERSONAL CARE,104.33,Y
+ P000515 ,PRODUCT 515, Personal Care ,8.29,Y
+000516,Product 516,Personal Care,6.08,Y
+000517,Product 517,Personal Care,47.05,N
+ P000518 ,product 518,Personal Care,97.83,Y
+ 000519 ,Product 519,Baby,118.51,Y
+P000520,Product 520,electronics,20.6,Y
+p000521,PRODUCT 521,personal care,72.51,N
+ 000522 ,Product 522,Baby,47.56,Y
+000523,product 523, Grocery ,116.48,Y
+SKU-000524,Product 524,personal care,101.53,Y
+000525, Product 525 ,pharmacy,101.08,Y
+000526,product 526,Pharmacy,57.84,N
+SKU-000527, Product 527 , Pharmacy ,51.53,Y
+000528, Product 528 ,GROCERY,34.99,Y
+SKU-000529,Product 529,Electronics,9.6,N
+000530,PRODUCT 530,Pet,104.17,Y
+P000531,Product 531,Personal Care,98.11,N
+p000532,PRODUCT 532,Personal Care,119.97,N
+ SKU-000533 ,Product 533,BABY,119.61,Y
+ SKU-000534 ,Product 534,Personal Care,67.99,Y
+P000535,Product 535,Personal Care,92.97,Y
+P000536, Product 536 , Pharmacy ,113.54,N
+000537,product 537,Pharmacy,102.41,Y
+ 000538 ,product 538,Baby,31.94,Y
+SKU-000539,Product 539,Grocery,55.71,N
+ P000540 ,Product 540,ELECTRONICS,18.11,N
+SKU-000541,Product 541,PET,114.62,N
+ 000542 ,PRODUCT 542,Electronics,73.92,Y
+ 000543 ,product 543, Personal Care ,29.75,Y
+SKU-000544, Product 544 ,Pet,81.59,N
+P000545,Product 545,Electronics,75.32,Y
+sku-000546,Product 546,GROCERY,44.91,Y
+SKU-000547, Product 547 ,PERSONAL CARE,16.29,Y
+000548,Product 548, Pharmacy ,81.57,N
+000549, Product 549 ,personal care,,Y
+sku-000550,Product 550,Household,93.36,N
+P000551, Product 551 ,Pharmacy,63.86,Y
+P000552, Product 552 , Baby ,102.71,Y
+SKU-000553,PRODUCT 553,GROCERY,67.57,Y
+000554, Product 554 ,Electronics,68.63,Y
+SKU-000555,Product 555,Electronics,105.57,Y
+000556,product 556,HOUSEHOLD,50.21,Y
+P000557,PRODUCT 557,Baby,18.68,Y
+P000558, Product 558 ,Grocery,6.37,N
+P000559, Product 559 ,grocery,91.35,Y
+sku-000560,PRODUCT 560,pet,75.58,Y
+SKU-000561,product 561, Baby ,85.38,Y
+000562,PRODUCT 562, Electronics ,27.92,N
+ 000563 ,PRODUCT 563,Grocery,18.96,Y
+ 000564 ,PRODUCT 564,Pet,4.7,Y
+P000565,product 565, Household ,44.02,N
+SKU-000566,Product 566, Grocery ,72.02,Y
+ 000567 , Product 567 ,Household,48.89,Y
+000568,Product 568,Grocery,54.18,Y
+000569,Product 569,Grocery,108.79,Y
+SKU-000570,Product 570,Grocery,43.75,Y
+000571,Product 571,Personal Care,63.14,Y
+SKU-000572,Product 572,pharmacy,94.69,Y
+000573,Product 573,Pet,49.4,Y
+000574,PRODUCT 574, Pharmacy ,75.78,Y
+P000575,Product 575,Personal Care,103.9,Y
+P000576,Product 576,Personal Care,114.09,Y
+sku-000577, Product 577 ,personal care,20.21,Y
+SKU-000578,Product 578,Electronics,111.41,Y
+P000579,Product 579,Pharmacy,60.58,Y
+SKU-000580,PRODUCT 580,Pet,33.21,Y
+P000581, Product 581 ,PET,56.72,N
+sku-000582,Product 582, Household ,117.66,Y
+ P000583 ,PRODUCT 583,personal care,60.64,Y
+000584,PRODUCT 584,HOUSEHOLD,41.46,Y
+P000585,product 585, Pet ,77.11,Y
+SKU-000586,Product 586,GROCERY,31.1,Y
+SKU-000587, Product 587 ,Electronics,11.88,N
+P000588,Product 588,Pharmacy,18.08,Y
+P000589,Product 589, Pet ,17.98,N
+sku-000590, Product 590 ,electronics,20.77,N
+000591,PRODUCT 591,PET,19.24,Y
+sku-000592,PRODUCT 592,Baby,77.98,Y
+SKU-000593,Product 593,GROCERY,24.28,Y
+SKU-000594,PRODUCT 594,Pet,43.44,N
+000595,PRODUCT 595,household,107.92,Y
+000596,product 596,Personal Care,58.45,Y
+000597,PRODUCT 597,ELECTRONICS,81.1,Y
+P000598,Product 598,Pharmacy,23.16,Y
+p000599,Product 599, Pharmacy ,25.5,Y
+ P000600 ,Product 600,pet,7.78,N
+p000601,PRODUCT 601,Household,22.77,Y
+P000602,PRODUCT 602, Electronics ,35.6,Y
+000603,product 603, Grocery ,23.71,Y
+SKU-000604,Product 604,Baby,13.38,Y
+P000605,Product 605,PET,17.11,Y
+000606,PRODUCT 606, Household ,56.91,Y
+000607,Product 607,Pet,27.14,Y
+ 000608 ,Product 608, Household ,45.62,N
+SKU-000609,product 609, Baby ,61.9,Y
+SKU-000610, Product 610 ,pet,83.78,Y
+ P000611 ,PRODUCT 611,PERSONAL CARE,7.6,Y
+000612,Product 612, Household ,96.53,Y
+P000613,product 613,PERSONAL CARE,76.46,Y
+SKU-000614,product 614, Household ,12.57,N
+000615, Product 615 ,Electronics,105.21,Y
+ SKU-000616 ,PRODUCT 616,personal care,110.74,N
+000617,PRODUCT 617,Pharmacy,10.15,N
+ SKU-000618 , Product 618 , Pet ,35.39,Y
+000619,Product 619, Pet ,97.33,Y
+P000620,Product 620,Personal Care,90.55,N
+ P000621 , Product 621 ,HOUSEHOLD,24.59,Y
+ 000622 ,product 622, Baby ,27.49,Y
+SKU-000623,PRODUCT 623,Electronics,46.35,Y
+000624,PRODUCT 624,electronics,59.69,Y
+SKU-000625,Product 625,Pharmacy,75.34,Y
+ 000626 ,PRODUCT 626,HOUSEHOLD,46.16,Y
+P000627, Product 627 ,Grocery,,N
+ 000628 ,Product 628,PHARMACY,90.45,Y
+ P000629 ,Product 629,Pharmacy,7.29,Y
+P000630,product 630,ELECTRONICS,32.54,Y
+ 000631 ,PRODUCT 631,grocery,86.46,Y
+p000632,product 632,grocery,107.74,Y
+000633,product 633,Household,62.87,Y
+SKU-000634,Product 634,Household,65.26,Y
+P000635,Product 635, Electronics ,15.54,Y
+SKU-000636, Product 636 , Electronics ,,N
+P000637,PRODUCT 637,grocery,65.32,Y
+000638,Product 638,BABY,31.37,Y
+SKU-000639,Product 639,Pharmacy,34.5,Y
+SKU-000640,PRODUCT 640,Pet,47.14,Y
+000641,PRODUCT 641,Household,5.35,N
+p000642,product 642, Personal Care ,40.68,Y
+ P000643 ,PRODUCT 643,grocery,27.74,Y
+ P000644 ,Product 644,Personal Care,41.32,N
+P000645,product 645,electronics,17.01,Y
+ SKU-000646 ,PRODUCT 646,pet,107.19,Y
+SKU-000647, Product 647 ,ELECTRONICS,72.45,Y
+P000648,product 648, Electronics ,82.45,Y
+000649,product 649,Pet,95.33,N
+sku-000650, Product 650 ,Baby,61.32,N
+P000651, Product 651 ,Personal Care,13.17,N
+000652,PRODUCT 652,personal care,65.84,Y
+SKU-000653,Product 653,Pharmacy,71.66,Y
+P000654, Product 654 ,baby,90.22,Y
+ 000655 ,Product 655,Baby,53.5,Y
+SKU-000656,Product 656,GROCERY,17.93,N
+P000657,Product 657,Pet,36.2,N
+ SKU-000658 , Product 658 ,pharmacy,45.48,Y
+000659,PRODUCT 659, Personal Care ,78.57,Y
+000660,PRODUCT 660,electronics,69.78,Y
+SKU-000661,PRODUCT 661,Baby,44.66,Y
+ SKU-000662 ,product 662,household,118.42,N
+000663,Product 663,Electronics,73.88,Y
+P000664, Product 664 ,PHARMACY,30.76,Y
+P000665,Product 665, Pharmacy ,14.91,Y
+ SKU-000666 ,product 666,Household,20.88,N
+ 000667 ,Product 667,Grocery,31.78,N
+ 000668 ,Product 668,Household,21.8,Y
+000669, Product 669 ,Household,24.83,Y
+P000670, Product 670 ,household,36.36,N
+SKU-000671,PRODUCT 671,PET,23.28,Y
+p000672,Product 672,household,107.92,Y
+SKU-000673,Product 673, Personal Care ,12.39,N
+000674,Product 674,Electronics,64.37,Y
+ SKU-000675 ,Product 675,baby,51.02,N
+ 000676 , Product 676 ,HOUSEHOLD,117.94,Y
+SKU-000677, Product 677 ,pharmacy,16.11,N
+000678, Product 678 ,Pharmacy,49.55,Y
+000679,Product 679,Household,116.43,N
+P000680,Product 680, Electronics ,104.26,N
+000681, Product 681 ,PHARMACY,98.6,Y
+SKU-000682,Product 682, Grocery ,33.17,Y
+P000683,Product 683,Pet,22.99,N
+SKU-000684,Product 684,baby,81.23,Y
+sku-000685,Product 685,Personal Care,111.74,Y
+SKU-000686, Product 686 ,Pharmacy,68.14,Y
+ SKU-000687 ,product 687,GROCERY,69.88,Y
+ P000688 ,Product 688,Electronics,35.76,Y
+ 000689 , Product 689 ,PET,93.03,Y
+000690,Product 690,Pet,24.88,Y
+SKU-000691,product 691,Grocery,40.87,Y
+000692, Product 692 , Baby ,52.78,Y
+P000693,product 693,PERSONAL CARE,62.39,N
+ 000694 ,Product 694,HOUSEHOLD,31.36,N
+000695, Product 695 ,Household,16.44,Y
+000696,product 696,PERSONAL CARE,74.44,Y
+SKU-000697,product 697,Electronics,36.77,N
+P000698,PRODUCT 698,Baby,71.0,Y
+000699,Product 699,baby,21.06,Y
+000700,product 700,Grocery,59.29,Y
+P000701, Product 701 ,pharmacy,65.31,Y
+SKU-000702, Product 702 ,BABY,9.06,Y
+ P000703 ,Product 703,Personal Care,42.38,Y
+000704,product 704,Pharmacy,18.73,Y
+p000705,Product 705, Personal Care ,10.41,Y
+ 000706 ,PRODUCT 706,Household,118.83,Y
+000707,Product 707,Grocery,40.72,Y
+SKU-000708,PRODUCT 708,Household,97.76,Y
+P000709,Product 709, Electronics ,32.79,N
+P000710,Product 710,Pet,82.74,Y
+P000711,PRODUCT 711,grocery,91.95,Y
+ P000712 ,product 712,electronics,72.69,Y
+p000713,Product 713,grocery,58.17,Y
+ SKU-000714 ,product 714,Pet,51.19,N
+SKU-000715,product 715,Household,43.82,Y
+SKU-000716,Product 716,Personal Care,111.75,Y
+000717,Product 717,HOUSEHOLD,100.18,Y
+000718, Product 718 ,personal care,115.91,N
+P000719,PRODUCT 719,Pharmacy,17.54,Y
+000720,Product 720,Pharmacy,88.51,Y
+ 000721 ,Product 721, Personal Care ,112.79,Y
+ SKU-000722 , Product 722 ,PET,24.2,N
+SKU-000723,Product 723,Pharmacy,10.78,N
+SKU-000724, Product 724 , Electronics ,89.71,Y
+ SKU-000725 ,product 725,GROCERY,70.21,Y
+SKU-000726,product 726, Grocery ,101.49,Y
+000727, Product 727 ,PERSONAL CARE,19.35,Y
+000728,Product 728,grocery,96.05,Y
+000729,Product 729,Baby,26.59,Y
+ SKU-000730 ,product 730,Baby,22.15,Y
+000731,Product 731,PERSONAL CARE,22.22,Y
+p000732, Product 732 ,baby,98.31,Y
+ 000733 ,product 733,ELECTRONICS,80.83,Y
+P000734,Product 734,Baby,64.2,Y
+P000735,PRODUCT 735,Baby,44.98,Y
+ SKU-000736 ,PRODUCT 736, Pet ,105.63,Y
+ 000737 ,PRODUCT 737,Baby,48.92,Y
+sku-000738,Product 738,electronics,98.54,N
+SKU-000739, Product 739 , Baby ,54.38,Y
+ 000740 ,Product 740,BABY,47.1,Y
+SKU-000741,PRODUCT 741,pet,57.13,Y
+P000742,Product 742,Baby,38.26,Y
+P000743,product 743,Baby,90.47,N
+p000744,Product 744,Electronics,61.82,Y
+000745,PRODUCT 745, Baby ,30.17,Y
+sku-000746,product 746,grocery,108.25,Y
+000747,Product 747,PHARMACY,,N
+P000748,Product 748, Household ,66.6,N
+000749,Product 749,Pharmacy,109.06,N
+p000750,product 750,Personal Care,76.04,Y
+SKU-000751,PRODUCT 751,Household,16.68,Y
+SKU-000752,Product 752,Household,112.96,N
+SKU-000753,PRODUCT 753,personal care,76.44,N
+ P000754 ,PRODUCT 754,Personal Care,42.18,N
+P000755,Product 755, Grocery ,19.29,Y
+ SKU-000756 ,product 756,Electronics,95.9,Y
+P000757,PRODUCT 757, Pet ,,Y
+SKU-000758,product 758,grocery,65.41,Y
+000759,Product 759, Electronics ,107.59,Y
+ SKU-000760 ,Product 760,Pet,95.27,N
+SKU-000761,Product 761,GROCERY,20.75,Y
+P000762,PRODUCT 762,Baby,39.47,Y
+ 000763 ,Product 763,Household,32.07,Y
+000764,PRODUCT 764,GROCERY,90.04,N
+P000765,Product 765,HOUSEHOLD,6.92,Y
+P000766,Product 766, Electronics ,69.68,Y
+SKU-000767,Product 767,PERSONAL CARE,92.21,Y
+000768,PRODUCT 768,baby,105.58,Y
+P000769,product 769,electronics,43.02,Y
+000770,Product 770,personal care,,Y
+SKU-000771,product 771,Electronics,15.94,Y
+SKU-000772,Product 772,personal care,102.03,Y
+P000773,product 773,Electronics,17.92,Y
+000774,PRODUCT 774,grocery,49.48,Y
+sku-000775,PRODUCT 775,pet,96.28,N
+SKU-000776, Product 776 ,HOUSEHOLD,20.54,Y
+ P000777 ,PRODUCT 777, Personal Care ,29.82,Y
+P000778,Product 778,PERSONAL CARE,87.5,N
+SKU-000779, Product 779 ,Pet,87.24,N
+P000780,Product 780,personal care,78.01,Y
+ SKU-000781 ,product 781,ELECTRONICS,84.19,Y
+000782,product 782,PERSONAL CARE,66.5,Y
+SKU-000783,PRODUCT 783,Grocery,32.46,Y
+SKU-000784,Product 784, Pet ,43.45,N
+P000785,Product 785, Pet ,24.25,Y
+P000786,Product 786,household,109.29,Y
+ P000787 ,PRODUCT 787,pharmacy,71.26,N
+ P000788 ,PRODUCT 788,Pet,49.9,N
+sku-000789,product 789,Electronics,57.05,N
+000790,product 790,Pet,,Y
+SKU-000791,Product 791,HOUSEHOLD,20.94,Y
+000792,Product 792,Baby,71.59,Y
+P000793,PRODUCT 793,Household,62.19,Y
+ SKU-000794 ,Product 794, Pet ,74.54,Y
+000795, Product 795 ,pet,5.12,Y
+ SKU-000796 ,Product 796,PHARMACY,105.04,Y
+P000797, Product 797 ,Baby,112.06,Y
+000798,Product 798, Pharmacy ,69.12,N
+P000799, Product 799 ,PERSONAL CARE,84.51,Y
+000800, Product 800 ,personal care,110.93,Y
+SKU-000801,Product 801,baby,85.75,Y
+P000802,Product 802,Pet,20.85,N
+sku-000803,Product 803,Baby,70.43,Y
+sku-000804,product 804,Pet,73.99,N
+ P000805 ,Product 805,baby,52.62,Y
+SKU-000806,product 806,ELECTRONICS,89.16,Y
+P000807, Product 807 ,PERSONAL CARE,112.32,N
+000808,Product 808,Pet,111.29,Y
+ 000809 ,Product 809, Baby ,55.75,Y
+000810,Product 810, Electronics ,16.25,Y
+SKU-000811,PRODUCT 811, Personal Care ,118.23,Y
+ 000812 , Product 812 ,GROCERY,101.15,Y
+P000813,PRODUCT 813,Pharmacy,17.59,N
+ 000814 , Product 814 ,Baby,110.74,Y
+ 000815 , Product 815 ,Baby,104.78,Y
+P000816,product 816,Personal Care,63.7,Y
+P000817,PRODUCT 817,pet,,N
+ 000818 ,product 818, Pet ,49.68,Y
+000819,PRODUCT 819,Electronics,9.41,Y
+SKU-000820,product 820,PHARMACY,42.22,Y
+P000821,Product 821,electronics,96.93,Y
+P000822,PRODUCT 822,Baby,3.54,N
+P000823,PRODUCT 823,Baby,42.02,Y
+000824,Product 824,electronics,49.59,N
+000825,Product 825,Pharmacy,65.88,Y
+sku-000826, Product 826 ,personal care,110.62,Y
+SKU-000827, Product 827 , Pet ,43.52,Y
+000828,PRODUCT 828,PET,43.59,Y
+P000829,product 829,Electronics,89.29,N
+P000830,Product 830,PHARMACY,55.91,Y
+SKU-000831,Product 831,Pharmacy,29.28,N
+SKU-000832,Product 832, Pet ,55.94,Y
+sku-000833, Product 833 , Baby ,19.48,Y
+000834,Product 834,BABY,23.64,N
+000835,Product 835,Grocery,61.31,Y
+000836,Product 836,Pharmacy,52.01,N
+SKU-000837, Product 837 ,Baby,110.04,N
+SKU-000838,product 838,PHARMACY,45.4,Y
+sku-000839, Product 839 ,pharmacy,70.93,Y
+SKU-000840,Product 840, Pet ,76.97,Y
+000841,PRODUCT 841,Pharmacy,4.53,Y
+P000842,Product 842,Grocery,80.63,Y
+ P000843 ,Product 843,pet,23.83,Y
+p000844,Product 844,Pharmacy,115.45,Y
+SKU-000845,product 845, Personal Care ,20.39,Y
+ SKU-000846 ,product 846, Household ,51.51,Y
+P000847,Product 847,Electronics,12.99,Y
+ SKU-000848 ,product 848,pet,119.63,Y
+000849,Product 849,Grocery,61.76,N
+P000850,PRODUCT 850,pet,72.66,N
+000851,PRODUCT 851,Personal Care,10.85,Y
+SKU-000852,Product 852,HOUSEHOLD,90.75,Y
+p000853,Product 853,Household,27.56,Y
+ 000854 , Product 854 , Electronics ,108.07,Y
+SKU-000855, Product 855 ,Baby,27.0,N
+000856,Product 856,household,25.31,N
+SKU-000857,Product 857, Personal Care ,7.28,N
+000858, Product 858 ,PET,58.23,Y
+000859,product 859,PHARMACY,69.09,Y
+sku-000860,PRODUCT 860, Pet ,10.69,Y
+ SKU-000861 , Product 861 ,Household,93.74,Y
+SKU-000862,PRODUCT 862, Personal Care ,56.03,Y
+000863,product 863,Personal Care,64.35,Y
+SKU-000864, Product 864 ,BABY,54.57,Y
+SKU-000865,PRODUCT 865, Personal Care ,49.89,Y
+000866,PRODUCT 866,Pharmacy,68.48,Y
+P000867, Product 867 ,Personal Care,21.16,N
+000868,PRODUCT 868, Electronics ,24.29,N
+SKU-000869,Product 869,pet,103.83,Y
+p000870,product 870, Grocery ,113.7,Y
+ SKU-000871 ,Product 871,Pharmacy,46.68,Y
+ P000872 ,product 872,personal care,34.68,Y
+P000873, Product 873 ,Pharmacy,78.35,N
+000874,Product 874,pharmacy,50.82,Y
+SKU-000875,Product 875,GROCERY,5.97,N
+SKU-000876,Product 876,Pet,21.27,N
+000877, Product 877 , Electronics ,86.77,Y
+000878,Product 878,Pharmacy,80.09,Y
+P000879, Product 879 , Personal Care ,6.17,Y
+p000880,Product 880,HOUSEHOLD,28.97,Y
+P000881, Product 881 ,Pharmacy,30.04,Y
+000882, Product 882 ,Baby,81.61,N
+000883,PRODUCT 883,Household,5.31,Y
+ 000884 ,Product 884, Baby ,15.18,Y
+ P000885 ,PRODUCT 885,Pet,96.59,Y
+SKU-000886,PRODUCT 886,HOUSEHOLD,23.89,Y
+p000887,Product 887,grocery,79.37,Y
+000888,PRODUCT 888, Household ,30.87,Y
+P000889,Product 889,Electronics,,Y
+000890,product 890,Electronics,31.45,Y
+000891,Product 891,Household,87.51,Y
+p000892,Product 892,Grocery,103.12,Y
+000893,PRODUCT 893,Baby,100.14,Y
+SKU-000894, Product 894 , Electronics ,49.47,Y
+P000895,PRODUCT 895,Grocery,81.17,Y
+000896,PRODUCT 896,Pet,26.98,Y
+000897,Product 897, Household ,37.3,Y
+sku-000898,PRODUCT 898, Pharmacy ,107.87,Y
+SKU-000899,product 899, Pet ,4.52,Y
+000900, Product 900 ,Baby,13.0,Y
+SKU-000901,PRODUCT 901,Personal Care,27.32,Y
+SKU-000902,PRODUCT 902,electronics,6.1,Y
+sku-000903, Product 903 ,PHARMACY,24.23,Y
+000904,product 904, Personal Care ,71.22,Y
+000905,Product 905,Grocery,52.31,Y
+SKU-000906, Product 906 ,GROCERY,107.44,Y
+sku-000907,PRODUCT 907, Personal Care ,98.64,Y
+ P000908 ,Product 908,Personal Care,42.99,Y
+000909,Product 909,Grocery,33.35,N
+SKU-000910,Product 910,Baby,47.42,Y
+SKU-000911,Product 911, Pharmacy ,72.06,Y
+000912, Product 912 ,Personal Care,34.36,Y
+SKU-000913,product 913,Baby,76.03,Y
+SKU-000914, Product 914 ,GROCERY,50.9,Y
+P000915,product 915,grocery,67.59,Y
+P000916,Product 916,Personal Care,54.03,Y
+ 000917 ,PRODUCT 917,Pharmacy,37.45,Y
+p000918, Product 918 ,Pet,113.97,N
+SKU-000919,Product 919,Household,92.34,Y
+000920,Product 920,pharmacy,19.39,N
+000921, Product 921 ,pharmacy,104.61,N
+P000922,Product 922, Personal Care ,60.03,Y
+SKU-000923,Product 923,Personal Care,107.66,N
+SKU-000924,product 924,Grocery,96.58,Y
+P000925,product 925,ELECTRONICS,52.75,Y
+ P000926 , Product 926 ,household,5.63,N
+000927,product 927,Household,34.44,Y
+000928,product 928,Grocery,66.37,Y
+000929,product 929,PHARMACY,77.12,Y
+ SKU-000930 , Product 930 , Pet ,33.17,N
+ SKU-000931 ,Product 931,ELECTRONICS,19.3,Y
+ 000932 , Product 932 , Grocery ,100.69,Y
+SKU-000933,product 933, Electronics ,118.18,Y
+SKU-000934,Product 934,Baby,64.51,N
+ SKU-000935 ,Product 935, Grocery ,23.09,Y
+sku-000936,product 936,Grocery,34.86,Y
+000937,Product 937,GROCERY,5.15,Y
+ P000938 ,Product 938, Pet ,109.97,Y
+ 000939 , Product 939 ,Pet,16.78,Y
+P000940,PRODUCT 940,Electronics,70.45,Y
+ SKU-000941 , Product 941 ,ELECTRONICS,35.06,Y
+ P000942 ,Product 942,Household,67.84,N
+000943,product 943, Electronics ,79.22,Y
+ SKU-000944 ,Product 944,Baby,100.08,Y
+ 000945 ,Product 945,Grocery,27.15,Y
+SKU-000946,Product 946,Pet,4.29,Y
+SKU-000947, Product 947 ,GROCERY,19.02,N
+SKU-000948,product 948,Electronics,108.3,Y
+p000949,Product 949,grocery,105.25,N
+ 000950 ,product 950,Household,72.9,N
+ 000951 ,PRODUCT 951,HOUSEHOLD,73.26,Y
+000952,PRODUCT 952,PET,80.81,Y
+SKU-000953,Product 953,PHARMACY,23.52,Y
+000954,Product 954,Electronics,109.99,N
+ 000955 ,Product 955,Household,52.0,N
+sku-000956,Product 956, Electronics ,47.83,Y
+000957,product 957,household,63.71,Y
+000958,Product 958,Grocery,8.5,Y
+000959,PRODUCT 959,Personal Care,22.46,Y
+SKU-000960,Product 960,Electronics,89.35,Y
+000961,product 961, Personal Care ,12.69,Y
+000962,Product 962,Household,,Y
+P000963,product 963,Grocery,31.71,N
+000964,Product 964,pet,48.55,Y
+000965,Product 965,Household,36.78,Y
+SKU-000966,Product 966, Household ,44.61,N
+SKU-000967,Product 967,Household,87.13,Y
+000968,product 968,Pet,37.76,N
+P000969,PRODUCT 969,pet,69.27,Y
+000970,PRODUCT 970,Grocery,58.7,Y
+SKU-000971,Product 971, Personal Care ,80.65,Y
+000972,PRODUCT 972,Household,112.61,N
+P000973, Product 973 ,Baby,88.71,N
+ P000974 ,product 974,pet,28.15,Y
+P000975,Product 975,Personal Care,6.65,Y
+ P000976 ,Product 976,Electronics,33.68,Y
+SKU-000977,PRODUCT 977,Pet,72.62,Y
+000978,product 978,PHARMACY,9.02,Y
+ 000979 , Product 979 ,PERSONAL CARE,61.07,Y
+SKU-000980,Product 980,PERSONAL CARE,72.83,Y
+000981,product 981,PERSONAL CARE,42.11,Y
+000982,Product 982,Baby,93.2,Y
+P000983,Product 983,baby,15.47,N
+ P000984 ,Product 984,PERSONAL CARE,11.79,N
+P000985,product 985, Personal Care ,88.2,Y
+000986,PRODUCT 986,Pharmacy,60.97,Y
+000987,Product 987,PET,83.54,Y
+p000988,PRODUCT 988, Baby ,53.87,Y
+000989,product 989,PERSONAL CARE,31.83,N
+ 000990 ,Product 990,Pharmacy,98.83,N
+P000991, Product 991 ,PHARMACY,96.53,Y
+ P000992 ,Product 992,Pharmacy,84.28,Y
+SKU-000993, Product 993 ,Grocery,34.84,Y
+SKU-000994, Product 994 ,pet,72.06,Y
+ P000995 ,Product 995,Grocery,45.23,Y
+sku-000996,Product 996,PET,13.72,Y
+ SKU-000997 ,PRODUCT 997, Pharmacy ,110.33,Y
+sku-000998,PRODUCT 998,electronics,19.01,Y
+000999,product 999,Personal Care,114.18,Y
+SKU-001000,Product 1000,Baby,55.18,Y
+SKU-001001,Product 1001,household,24.66,Y
+ 001002 ,Product 1002, Household ,66.4,N
+001003,product 1003,PERSONAL CARE,105.13,Y
+001004,Product 1004,Electronics,88.67,Y
+P001005, Product 1005 ,Pharmacy,97.37,Y
+SKU-001006,Product 1006,Electronics,80.08,Y
+ P001007 ,PRODUCT 1007,personal care,84.0,Y
+001008,product 1008,Grocery,102.36,Y
+P001009,PRODUCT 1009,Grocery,32.21,Y
+SKU-001010,Product 1010, Pet ,60.26,Y
+SKU-001011,PRODUCT 1011,ELECTRONICS,28.88,N
+P001012,PRODUCT 1012, Electronics ,118.56,N
+sku-001013,product 1013,electronics,113.45,Y
+ 001014 ,PRODUCT 1014, Pharmacy ,7.61,Y
+001015,Product 1015, Electronics ,85.55,Y
+001016,product 1016, Electronics ,111.25,N
+p001017, Product 1017 ,Personal Care,24.13,Y
+ 001018 ,Product 1018,Grocery,69.45,N
+ SKU-001019 ,PRODUCT 1019,Household,110.11,N
+ 001020 ,Product 1020,Electronics,6.97,N
+001021,product 1021,Personal Care,84.6,Y
+P001022, Product 1022 ,baby,37.79,N
+ P001023 , Product 1023 ,PHARMACY,111.15,Y
+SKU-001024, Product 1024 ,Baby,116.61,N
+001025,product 1025,baby,113.48,Y
+SKU-001026, Product 1026 ,PHARMACY,58.48,Y
+001027,Product 1027, Household ,103.86,Y
+001028, Product 1028 ,Grocery,101.81,Y
+SKU-001029, Product 1029 ,Baby,40.33,Y
+P001030,Product 1030,Pet,99.98,Y
+001031,PRODUCT 1031,Electronics,7.33,Y
+ P001032 , Product 1032 ,Pharmacy,72.76,Y
+001033,Product 1033,Personal Care,29.91,N
+P001034,Product 1034,Grocery,17.11,Y
+P001035,Product 1035,Personal Care,,Y
+ P001036 ,Product 1036, Pet ,,Y
+ 001037 ,Product 1037, Household ,42.77,Y
+sku-001038,PRODUCT 1038,HOUSEHOLD,87.8,Y
+SKU-001039,Product 1039,Grocery,10.65,Y
+SKU-001040,product 1040,HOUSEHOLD,39.89,Y
+001041,Product 1041,grocery,66.12,Y
+sku-001042,Product 1042,GROCERY,95.51,Y
+P001043,PRODUCT 1043,BABY,40.29,Y
+ P001044 ,Product 1044, Personal Care ,76.23,Y
+001045, Product 1045 , Household ,106.66,N
+001046,Product 1046, Household ,75.06,N
+P001047, Product 1047 ,personal care,30.26,Y
+SKU-001048,Product 1048,Grocery,,Y
+P001049,Product 1049,personal care,104.8,N
+SKU-001050,PRODUCT 1050,Household,5.49,Y
+SKU-001051,Product 1051,Electronics,105.34,Y
+P001052, Product 1052 , Pet ,64.89,Y
+P001053,Product 1053, Pet ,112.87,Y
+P001054,Product 1054, Electronics ,96.46,Y
+P001055,product 1055, Pet ,119.76,N
+ SKU-001056 ,Product 1056,BABY,44.03,N
+P001057,PRODUCT 1057,Household,92.76,Y
+ 001058 ,PRODUCT 1058,Electronics,50.03,Y
+SKU-001059,Product 1059,Household,59.15,Y
+001060,Product 1060,Personal Care,76.42,Y
+ SKU-001061 ,Product 1061,Household,105.22,Y
+P001062,Product 1062,Electronics,118.14,Y
+001063,Product 1063, Baby ,92.89,Y
+001064,PRODUCT 1064,grocery,51.88,Y
+P001065,Product 1065, Grocery ,52.3,Y
+P001066, Product 1066 ,Grocery,89.3,Y
+ P001067 ,Product 1067,Personal Care,30.94,Y
+ P001068 ,Product 1068,Household,15.93,Y
+ SKU-001069 ,PRODUCT 1069,Personal Care,44.49,N
+P001070,product 1070,Pharmacy,36.61,N
+ 001071 ,Product 1071,PERSONAL CARE,37.67,Y
+SKU-001072, Product 1072 ,Grocery,30.33,Y
+001073,PRODUCT 1073,Electronics,7.92,Y
+sku-001074,product 1074, Pharmacy ,5.09,Y
+p001075,Product 1075, Electronics ,118.56,Y
+SKU-001076,Product 1076,BABY,53.05,Y
+SKU-001077,Product 1077,PET,47.97,N
+p001078,PRODUCT 1078,GROCERY,82.52,N
+P001079,PRODUCT 1079,Baby,28.54,Y
+SKU-001080, Product 1080 , Grocery ,114.15,Y
+SKU-001081,Product 1081,Personal Care,95.0,Y
+SKU-001082,PRODUCT 1082, Pet ,13.46,Y
+ P001083 ,Product 1083,grocery,51.86,Y
+001084,Product 1084,PERSONAL CARE,105.86,N
+ P001085 ,Product 1085, Pet ,113.53,Y
+sku-001086, Product 1086 ,ELECTRONICS,57.69,Y
+P001087,product 1087,PERSONAL CARE,74.77,Y
+ P001088 ,product 1088, Baby ,22.54,Y
+P001089,Product 1089,HOUSEHOLD,118.97,Y
+sku-001090,Product 1090,HOUSEHOLD,30.11,Y
+SKU-001091,Product 1091,HOUSEHOLD,113.3,Y
+ P001092 , Product 1092 ,Pet,79.01,N
+001093,Product 1093, Pharmacy ,74.11,Y
+SKU-001094, Product 1094 , Pet ,62.98,N
+ SKU-001095 , Product 1095 ,Pet,29.99,Y
+P001096, Product 1096 ,HOUSEHOLD,23.65,Y
+SKU-001097,product 1097,BABY,28.8,Y
+SKU-001098, Product 1098 ,Personal Care,24.81,N
+P001099,product 1099,personal care,94.21,N
+001100, Product 1100 ,Pharmacy,43.96,Y
+P001101,Product 1101,Electronics,9.77,Y
+ P001102 ,PRODUCT 1102, Personal Care ,116.39,N
+SKU-001103,Product 1103,Electronics,106.4,N
+001104, Product 1104 ,Pet,111.55,Y
+P001105,product 1105,pharmacy,119.4,Y
+SKU-001106,Product 1106,Electronics,23.35,Y
+SKU-001107,Product 1107, Household ,49.36,N
+P001108,Product 1108,grocery,91.71,Y
+001109,PRODUCT 1109,ELECTRONICS,84.43,Y
+SKU-001110,PRODUCT 1110,Household,21.01,Y
+P001111, Product 1111 , Pharmacy ,98.45,Y
+001112,PRODUCT 1112,grocery,29.26,Y
+001113,PRODUCT 1113,Personal Care,29.19,Y
+P001114,Product 1114,Electronics,65.83,Y
+sku-001115,Product 1115,baby,72.37,Y
+ 001116 ,product 1116, Household ,70.87,Y
+ P001117 ,product 1117, Pet ,13.7,Y
+ SKU-001118 ,product 1118, Personal Care ,105.66,N
+sku-001119,PRODUCT 1119,PERSONAL CARE,34.08,Y
+ SKU-001120 , Product 1120 ,Pet,18.15,Y
+SKU-001121, Product 1121 , Grocery ,106.98,N
+001122,product 1122,Pet,114.81,Y
+001123,Product 1123,Pet,,Y
+SKU-001124,product 1124, Electronics ,97.71,Y
+001125,PRODUCT 1125, Grocery ,79.66,Y
+001126,Product 1126,Electronics,67.45,N
+SKU-001127,Product 1127,grocery,13.18,N
+ 001128 ,Product 1128,electronics,50.79,Y
+P001129,Product 1129,PET,46.6,N
+sku-001130,Product 1130,Pharmacy,33.39,Y
+001131,Product 1131,GROCERY,87.64,Y
+P001132,Product 1132, Pharmacy ,61.02,Y
+P001133,Product 1133,ELECTRONICS,12.48,Y
+P001134,Product 1134,PERSONAL CARE,28.76,N
+001135,Product 1135,Pet,82.94,Y
+ 001136 ,PRODUCT 1136,Pharmacy,11.91,Y
+P001137, Product 1137 ,baby,102.59,Y
+001138,Product 1138,GROCERY,60.93,Y
+P001139,PRODUCT 1139,BABY,59.23,Y
+SKU-001140,Product 1140, Baby ,72.31,Y
+SKU-001141, Product 1141 ,GROCERY,99.49,Y
+sku-001142,product 1142,Household,43.69,Y
+SKU-001143,PRODUCT 1143, Household ,82.33,N
+ SKU-001144 , Product 1144 ,ELECTRONICS,69.19,Y
+001145,Product 1145,pharmacy,34.24,Y
+001146,Product 1146,GROCERY,105.8,N
+SKU-001147,Product 1147, Pharmacy ,96.3,Y
+P001148,Product 1148,Baby,80.04,N
+001149, Product 1149 ,Personal Care,102.52,Y
+ SKU-001150 ,PRODUCT 1150, Pharmacy ,104.47,Y
+SKU-001151,Product 1151,pharmacy,85.88,Y
+P001152,Product 1152,baby,100.93,Y
+P001153,Product 1153,PHARMACY,84.6,Y
+SKU-001154,Product 1154,grocery,82.58,N
+p001155,Product 1155,HOUSEHOLD,75.38,Y
+SKU-001156,Product 1156,Electronics,91.07,Y
+001157, Product 1157 ,Pharmacy,21.56,Y
+ 001158 , Product 1158 , Grocery ,106.06,N
+SKU-001159,Product 1159,Baby,105.01,Y
+ SKU-001160 ,Product 1160,pharmacy,6.42,Y
+ 001161 ,product 1161,Personal Care,99.62,N
+ SKU-001162 , Product 1162 , Baby ,18.08,Y
+p001163,PRODUCT 1163,baby,42.21,N
+ SKU-001164 ,Product 1164,Grocery,89.99,N
+001165, Product 1165 ,Pet,21.81,Y
+ 001166 ,Product 1166,baby,98.7,Y
+P001167, Product 1167 ,Grocery,100.36,Y
+SKU-001168, Product 1168 ,Pharmacy,62.37,N
+001169, Product 1169 ,Personal Care,3.75,Y
+sku-001170, Product 1170 , Pharmacy ,36.58,Y
+ SKU-001171 ,Product 1171,Grocery,75.18,N
+P001172,product 1172,Personal Care,117.8,N
+SKU-001173,PRODUCT 1173,Grocery,76.92,Y
+P001174,Product 1174,Grocery,33.4,N
+SKU-001175,Product 1175,Baby,77.18,N
+P001176,Product 1176, Pharmacy ,66.18,Y
+ SKU-001177 ,PRODUCT 1177,grocery,94.24,Y
+SKU-001178,PRODUCT 1178,Pet,15.52,Y
+ SKU-001179 ,Product 1179,pharmacy,92.04,Y
+001180,Product 1180,Baby,66.33,Y
+SKU-001181,PRODUCT 1181,Pharmacy,115.67,Y
+ SKU-001182 ,PRODUCT 1182,Grocery,43.0,Y
+sku-001183,product 1183,pet,77.02,Y
+ SKU-001184 ,product 1184,ELECTRONICS,112.05,N
+P001185,Product 1185, Grocery ,14.99,Y
+SKU-001186, Product 1186 ,Pet,112.66,Y
+001187, Product 1187 ,Electronics,83.48,N
+P001188,Product 1188,PET,10.94,Y
+001189,PRODUCT 1189,Electronics,38.21,N
+P001190,Product 1190, Personal Care ,85.86,Y
+ SKU-001191 ,Product 1191, Personal Care ,10.88,Y
+P001192,PRODUCT 1192,Pet,71.11,N
+ 001193 ,Product 1193,baby,43.47,Y
+ SKU-001194 ,Product 1194,PET,75.65,Y
+P001195, Product 1195 , Household ,8.35,Y
+ 001196 ,Product 1196,Pharmacy,104.97,Y
+ 001197 ,Product 1197, Pharmacy ,116.9,Y
+ 001198 ,Product 1198,PHARMACY,116.36,Y
+SKU-001199,PRODUCT 1199, Household ,90.71,N
+001200,Product 1200,Electronics,18.22,Y
+SKU-001201,Product 1201, Baby ,91.72,Y
+P001202,product 1202,ELECTRONICS,5.88,Y
+P001203,PRODUCT 1203,PET,5.59,Y
+ SKU-001204 , Product 1204 , Pet ,40.86,Y
+ SKU-001205 ,product 1205,Pet,60.17,Y
+SKU-001206,Product 1206,Household,93.14,Y
+ SKU-001207 ,Product 1207,PERSONAL CARE,82.95,Y
+SKU-001208,PRODUCT 1208, Electronics ,55.17,Y
+P001209,PRODUCT 1209,Electronics,35.01,Y
+001210,PRODUCT 1210,ELECTRONICS,119.66,Y
+001211,Product 1211,pet,52.86,Y
+001212,Product 1212, Baby ,55.81,Y
+001213, Product 1213 ,GROCERY,22.14,Y
+P001214, Product 1214 , Household ,95.99,Y
+001215,Product 1215, Electronics ,84.16,N
+001216,product 1216,Pharmacy,28.83,Y
+P001217,Product 1217,Grocery,12.64,N
+P001218,product 1218, Baby ,82.62,N
+P001219,product 1219,BABY,79.58,N
+p001220,PRODUCT 1220,Grocery,34.97,Y
+001221,Product 1221,pet,114.25,N
+p001222,product 1222,personal care,20.67,Y
+ P001223 , Product 1223 , Pharmacy ,53.58,Y
+ SKU-001224 , Product 1224 ,electronics,113.4,Y
+P001225,Product 1225,Grocery,52.11,Y
+P001226,Product 1226,BABY,77.71,Y
+001227, Product 1227 ,Household,49.52,N
+001228,Product 1228,Household,35.08,Y
+SKU-001229,Product 1229,Personal Care,118.13,Y
+P001230,Product 1230,Pet,50.89,N
+P001231,PRODUCT 1231, Personal Care ,107.61,Y
+001232,product 1232,Personal Care,29.9,Y
+001233, Product 1233 ,Baby,27.93,Y
+001234,Product 1234,Household,6.64,Y
+P001235,Product 1235,Electronics,79.25,Y
+ P001236 ,Product 1236, Pharmacy ,46.12,Y
+P001237,Product 1237,BABY,104.13,Y
+P001238,Product 1238,Personal Care,58.37,N
+001239,Product 1239,grocery,116.28,N
+ 001240 ,product 1240,pharmacy,24.71,Y
+P001241, Product 1241 ,Personal Care,104.63,N
+ SKU-001242 ,Product 1242,Grocery,93.86,Y
+001243,Product 1243,PET,93.2,Y
+SKU-001244,Product 1244,Electronics,101.84,Y
+001245,Product 1245,personal care,92.04,Y
+ P001246 ,Product 1246,Grocery,76.27,N
+001247, Product 1247 ,Pet,18.36,Y
+p001248, Product 1248 ,BABY,6.81,Y
+001249,Product 1249,PHARMACY,110.74,Y
+SKU-001250, Product 1250 ,Household,75.15,Y
+sku-001251,Product 1251,PET,96.19,N
+ P001252 ,Product 1252,PHARMACY,59.34,N
+p001253,PRODUCT 1253, Pet ,16.73,Y
+ 001254 , Product 1254 , Electronics ,17.65,Y
+ P001255 ,PRODUCT 1255,grocery,83.21,Y
+P001256,Product 1256, Pharmacy ,,Y
+001257,product 1257,personal care,26.46,Y
+SKU-001258, Product 1258 , Household ,60.52,Y
+SKU-001259,Product 1259,Pet,10.51,Y
+ P001260 ,Product 1260, Pet ,71.09,Y
+P001261,Product 1261,BABY,34.47,Y
+SKU-001262,Product 1262,Baby,96.31,Y
+P001263, Product 1263 , Personal Care ,39.31,Y
+P001264,Product 1264,Household,56.26,Y
+001265,Product 1265,HOUSEHOLD,4.36,Y
+SKU-001266,PRODUCT 1266, Pet ,11.48,N
+P001267,Product 1267,grocery,48.92,Y
+p001268,product 1268,personal care,59.15,Y
+ 001269 ,Product 1269,PERSONAL CARE,73.2,N
+001270,Product 1270,Baby,37.12,Y
+P001271,PRODUCT 1271,GROCERY,84.31,Y
+p001272,Product 1272,Pharmacy,103.63,Y
+P001273,PRODUCT 1273,PHARMACY,94.24,Y
+ SKU-001274 , Product 1274 ,Baby,7.64,Y
+001275,Product 1275, Baby ,59.22,Y
+001276,product 1276, Household ,15.28,Y
+001277,PRODUCT 1277,Pharmacy,31.32,Y
+001278,Product 1278,Pet,118.44,N
+p001279,Product 1279,Pet,19.67,N
+P001280,product 1280,Baby,61.37,Y
+SKU-001281,Product 1281,grocery,75.32,Y
+P001282,Product 1282, Pet ,85.19,Y
+P001283, Product 1283 ,BABY,68.48,Y
+P001284,Product 1284,grocery,4.14,N
+P001285,Product 1285, Pharmacy ,41.2,Y
+ 001286 ,Product 1286,HOUSEHOLD,63.57,Y
+P001287,Product 1287,pet,13.28,Y
+SKU-001288,PRODUCT 1288,household,44.02,Y
+ P001289 ,PRODUCT 1289, Pharmacy ,6.88,Y
+ 001290 ,Product 1290,Household,12.19,Y
+001291,product 1291,Pharmacy,49.44,Y
+001292,Product 1292,Baby,18.53,Y
+P001293,Product 1293,PERSONAL CARE,69.4,Y
+SKU-001294,Product 1294,Baby,83.67,N
+P001295,product 1295,PHARMACY,96.67,Y
+001296,product 1296,grocery,26.42,Y
+SKU-001297,Product 1297,Pharmacy,22.6,Y
+ SKU-001298 ,Product 1298,PET,15.23,Y
+SKU-001299,Product 1299,Grocery,77.46,N
+P001300,PRODUCT 1300,pharmacy,85.66,Y
+P001301,Product 1301,ELECTRONICS,6.7,N
+P001302,Product 1302,PERSONAL CARE,112.54,N
+001303,Product 1303, Personal Care ,9.08,Y
+001304,product 1304,Pet,66.33,N
+ P001305 ,product 1305,Baby,85.96,Y
+001306,product 1306,household,104.9,N
+001307, Product 1307 ,Grocery,86.55,N
+SKU-001308,product 1308,pet,,Y
+ SKU-001309 ,PRODUCT 1309,HOUSEHOLD,42.72,Y
+SKU-001310,Product 1310, Household ,98.33,Y
+001311,PRODUCT 1311,BABY,12.37,N
+P001312,product 1312,Electronics,107.69,Y
+P001313,Product 1313,Pet,67.07,Y
+SKU-001314, Product 1314 ,Baby,98.62,Y
+ 001315 ,Product 1315,pharmacy,55.92,Y
+ 001316 ,PRODUCT 1316,Electronics,78.3,N
+P001317,Product 1317,GROCERY,64.59,Y
+P001318,Product 1318,Baby,,Y
+001319,product 1319,PHARMACY,12.55,Y
+ 001320 ,product 1320,Pet,10.06,Y
+P001321,PRODUCT 1321, Pharmacy ,31.91,Y
+001322,Product 1322, Baby ,21.67,Y
+sku-001323,product 1323, Electronics ,105.0,Y
+ SKU-001324 ,Product 1324,GROCERY,28.65,Y
+P001325,Product 1325,grocery,117.18,Y
+001326, Product 1326 ,Baby,42.42,Y
+001327,Product 1327,pharmacy,24.31,Y
+P001328, Product 1328 ,BABY,95.39,Y
+001329,Product 1329,household,80.07,Y
+SKU-001330,Product 1330,Pharmacy,61.29,Y
+P001331, Product 1331 ,Pet,67.98,Y
+001332, Product 1332 ,PET,87.15,Y
+SKU-001333,product 1333,Personal Care,29.73,Y
+P001334, Product 1334 ,Pharmacy,119.57,Y
+sku-001335,Product 1335,Personal Care,117.05,Y
+sku-001336,PRODUCT 1336,Grocery,79.09,Y
+ P001337 ,product 1337,Grocery,26.35,Y
+SKU-001338,product 1338,pet,82.59,N
+001339,PRODUCT 1339,pharmacy,11.45,Y
+P001340, Product 1340 ,Personal Care,6.59,Y
+P001341,product 1341, Electronics ,33.15,Y
+SKU-001342, Product 1342 ,Personal Care,57.13,Y
+SKU-001343,Product 1343,electronics,104.59,N
+ SKU-001344 , Product 1344 ,ELECTRONICS,88.08,Y
+P001345, Product 1345 , Household ,89.9,Y
+001346, Product 1346 ,PERSONAL CARE,52.78,Y
+ 001347 ,product 1347,Personal Care,43.47,Y
+ 001348 ,Product 1348,Pharmacy,46.41,Y
+P001349,PRODUCT 1349,HOUSEHOLD,118.55,Y
+001350,product 1350,PERSONAL CARE,7.69,Y
+001351,PRODUCT 1351,Baby,104.44,Y
+001352,product 1352,ELECTRONICS,70.71,Y
+SKU-001353, Product 1353 ,PHARMACY,54.32,N
+P001354,product 1354,Electronics,87.86,Y
+P001355,Product 1355,Baby,59.94,N
+001356,Product 1356, Pet ,105.19,N
+SKU-001357, Product 1357 ,Personal Care,108.38,Y
+001358,PRODUCT 1358,Electronics,52.34,N
+ 001359 ,Product 1359, Personal Care ,35.39,Y
+001360,PRODUCT 1360, Personal Care ,72.3,N
+p001361, Product 1361 ,Personal Care,109.75,Y
+SKU-001362,PRODUCT 1362,Household,27.65,Y
+P001363, Product 1363 ,Grocery,75.89,Y
+ P001364 ,Product 1364, Personal Care ,76.89,N
+001365,PRODUCT 1365, Electronics ,88.77,Y
+SKU-001366,Product 1366, Household ,18.39,Y
+SKU-001367,PRODUCT 1367,BABY,86.75,N
+P001368,PRODUCT 1368,Electronics,109.36,N
+001369,Product 1369,Pharmacy,24.02,Y
+SKU-001370, Product 1370 ,Electronics,30.79,Y
+SKU-001371,PRODUCT 1371,electronics,116.65,Y
+P001372,Product 1372, Baby ,24.17,Y
+P001373,Product 1373,BABY,102.96,Y
+ SKU-001374 ,Product 1374,BABY,60.6,N
+P001375,product 1375, Pharmacy ,31.93,N
+001376,Product 1376,Electronics,104.88,Y
+P001377,Product 1377,pet,55.1,Y
+p001378,Product 1378,Household,63.23,Y
+001379,product 1379,Electronics,45.03,Y
+P001380, Product 1380 ,PET,72.38,N
+P001381, Product 1381 ,Electronics,22.13,N
+001382,product 1382,Grocery,48.76,Y
+P001383,Product 1383,PERSONAL CARE,116.42,Y
+P001384,Product 1384,Grocery,33.2,Y
+001385,Product 1385,BABY,79.84,Y
+ P001386 , Product 1386 ,Pharmacy,41.05,Y
+SKU-001387,product 1387,baby,93.5,Y
+001388,Product 1388,Pet,18.31,Y
+P001389,Product 1389,baby,116.47,Y
+ 001390 ,Product 1390,PHARMACY,56.09,Y
+001391,PRODUCT 1391,Baby,30.62,Y
+ P001392 ,Product 1392,Electronics,11.6,Y
+SKU-001393,PRODUCT 1393,GROCERY,22.86,Y
+ P001394 ,Product 1394,Pharmacy,63.81,Y
+SKU-001395,PRODUCT 1395, Pharmacy ,42.43,N
+SKU-001396,PRODUCT 1396,Electronics,99.98,Y
+P001397,PRODUCT 1397,Grocery,53.41,N
+P001398,Product 1398, Pharmacy ,32.1,Y
+SKU-001399, Product 1399 ,Grocery,75.21,Y
+ SKU-001400 , Product 1400 ,Personal Care,85.69,Y
+001401,Product 1401,Baby,22.54,N
+SKU-001402, Product 1402 , Personal Care ,22.61,Y
+P001403,product 1403,pharmacy,7.29,N
+P001404,product 1404,Electronics,89.16,Y
+001405,Product 1405,Electronics,80.67,Y
+001406,Product 1406,Pet,58.53,N
+001407, Product 1407 ,PERSONAL CARE,101.77,Y
+001408,PRODUCT 1408,Personal Care,97.26,Y
+P001409,Product 1409, Pharmacy ,71.49,Y
+P001410,product 1410, Pharmacy ,104.59,Y
+ 001411 ,PRODUCT 1411,PERSONAL CARE,27.08,Y
+SKU-001412,product 1412,Baby,16.09,Y
+SKU-001413,PRODUCT 1413,Personal Care,34.56,Y
+p001414,Product 1414,Electronics,,N
+SKU-001415,Product 1415,Electronics,65.15,N
+P001416,Product 1416,baby,112.58,N
+SKU-001417,Product 1417,Household,7.6,Y
+P001418,Product 1418,grocery,17.29,Y
+P001419, Product 1419 ,Personal Care,55.91,Y
+ 001420 ,product 1420,electronics,112.26,Y
+SKU-001421,Product 1421, Grocery ,39.99,Y
+SKU-001422,Product 1422, Pet ,62.35,Y
+ SKU-001423 ,Product 1423,Household,7.86,Y
+P001424,PRODUCT 1424,ELECTRONICS,20.36,Y
+SKU-001425,PRODUCT 1425,HOUSEHOLD,118.44,Y
+P001426,Product 1426,Grocery,115.92,Y
+P001427,Product 1427,Electronics,3.58,Y
+001428, Product 1428 ,grocery,114.36,Y
+001429, Product 1429 , Baby ,77.78,Y
+001430,Product 1430,PHARMACY,104.55,Y
+ SKU-001431 ,PRODUCT 1431,Household,56.2,N
+SKU-001432, Product 1432 ,BABY,63.32,Y
+P001433,Product 1433, Household ,60.2,Y
+p001434,PRODUCT 1434,Electronics,81.02,N
+001435,product 1435,Pharmacy,19.34,N
+ 001436 ,PRODUCT 1436,Grocery,6.51,N
+P001437,PRODUCT 1437,BABY,39.03,Y
+SKU-001438,Product 1438, Grocery ,85.45,N
+001439,Product 1439,Personal Care,26.62,Y
+ P001440 ,Product 1440,HOUSEHOLD,81.79,Y
+ P001441 ,Product 1441,PERSONAL CARE,116.48,Y
+P001442,PRODUCT 1442,Baby,13.99,N
+ 001443 ,Product 1443,pet,81.69,Y
+P001444,Product 1444,electronics,54.92,Y
+001445,product 1445,electronics,104.57,Y
+ P001446 , Product 1446 ,Baby,23.73,Y
+P001447,product 1447,Baby,84.04,Y
+SKU-001448,Product 1448, Pet ,101.06,Y
+sku-001449,product 1449,Pet,113.52,Y
+SKU-001450,Product 1450,Electronics,82.94,N
+001451,Product 1451,pharmacy,61.17,N
+sku-001452,Product 1452,Baby,75.29,Y
+ 001453 ,PRODUCT 1453, Grocery ,104.66,Y
+ 001454 ,Product 1454,Baby,69.76,Y
+SKU-001455,PRODUCT 1455,personal care,6.56,Y
+ SKU-001456 ,product 1456,Pharmacy,111.92,Y
+ P001457 ,Product 1457, Baby ,83.67,Y
+001458,Product 1458,Pharmacy,82.15,Y
+ P001459 ,Product 1459,Household,28.23,N
+sku-001460,product 1460,Electronics,80.09,Y
+001461,PRODUCT 1461,HOUSEHOLD,49.08,N
+SKU-001462,PRODUCT 1462, Household ,79.19,Y
+SKU-001463, Product 1463 ,Grocery,15.47,Y
+001464,Product 1464,Pet,79.97,Y
+001465,product 1465,GROCERY,119.93,Y
+P001466,Product 1466,Electronics,8.64,Y
+SKU-001467,PRODUCT 1467,Pet,117.33,Y
+P001468,Product 1468,Pharmacy,50.61,Y
+SKU-001469,Product 1469,Pet,104.88,N
+ 001470 ,product 1470,household,94.54,N
+P001471,Product 1471,Household,69.34,Y
+001472,PRODUCT 1472,Household,89.4,Y
+001473,PRODUCT 1473,Pharmacy,,Y
+SKU-001474,Product 1474,Electronics,50.28,Y
+ P001475 ,product 1475,PERSONAL CARE,41.26,Y
+ P001476 , Product 1476 , Baby ,81.11,N
+P001477,PRODUCT 1477, Pharmacy ,97.52,N
+ 001478 ,PRODUCT 1478,electronics,92.19,N
+001479,PRODUCT 1479,BABY,96.34,Y
+ P001480 ,product 1480, Pharmacy ,53.96,Y
+ SKU-001481 ,Product 1481,PHARMACY,98.69,Y
+SKU-001482,Product 1482,Pet,17.06,Y
+001483,PRODUCT 1483,GROCERY,66.71,Y
+P001484,PRODUCT 1484,Household,3.67,Y
+p001485,Product 1485, Grocery ,40.98,Y
+SKU-001486,product 1486,PET,45.88,Y
+P001487,Product 1487,grocery,49.35,Y
+p001488,PRODUCT 1488, Pharmacy ,84.37,Y
+P001489,Product 1489, Grocery ,48.46,N
+ 001490 ,PRODUCT 1490, Electronics ,55.5,Y
+001491, Product 1491 ,Pharmacy,30.79,Y
+ P001492 ,Product 1492,electronics,46.67,Y
+sku-001493,Product 1493,household,29.59,Y
+001494,Product 1494,Personal Care,11.56,Y
+001495,PRODUCT 1495,Household,73.6,Y
+001496, Product 1496 ,Grocery,81.18,Y
+001497,Product 1497,Electronics,75.48,Y
+SKU-001498,PRODUCT 1498,PHARMACY,57.23,Y
+001499,PRODUCT 1499,Pharmacy,47.43,Y
+P001500,Product 1500,PERSONAL CARE,104.01,Y
+ 001501 ,product 1501, Grocery ,63.73,Y
+P001502,PRODUCT 1502,PHARMACY,59.06,N
+001503,PRODUCT 1503,pet,6.0,Y
+001504,Product 1504, Pharmacy ,,Y
+sku-001505, Product 1505 ,Grocery,47.48,Y
+P001506, Product 1506 ,grocery,49.66,Y
+001507,Product 1507, Household ,70.88,Y
+001508, Product 1508 ,Electronics,65.43,Y
+P001509,Product 1509,pet,74.12,Y
+SKU-001510,Product 1510,Baby,92.49,Y
+P001511,product 1511, Household ,98.12,Y
+001512,product 1512,grocery,87.02,N
+SKU-001513,product 1513, Pet ,114.8,Y
+P001514,Product 1514,Pet,5.13,Y
+ SKU-001515 , Product 1515 ,Grocery,25.91,N
+001516,PRODUCT 1516,Pet,3.88,Y
+P001517,Product 1517,HOUSEHOLD,78.75,Y
+P001518,Product 1518,Personal Care,108.07,Y
+sku-001519,product 1519,Personal Care,31.49,Y
+P001520,Product 1520,baby,111.46,N
+P001521, Product 1521 ,PERSONAL CARE,10.05,N
+P001522,Product 1522, Grocery ,112.33,Y
+001523,Product 1523,Pharmacy,44.14,Y
+P001524,Product 1524,electronics,14.87,Y
+P001525,product 1525,Pharmacy,59.85,Y
+SKU-001526,Product 1526,Grocery,,Y
+P001527,Product 1527,ELECTRONICS,36.33,Y
+p001528,PRODUCT 1528,Personal Care,38.95,Y
+SKU-001529,PRODUCT 1529, Personal Care ,96.95,N
+SKU-001530,product 1530,Electronics,66.08,Y
+p001531,PRODUCT 1531,Household,39.42,Y
+ 001532 ,Product 1532,Household,74.41,N
+P001533,Product 1533,Pharmacy,86.79,Y
+P001534,product 1534,Electronics,34.9,Y
+sku-001535, Product 1535 ,Pet,51.39,Y
+SKU-001536, Product 1536 ,Baby,17.26,Y
+ P001537 ,PRODUCT 1537,Pharmacy,24.19,N
+SKU-001538, Product 1538 ,Pharmacy,82.69,Y
+001539,Product 1539,Pet,24.23,Y
+P001540,product 1540,Baby,64.44,Y
+001541,PRODUCT 1541,Pharmacy,85.96,Y
+ 001542 ,PRODUCT 1542,GROCERY,15.5,N
+SKU-001543, Product 1543 ,electronics,69.38,N
+001544,product 1544,GROCERY,33.02,Y
+001545,product 1545,Pharmacy,115.66,N
+P001546, Product 1546 ,electronics,59.57,Y
+ 001547 ,Product 1547,Grocery,97.3,N
+ SKU-001548 , Product 1548 ,Electronics,67.38,Y
+001549,Product 1549,Pet,8.08,N
+P001550,PRODUCT 1550,HOUSEHOLD,77.08,Y
+001551,product 1551,HOUSEHOLD,114.31,Y
+ 001552 ,PRODUCT 1552,Personal Care,73.39,Y
+ SKU-001553 ,Product 1553,Pharmacy,98.85,N
+001554, Product 1554 ,BABY,106.45,Y
+SKU-001555,PRODUCT 1555,GROCERY,29.69,Y
+001556,Product 1556, Pharmacy ,27.81,Y
+p001557,PRODUCT 1557,Baby,74.48,Y
+SKU-001558,PRODUCT 1558,Pet,51.09,Y
+001559,Product 1559,Electronics,101.26,N
+ P001560 ,Product 1560,household,108.3,Y
+ 001561 ,product 1561,Grocery,44.35,Y
+001562,Product 1562,PHARMACY,30.71,N
+ 001563 ,Product 1563,PHARMACY,94.32,Y
+SKU-001564,product 1564,PET,35.15,Y
+ 001565 ,Product 1565, Pet ,99.25,Y
+P001566,PRODUCT 1566,Pet,52.58,N
+001567,product 1567,BABY,81.1,Y
+001568,product 1568,Personal Care,,Y
+P001569,Product 1569,Personal Care,75.99,Y
+001570,Product 1570,Grocery,55.86,Y
+P001571,PRODUCT 1571,Pharmacy,71.63,N
+001572,PRODUCT 1572,Personal Care,22.66,N
+001573,Product 1573, Household ,89.21,Y
+SKU-001574,Product 1574,Personal Care,103.95,Y
+sku-001575, Product 1575 ,household,28.36,Y
+SKU-001576, Product 1576 ,PERSONAL CARE,14.2,Y
+P001577,Product 1577, Personal Care ,5.77,Y
+sku-001578,PRODUCT 1578,personal care,78.11,Y
+SKU-001579,Product 1579,Pharmacy,74.03,Y
+ P001580 ,PRODUCT 1580,Grocery,66.96,Y
+001581,PRODUCT 1581,Personal Care,30.14,Y
+SKU-001582,Product 1582,Household,48.74,N
+P001583,Product 1583,Personal Care,72.55,Y
+SKU-001584,PRODUCT 1584,personal care,61.12,Y
+p001585,product 1585,Baby,118.57,N
+ 001586 ,Product 1586,PERSONAL CARE,18.96,Y
+P001587, Product 1587 ,Personal Care,84.33,N
+P001588,product 1588,Pet,50.31,Y
+ 001589 , Product 1589 ,Pet,53.1,Y
+P001590,Product 1590,Household,86.96,N
+SKU-001591,Product 1591,Household,84.02,Y
+001592,PRODUCT 1592,ELECTRONICS,118.98,Y
+P001593,PRODUCT 1593,ELECTRONICS,18.02,Y
+P001594,Product 1594,Grocery,15.18,Y
+001595,Product 1595, Electronics ,87.75,Y
+SKU-001596,PRODUCT 1596,Electronics,70.67,Y
+001597,Product 1597, Household ,35.08,Y
+001598, Product 1598 ,ELECTRONICS,12.29,Y
+p001599,Product 1599,Grocery,13.02,Y
+P001600,Product 1600,Pet,107.62,Y
+001601,Product 1601,Grocery,25.45,Y
+ SKU-001602 ,product 1602,PERSONAL CARE,40.83,Y
+SKU-001603,product 1603,HOUSEHOLD,29.52,Y
+P001604,PRODUCT 1604,pharmacy,44.53,Y
+P001605, Product 1605 , Baby ,11.12,Y
+P001606,Product 1606,Electronics,63.73,Y
+ 001607 ,Product 1607,Grocery,10.91,N
+P001608,Product 1608, Personal Care ,96.64,Y
+001609,Product 1609,Household,30.34,Y
+ SKU-001610 , Product 1610 ,GROCERY,66.18,Y
+001611,Product 1611,PHARMACY,105.97,Y
+SKU-001612,Product 1612,Household,79.15,Y
+001613, Product 1613 ,household,65.36,Y
+sku-001614,Product 1614,personal care,40.95,Y
+001615,Product 1615,Personal Care,41.96,Y
+ SKU-001616 ,Product 1616,personal care,81.33,N
+ 001617 , Product 1617 ,Grocery,119.31,N
+001618,Product 1618,ELECTRONICS,80.44,Y
+001619,Product 1619,Pet,68.26,Y
+SKU-001620,product 1620,Electronics,88.49,Y
+P001621,Product 1621,HOUSEHOLD,57.43,N
+SKU-001622,product 1622,Household,10.04,Y
+SKU-001623,Product 1623,PET,68.79,Y
+SKU-001624,Product 1624,BABY,115.04,Y
+P001625,product 1625,electronics,23.51,Y
+P001626,Product 1626,PHARMACY,83.73,Y
+001627,Product 1627,Pet,26.51,Y
+P001628,Product 1628,GROCERY,65.69,Y
+SKU-001629, Product 1629 , Personal Care ,14.31,Y
+P001630,product 1630,Electronics,55.69,N
+P001631,Product 1631,Grocery,91.47,Y
+SKU-001632,product 1632,electronics,,Y
+001633,Product 1633,Grocery,80.79,Y
+ 001634 ,Product 1634,Baby,96.07,Y
+SKU-001635,PRODUCT 1635, Grocery ,111.48,Y
+P001636,Product 1636,household,30.45,Y
+SKU-001637, Product 1637 ,ELECTRONICS,49.72,Y
+001638, Product 1638 ,Electronics,20.83,Y
+ SKU-001639 , Product 1639 ,personal care,119.12,Y
+ SKU-001640 ,Product 1640,Personal Care,,Y
+p001641,Product 1641,Pet,66.17,Y
+SKU-001642,PRODUCT 1642,BABY,101.52,N
+001643,Product 1643, Baby ,63.95,Y
+P001644,PRODUCT 1644,Personal Care,75.96,N
+ P001645 ,product 1645,Grocery,13.43,N
+ P001646 , Product 1646 , Pet ,91.37,Y
+SKU-001647,Product 1647,Personal Care,17.94,N
+P001648,product 1648,Pet,99.65,N
+ 001649 ,Product 1649,pet,94.5,N
+001650,Product 1650,Baby,85.92,Y
+001651,PRODUCT 1651,Pet,7.23,N
+p001652,PRODUCT 1652, Grocery ,38.47,Y
+ 001653 ,product 1653, Personal Care ,33.78,N
+SKU-001654, Product 1654 ,Pet,45.14,Y
+P001655,product 1655,Baby,13.25,Y
+SKU-001656, Product 1656 ,Household,112.62,Y
+p001657,Product 1657,Electronics,67.79,Y
+P001658,Product 1658, Personal Care ,38.75,N
+P001659, Product 1659 , Pet ,49.45,Y
+001660, Product 1660 ,ELECTRONICS,55.32,Y
+P001661,Product 1661,PERSONAL CARE,73.27,Y
+001662,Product 1662, Household ,63.33,N
+P001663, Product 1663 ,Personal Care,110.57,N
+ 001664 , Product 1664 , Household ,61.14,Y
+SKU-001665,Product 1665,Pharmacy,119.08,N
+001666,PRODUCT 1666,BABY,102.62,Y
+SKU-001667, Product 1667 ,Grocery,,Y
+P001668,Product 1668,Baby,111.88,Y
+ P001669 ,Product 1669,Baby,16.61,N
+P001670, Product 1670 , Household ,98.64,Y
+P001671, Product 1671 ,baby,47.53,Y
+ P001672 ,Product 1672, Household ,105.72,Y
+sku-001673,Product 1673, Household ,104.56,Y
+001674, Product 1674 , Household ,97.29,N
+P001675, Product 1675 ,HOUSEHOLD,95.43,N
+p001676,product 1676, Pharmacy ,38.65,N
+SKU-001677,Product 1677, Electronics ,12.47,Y
+001678, Product 1678 ,Electronics,,N
+001679,product 1679, Pet ,23.3,N
+001680, Product 1680 ,Baby,84.31,Y
+P001681,Product 1681, Baby ,43.49,N
+P001682,Product 1682,Personal Care,117.15,N
+001683,PRODUCT 1683, Personal Care ,77.99,Y
+p001684, Product 1684 ,Personal Care,99.23,Y
+P001685,Product 1685,PHARMACY,18.51,Y
+001686,PRODUCT 1686,Personal Care,103.86,N
+001687,Product 1687,Household,110.96,Y
+001688,product 1688,personal care,59.99,N
+SKU-001689,product 1689,Personal Care,73.93,N
+P001690, Product 1690 ,Baby,92.48,Y
+001691,Product 1691,ELECTRONICS,,Y
+SKU-001692, Product 1692 ,pharmacy,61.8,Y
+SKU-001693, Product 1693 ,baby,49.64,Y
+SKU-001694,Product 1694, Grocery ,20.13,Y
+001695,Product 1695,Personal Care,46.0,Y
+001696,PRODUCT 1696,Household,10.98,Y
+ P001697 , Product 1697 ,Pharmacy,6.02,N
+SKU-001698,Product 1698, Pharmacy ,18.81,Y
+001699,Product 1699,Personal Care,,Y
+P001700,product 1700,Electronics,67.29,Y
+ SKU-001701 ,PRODUCT 1701,PERSONAL CARE,116.0,Y
+SKU-001702,Product 1702,grocery,53.6,Y
+001703,Product 1703,Pharmacy,39.48,N
+001704,Product 1704,Household,62.22,Y
+ SKU-001705 ,PRODUCT 1705,personal care,54.42,Y
+SKU-001706,PRODUCT 1706, Electronics ,15.36,Y
+SKU-001707,PRODUCT 1707,PET,77.98,Y
+001708,Product 1708,pharmacy,28.28,Y
+P001709,PRODUCT 1709,Grocery,75.49,Y
+p001710,Product 1710, Electronics ,79.07,Y
+001711,product 1711,BABY,20.79,Y
+SKU-001712,Product 1712, Pharmacy ,10.18,Y
+SKU-001713,product 1713,Household,94.35,N
+sku-001714,Product 1714,Pet,56.8,Y
+ P001715 ,product 1715,HOUSEHOLD,9.81,Y
+P001716, Product 1716 , Pharmacy ,119.4,Y
+SKU-001717, Product 1717 ,Personal Care,,N
+001718,Product 1718,Personal Care,84.32,N
+001719, Product 1719 , Baby ,118.09,N
+SKU-001720,PRODUCT 1720,Household,30.98,Y
+SKU-001721,PRODUCT 1721,HOUSEHOLD,19.64,Y
+001722,Product 1722,electronics,17.2,Y
+P001723, Product 1723 ,Pet,38.48,Y
+P001724,product 1724,HOUSEHOLD,14.82,Y
+001725,PRODUCT 1725,Personal Care,83.98,Y
+sku-001726,PRODUCT 1726,Personal Care,10.29,Y
+001727,Product 1727,PERSONAL CARE,62.6,N
+001728,Product 1728, Grocery ,119.61,Y
+SKU-001729,PRODUCT 1729,PHARMACY,98.23,Y
+p001730,Product 1730,Electronics,74.98,Y
+001731, Product 1731 ,Electronics,38.83,N
+001732,Product 1732,Baby,76.0,Y
+001733,Product 1733, Electronics ,64.66,Y
+001734,Product 1734,Pharmacy,52.85,Y
+001735, Product 1735 ,ELECTRONICS,18.29,Y
+001736,Product 1736, Baby ,106.73,Y
+001737,PRODUCT 1737,Pet,55.62,Y
+ SKU-001738 ,Product 1738, Personal Care ,25.77,Y
+ SKU-001739 ,Product 1739,Electronics,46.03,Y
+P001740,PRODUCT 1740,electronics,51.45,Y
+001741,Product 1741, Grocery ,99.82,Y
+P001742,Product 1742,electronics,88.83,N
+001743,Product 1743,Baby,93.01,Y
+P001744, Product 1744 , Pet ,,Y
+P001745,PRODUCT 1745,household,51.69,N
+SKU-001746,Product 1746,Grocery,59.32,Y
+SKU-001747,Product 1747,Personal Care,5.25,Y
+P001748,PRODUCT 1748,Pharmacy,33.4,Y
+SKU-001749,PRODUCT 1749, Grocery ,91.95,Y
+ SKU-001750 ,Product 1750,PET,19.04,Y
+SKU-001751, Product 1751 ,Personal Care,65.63,Y
+001752,Product 1752, Personal Care ,28.18,N
+ SKU-001753 ,Product 1753,Baby,4.42,Y
+ SKU-001754 ,Product 1754, Personal Care ,31.22,N
+P001755,Product 1755,Pharmacy,117.18,Y
+ 001756 , Product 1756 ,Grocery,96.78,Y
+001757, Product 1757 ,baby,115.27,N
+ P001758 ,product 1758,Electronics,60.08,Y
+001759,product 1759,Household,15.84,Y
+001760,Product 1760,Electronics,67.11,N
+ SKU-001761 ,Product 1761,HOUSEHOLD,56.16,Y
+001762,product 1762, Baby ,101.79,Y
+sku-001763,PRODUCT 1763,Household,14.48,Y
+SKU-001764, Product 1764 , Electronics ,60.12,Y
+ SKU-001765 ,product 1765,Baby,20.56,Y
+001766,Product 1766,Electronics,40.99,N
+001767,product 1767,Pet,89.27,N
+P001768,Product 1768,Electronics,,N
+SKU-001769,product 1769,Pet,46.98,Y
+001770,PRODUCT 1770,Pet,49.15,Y
+P001771,PRODUCT 1771,baby,56.76,Y
+P001772,PRODUCT 1772,PET,94.85,N
+001773,PRODUCT 1773,pharmacy,107.37,N
+SKU-001774,product 1774, Grocery ,114.77,N
+001775,PRODUCT 1775,GROCERY,95.07,Y
+001776,PRODUCT 1776,ELECTRONICS,39.9,Y
+ SKU-001777 , Product 1777 ,PHARMACY,,Y
+SKU-001778,Product 1778, Baby ,54.2,N
+SKU-001779, Product 1779 ,PERSONAL CARE,32.8,Y
+P001780,Product 1780,Baby,101.38,N
+SKU-001781,product 1781,baby,7.5,Y
+ SKU-001782 , Product 1782 ,Personal Care,108.51,N
+sku-001783, Product 1783 , Baby ,56.99,Y
+ 001784 ,product 1784,Grocery,77.55,Y
+p001785,Product 1785, Pet ,80.14,Y
+SKU-001786, Product 1786 ,personal care,107.73,Y
+P001787, Product 1787 ,PHARMACY,,Y
+SKU-001788,product 1788,Electronics,74.83,N
+001789,Product 1789, Baby ,10.8,Y
+ P001790 , Product 1790 ,PERSONAL CARE,63.65,N
+P001791,PRODUCT 1791,Pharmacy,20.57,N
+001792,PRODUCT 1792,Baby,89.28,Y
+001793, Product 1793 ,Personal Care,62.93,Y
+001794, Product 1794 ,BABY,82.59,Y
+P001795,Product 1795, Household ,7.88,Y
+sku-001796, Product 1796 ,Pharmacy,12.92,Y
+p001797,Product 1797, Personal Care ,86.81,Y
+ P001798 ,product 1798,Pet,11.43,Y
+SKU-001799,PRODUCT 1799, Grocery ,11.34,N
+SKU-001800,Product 1800,ELECTRONICS,4.42,Y
+ 001801 ,Product 1801,Household,114.91,Y
+sku-001802,Product 1802,grocery,89.29,Y
+ P001803 ,Product 1803, Pharmacy ,44.33,Y
+P001804,Product 1804, Grocery ,37.69,Y
+ SKU-001805 ,PRODUCT 1805,Household,43.92,Y
+SKU-001806,PRODUCT 1806,pet,93.63,Y
+001807,product 1807,grocery,80.38,N
+ 001808 ,Product 1808,baby,24.67,Y
+p001809,product 1809,Baby,23.37,N
+ P001810 , Product 1810 ,Pharmacy,14.51,Y
+ 001811 ,product 1811,Pet,80.26,Y
+ SKU-001812 ,PRODUCT 1812,Personal Care,92.43,Y
+P001813,PRODUCT 1813,household,34.01,N
+001814,product 1814,Pharmacy,5.45,N
+SKU-001815,Product 1815,Pet,12.61,Y
+P001816,PRODUCT 1816,Household,116.24,N
+SKU-001817,Product 1817, Household ,37.57,Y
+SKU-001818,Product 1818,Personal Care,93.0,N
+ 001819 ,PRODUCT 1819, Pharmacy ,76.09,Y
+P001820,Product 1820,pet,47.69,Y
+ P001821 ,Product 1821,GROCERY,27.07,Y
+001822,Product 1822,ELECTRONICS,17.2,Y
+P001823,product 1823,BABY,74.96,N
+SKU-001824, Product 1824 ,PET,93.63,Y
+ SKU-001825 ,PRODUCT 1825,Baby,78.34,Y
+P001826,PRODUCT 1826,Pet,65.05,Y
+ P001827 , Product 1827 ,Pharmacy,7.91,Y
+ P001828 ,Product 1828,electronics,116.31,N
+001829,Product 1829, Pet ,96.45,Y
+sku-001830,Product 1830,GROCERY,37.26,Y
+001831,Product 1831,Pharmacy,117.66,Y
+SKU-001832, Product 1832 ,Electronics,73.42,Y
+p001833,Product 1833,Pharmacy,71.14,N
+001834,Product 1834,Baby,90.52,Y
+001835,Product 1835,HOUSEHOLD,97.98,N
+SKU-001836,PRODUCT 1836,Grocery,79.81,Y
+001837,product 1837,electronics,17.99,Y
+SKU-001838,Product 1838,Grocery,42.58,Y
+ SKU-001839 ,Product 1839,Grocery,111.59,N
+001840,PRODUCT 1840,PET,29.28,Y
+P001841,product 1841,Electronics,46.54,Y
+P001842, Product 1842 ,Pharmacy,53.55,Y
+ P001843 , Product 1843 , Household ,54.41,Y
+001844,product 1844, Pet ,74.71,Y
+p001845,Product 1845,Pharmacy,113.34,N
+P001846, Product 1846 ,Grocery,,Y
+ SKU-001847 ,product 1847, Personal Care ,17.22,Y
+SKU-001848,PRODUCT 1848, Electronics ,26.1,Y
+P001849,PRODUCT 1849,Pharmacy,106.77,Y
+001850,Product 1850, Household ,78.56,Y
+P001851, Product 1851 ,PERSONAL CARE,36.45,Y
+SKU-001852,Product 1852,Electronics,98.47,N
+P001853,product 1853,PHARMACY,103.78,Y
+P001854, Product 1854 ,pet,102.04,N
+ P001855 ,Product 1855,Grocery,110.51,Y
+ P001856 , Product 1856 , Personal Care ,32.51,Y
+SKU-001857,Product 1857,Grocery,91.34,N
+001858, Product 1858 ,PHARMACY,56.88,N
+ 001859 ,Product 1859,PHARMACY,101.51,Y
+ P001860 ,PRODUCT 1860, Household ,88.23,Y
+p001861,PRODUCT 1861,Baby,93.84,Y
+001862,Product 1862,Grocery,79.77,Y
+001863, Product 1863 ,Pet,23.76,Y
+SKU-001864,Product 1864, Household ,66.77,Y
+SKU-001865,PRODUCT 1865,Household,118.21,Y
+P001866, Product 1866 ,Personal Care,112.67,Y
+001867,Product 1867,baby,8.05,Y
+ 001868 ,Product 1868, Pharmacy ,22.28,Y
+P001869,product 1869,Baby,18.41,Y
+P001870,PRODUCT 1870, Pharmacy ,87.94,Y
+SKU-001871,Product 1871,Pharmacy,98.68,N
+P001872,PRODUCT 1872,PERSONAL CARE,27.98,Y
+SKU-001873,Product 1873,pharmacy,62.18,N
+001874,Product 1874,Pet,101.36,Y
+P001875,product 1875,Grocery,88.74,Y
+ 001876 , Product 1876 ,Household,66.44,Y
+P001877,PRODUCT 1877,personal care,72.07,Y
+P001878,Product 1878,Personal Care,62.48,N
+P001879,PRODUCT 1879,Pet,37.81,N
+P001880, Product 1880 ,Baby,69.11,Y
+001881,Product 1881,Pet,83.6,Y
+SKU-001882,Product 1882,household,105.18,Y
+001883,Product 1883,Household,77.45,Y
+001884,Product 1884,pet,92.05,Y
+001885,Product 1885,BABY,21.73,N
+P001886,Product 1886, Household ,57.0,Y
+P001887,product 1887,ELECTRONICS,4.09,Y
+001888, Product 1888 ,Personal Care,31.86,N
+SKU-001889,Product 1889,Household,88.0,N
+p001890,Product 1890,PET,119.04,Y
+SKU-001891,product 1891,Household,14.6,Y
+ SKU-001892 ,Product 1892,household,49.97,Y
+ 001893 ,PRODUCT 1893,HOUSEHOLD,96.61,Y
+SKU-001894,Product 1894,BABY,,N
+001895,PRODUCT 1895, Pharmacy ,67.94,Y
+P001896,product 1896,Household,88.77,Y
+SKU-001897,Product 1897,Pharmacy,75.07,Y
+ 001898 , Product 1898 ,baby,25.0,Y
+P001899,Product 1899,Pharmacy,44.58,Y
+ P001900 ,Product 1900,personal care,94.7,N
+001901,PRODUCT 1901,Personal Care,,Y
+ SKU-001902 , Product 1902 ,pet,3.61,N
+ 001903 , Product 1903 ,Household,92.04,N
+001904,product 1904,GROCERY,7.13,Y
+001905,Product 1905,PET,90.25,Y
+P001906,Product 1906,PET,26.69,Y
+P001907,Product 1907,Household,115.09,Y
+001908,PRODUCT 1908,Electronics,46.05,Y
+SKU-001909,Product 1909, Pharmacy ,41.25,Y
+P001910, Product 1910 ,Pharmacy,20.42,Y
+SKU-001911,Product 1911,PERSONAL CARE,38.76,N
+sku-001912,Product 1912,household,105.57,Y
+001913,Product 1913, Personal Care ,119.57,Y
+P001914,PRODUCT 1914,PET,46.09,Y
+P001915,Product 1915,personal care,55.49,Y
+ P001916 ,product 1916,Pharmacy,87.48,Y
+sku-001917, Product 1917 ,Grocery,106.68,Y
+001918, Product 1918 , Baby ,72.39,Y
+P001919, Product 1919 ,Electronics,48.81,Y
+ SKU-001920 ,Product 1920, Pharmacy ,51.28,Y
+P001921,Product 1921,Baby,84.39,Y
+ P001922 ,Product 1922,personal care,3.38,Y
+001923,Product 1923,Personal Care,75.49,N
+001924,Product 1924,Grocery,44.59,Y
+001925, Product 1925 ,Household,95.92,Y
+SKU-001926,Product 1926,Electronics,13.88,Y
+sku-001927,product 1927,PET,71.82,Y
+SKU-001928,Product 1928,BABY,59.27,N
+001929,PRODUCT 1929, Grocery ,78.15,Y
+P001930,product 1930,electronics,10.59,N
+P001931,product 1931,Pet,70.86,Y
+P001932,product 1932,PERSONAL CARE,68.69,Y
+P001933,Product 1933,Pharmacy,68.6,N
+P001934, Product 1934 ,Household,73.61,Y
+SKU-001935,Product 1935,household,82.15,Y
+SKU-001936,PRODUCT 1936,GROCERY,97.18,Y
+001937,PRODUCT 1937,Personal Care,34.57,Y
+SKU-001938, Product 1938 ,BABY,99.53,Y
+001939,Product 1939,pet,61.3,N
+SKU-001940,Product 1940, Baby ,12.02,Y
+SKU-001941,Product 1941,PHARMACY,9.85,Y
+001942,product 1942,Pharmacy,42.11,Y
+001943,Product 1943,ELECTRONICS,94.83,Y
+ SKU-001944 ,Product 1944,Personal Care,85.8,Y
+001945,PRODUCT 1945,Grocery,95.27,N
+ SKU-001946 ,PRODUCT 1946,Household,63.52,N
+001947, Product 1947 ,Grocery,54.5,Y
+P001948,PRODUCT 1948,BABY,20.25,Y
+001949, Product 1949 , Electronics ,41.4,Y
+SKU-001950,Product 1950,Pharmacy,53.78,Y
+P001951,product 1951, Electronics ,13.37,Y
+001952,Product 1952,household,,Y
+P001953,product 1953,pet,72.99,Y
+ SKU-001954 , Product 1954 ,GROCERY,89.07,Y
+001955,Product 1955,Pharmacy,119.81,Y
+SKU-001956, Product 1956 ,pet,112.17,Y
+p001957,PRODUCT 1957, Household ,78.18,Y
+001958,Product 1958,HOUSEHOLD,52.29,Y
+SKU-001959,PRODUCT 1959,GROCERY,77.43,N
+001960,PRODUCT 1960,Pharmacy,94.92,Y
+SKU-001961,Product 1961,pet,16.85,Y
+SKU-001962,product 1962,baby,50.96,Y
+001963,Product 1963,Pet,101.26,Y
+001964,product 1964,grocery,47.91,Y
+P001965,PRODUCT 1965, Personal Care ,69.91,Y
+SKU-001966,Product 1966,Baby,71.77,Y
+ P001967 ,Product 1967,Baby,24.58,Y
+p001968,PRODUCT 1968,Household,45.38,N
+SKU-001969, Product 1969 ,Personal Care,42.14,N
+P001970,Product 1970,Electronics,6.07,Y
+SKU-001971,Product 1971, Grocery ,5.83,Y
+ SKU-001972 ,Product 1972,PHARMACY,100.31,Y
+p001973,Product 1973,ELECTRONICS,34.95,Y
+sku-001974, Product 1974 ,Personal Care,63.62,Y
+001975, Product 1975 ,Pharmacy,37.95,Y
+ SKU-001976 , Product 1976 ,GROCERY,113.06,Y
+ P001977 , Product 1977 , Personal Care ,33.34,Y
+SKU-001978,PRODUCT 1978,Pharmacy,53.27,Y
+p001979, Product 1979 ,BABY,,Y
+001980,Product 1980,Pharmacy,101.51,N
+SKU-001981,PRODUCT 1981, Baby ,24.77,Y
+001982,Product 1982,BABY,96.91,Y
+sku-001983,Product 1983,Pharmacy,56.61,Y
+ SKU-001984 ,PRODUCT 1984,Pet,59.51,Y
+001985,Product 1985,Electronics,18.62,Y
+001986,Product 1986,Baby,12.43,N
+sku-001987,Product 1987,GROCERY,88.17,Y
+P001988,Product 1988,ELECTRONICS,61.09,Y
+SKU-001989, Product 1989 ,Household,54.11,Y
+SKU-001990,Product 1990,pharmacy,88.35,Y
+SKU-001991,Product 1991,Personal Care,92.57,Y
+P001992,PRODUCT 1992,Baby,21.59,Y
+SKU-001993, Product 1993 ,PERSONAL CARE,74.4,Y
+ SKU-001994 ,Product 1994,Grocery,18.84,Y
+SKU-001995, Product 1995 ,Baby,90.91,N
+001996,Product 1996, Personal Care ,79.86,Y
+SKU-001997,PRODUCT 1997,Electronics,114.92,Y
+P001998,PRODUCT 1998,pharmacy,11.07,Y
+p001999,Product 1999, Grocery ,9.68,Y
+sku-002000, Product 2000 ,Grocery,36.02,N
+ 002001 ,PRODUCT 2001,Household,,Y
+SKU-002002, Product 2002 , Electronics ,31.9,Y
+P002003,product 2003, Household ,109.03,Y
+002004,Product 2004,Electronics,32.2,Y
+P002005,Product 2005, Baby ,34.82,N
+P002006,Product 2006,PHARMACY,91.85,Y
+002007,Product 2007,baby,55.62,N
+P002008, Product 2008 , Baby ,93.88,Y
+002009, Product 2009 , Household ,10.65,N
+002010, Product 2010 , Pet ,60.05,Y
+ SKU-002011 ,PRODUCT 2011,Household,6.93,N
+ 002012 , Product 2012 ,Pharmacy,10.33,Y
+002013, Product 2013 ,Electronics,109.05,Y
+002014, Product 2014 ,Electronics,19.29,Y
+SKU-002015,Product 2015,Personal Care,65.29,N
+ P002016 ,product 2016,pharmacy,51.1,Y
+p002017,Product 2017,Pet,43.64,N
+P002018,Product 2018,pet,108.28,N
+002019,product 2019,PET,5.55,N
+P002020,PRODUCT 2020,Pet,80.66,N
+ SKU-002021 ,Product 2021, Pet ,115.72,N
+002022,Product 2022,Pet,68.54,N
+002023,Product 2023,household,,Y
+002024,PRODUCT 2024,Electronics,9.11,N
+ SKU-002025 ,PRODUCT 2025,Pharmacy,52.0,Y
+002026,Product 2026,Personal Care,33.44,Y
+p002027, Product 2027 , Pet ,88.51,N
+002028,Product 2028,personal care,117.81,N
+ SKU-002029 ,Product 2029,BABY,33.01,Y
+002030,Product 2030,pharmacy,79.54,Y
+002031,Product 2031, Baby ,26.18,N
+002032,Product 2032,Pet,69.14,N
+002033,Product 2033, Household ,57.28,Y
+sku-002034,Product 2034,Pet,116.72,N
+ SKU-002035 ,Product 2035,baby,74.2,Y
+002036,PRODUCT 2036,PET,43.89,N
+P002037,product 2037,Household,16.35,N
+P002038,Product 2038,Pharmacy,20.7,Y
+ P002039 ,Product 2039,Baby,29.36,N
+ P002040 ,Product 2040,pharmacy,32.36,Y
+ 002041 ,Product 2041,household,102.52,Y
+ P002042 ,Product 2042, Grocery ,68.66,Y
+ 002043 , Product 2043 , Personal Care ,64.24,Y
+002044,Product 2044,ELECTRONICS,16.43,Y
+SKU-002045,Product 2045,Personal Care,103.64,Y
+ 002046 ,product 2046,PERSONAL CARE,87.57,Y
+002047, Product 2047 , Household ,10.92,N
+P002048,PRODUCT 2048,Personal Care,85.82,Y
+002049,Product 2049,Pet,66.59,Y
+ 002050 ,PRODUCT 2050,baby,12.56,Y
+ SKU-002051 ,Product 2051,baby,56.62,Y
+ P002052 , Product 2052 ,Baby,59.71,Y
+002053,Product 2053,household,22.4,Y
+SKU-002054,Product 2054, Baby ,113.65,N
+002055,product 2055,Household,102.45,Y
+002056,product 2056,household,81.28,Y
+P002057,Product 2057,Household,57.09,Y
+SKU-002058, Product 2058 ,Pharmacy,51.18,N
+p002059, Product 2059 , Baby ,79.16,N
+ P002060 ,Product 2060,Pet,66.82,Y
+ 002061 , Product 2061 ,household,10.29,Y
+SKU-002062,Product 2062,GROCERY,62.96,Y
+SKU-002063,Product 2063, Pet ,97.35,Y
+002064,PRODUCT 2064,PET,56.73,Y
+ 002065 ,PRODUCT 2065,ELECTRONICS,9.08,N
+P002066,PRODUCT 2066,PET,94.99,Y
+SKU-002067,PRODUCT 2067,Baby,26.56,N
+P002068, Product 2068 ,Pet,33.26,Y
+SKU-002069,product 2069,Pharmacy,22.27,Y
+SKU-002070,product 2070,GROCERY,41.64,Y
+002071,Product 2071,electronics,91.54,Y
+P002072, Product 2072 ,GROCERY,63.77,Y
+SKU-002073,Product 2073,PHARMACY,26.97,N
+P002074,Product 2074,PET,105.71,Y
+p002075,product 2075, Pharmacy ,105.91,Y
+SKU-002076,Product 2076, Grocery ,104.86,N
+SKU-002077,Product 2077,Baby,30.94,Y
+002078,Product 2078,PHARMACY,55.8,Y
+SKU-002079, Product 2079 ,PET,118.24,Y
+P002080,Product 2080,Pet,93.33,Y
+002081,PRODUCT 2081,Pet,6.18,Y
+002082,Product 2082,PET,10.63,Y
+002083,Product 2083,Baby,57.28,Y
+P002084, Product 2084 ,Grocery,109.38,Y
+P002085,Product 2085, Electronics ,66.03,Y
+SKU-002086,product 2086,Electronics,61.24,Y
+SKU-002087,PRODUCT 2087,Baby,15.34,Y
+SKU-002088,product 2088,Personal Care,79.84,Y
+002089,product 2089,Electronics,99.19,Y
+ P002090 ,PRODUCT 2090, Personal Care ,47.51,Y
+P002091,product 2091, Personal Care ,93.75,Y
+SKU-002092,PRODUCT 2092, Grocery ,115.84,Y
+P002093,Product 2093,grocery,26.84,N
+SKU-002094,Product 2094,grocery,64.23,N
+P002095,Product 2095,Personal Care,36.6,Y
+002096,PRODUCT 2096,baby,95.76,Y
+002097,Product 2097, Electronics ,70.58,Y
+ 002098 ,Product 2098,pharmacy,,Y
+002099,product 2099,BABY,96.36,Y
+002100,Product 2100,electronics,49.33,N
+P002101,Product 2101,Electronics,110.07,Y
+P002102,PRODUCT 2102,electronics,65.36,N
+ P002103 , Product 2103 ,Personal Care,21.48,Y
+ P002104 ,Product 2104,pharmacy,84.42,Y
+P002105,Product 2105,Household,95.81,N
+P002106,Product 2106,Baby,40.06,N
+P002107, Product 2107 , Pet ,103.29,N
+002108, Product 2108 , Personal Care ,109.02,Y
+002109, Product 2109 , Pet ,35.4,Y
+p002110, Product 2110 ,Pet,118.07,Y
+P002111,product 2111,Baby,19.46,Y
+p002112, Product 2112 , Grocery ,26.64,Y
+002113,Product 2113,Electronics,24.55,Y
+P002114, Product 2114 ,ELECTRONICS,107.6,N
+p002115,product 2115,Pharmacy,79.55,Y
+P002116,PRODUCT 2116,Pharmacy,20.8,N
+ 002117 ,product 2117,Grocery,54.52,N
+SKU-002118,PRODUCT 2118,Pharmacy,74.99,Y
+P002119,Product 2119,PHARMACY,12.77,Y
+SKU-002120, Product 2120 ,PET,106.24,N
+P002121,Product 2121,BABY,97.02,Y
+002122,Product 2122,Baby,62.11,Y
+002123,Product 2123,Household,116.15,Y
+ P002124 ,Product 2124,Household,51.88,Y
+ 002125 ,Product 2125,Electronics,118.14,Y
+SKU-002126, Product 2126 ,PHARMACY,81.15,Y
+p002127,Product 2127,Household,77.26,Y
+ P002128 ,Product 2128,PERSONAL CARE,22.42,Y
+P002129, Product 2129 , Grocery ,106.19,Y
+ SKU-002130 ,Product 2130,HOUSEHOLD,53.02,Y
+002131,Product 2131,Electronics,21.98,Y
+P002132, Product 2132 , Personal Care ,4.48,Y
+P002133, Product 2133 , Pet ,68.49,Y
+SKU-002134,product 2134,ELECTRONICS,64.71,N
+P002135,Product 2135,Personal Care,87.16,N
+ SKU-002136 ,PRODUCT 2136,PHARMACY,107.16,Y
+002137,Product 2137,personal care,12.29,Y
+ 002138 ,Product 2138, Pharmacy ,88.59,N
+SKU-002139, Product 2139 ,Electronics,24.93,N
+SKU-002140,Product 2140,grocery,103.41,Y
+ SKU-002141 , Product 2141 ,Household,98.83,Y
+SKU-002142,Product 2142,Household,66.27,Y
+ 002143 ,Product 2143,Grocery,86.1,Y
+P002144,Product 2144,BABY,39.78,Y
+SKU-002145,Product 2145, Electronics ,58.13,Y
+002146,PRODUCT 2146,grocery,99.13,Y
+ SKU-002147 , Product 2147 ,PET,56.73,Y
+ SKU-002148 ,product 2148,BABY,44.86,Y
+SKU-002149,Product 2149,Household,60.82,Y
+P002150,product 2150,Grocery,99.91,Y
+P002151, Product 2151 ,Electronics,42.22,Y
+SKU-002152,product 2152,electronics,23.33,Y
+P002153,Product 2153,Pharmacy,86.31,Y
+P002154,product 2154,Pet,99.64,Y
+ 002155 ,PRODUCT 2155,Household,14.77,Y
+SKU-002156,Product 2156,Pharmacy,31.07,Y
+002157, Product 2157 ,grocery,19.61,Y
+P002158, Product 2158 ,Personal Care,43.71,Y
+002159,PRODUCT 2159,baby,55.69,Y
+ P002160 ,product 2160,HOUSEHOLD,90.61,Y
+002161,product 2161,Electronics,79.18,Y
+P002162,Product 2162,personal care,75.65,Y
+002163,Product 2163,Pharmacy,44.23,N
+002164,PRODUCT 2164,electronics,101.45,N
+P002165, Product 2165 , Pharmacy ,58.14,Y
+002166,Product 2166,Household,117.56,N
+SKU-002167, Product 2167 ,baby,77.19,Y
+002168,product 2168, Household ,17.77,Y
+002169,PRODUCT 2169, Personal Care ,82.11,Y
+ P002170 , Product 2170 ,Pharmacy,41.04,Y
+002171,Product 2171,Electronics,83.3,Y
+ SKU-002172 ,Product 2172,Personal Care,11.15,N
+p002173,Product 2173, Pet ,23.46,Y
+002174,Product 2174,Household,103.12,Y
+SKU-002175,Product 2175,Pharmacy,29.58,Y
+SKU-002176,PRODUCT 2176, Household ,100.93,Y
+ SKU-002177 ,product 2177,Grocery,35.68,N
+P002178,product 2178, Pharmacy ,78.22,Y
+002179,Product 2179,Pharmacy,84.22,Y
+p002180,Product 2180,Baby,62.98,Y
+ 002181 ,PRODUCT 2181, Household ,38.72,N
+ SKU-002182 ,Product 2182,BABY,27.88,N
+P002183,PRODUCT 2183,Baby,6.88,Y
+ SKU-002184 ,Product 2184,Baby,38.56,Y
+002185,Product 2185, Household ,79.42,Y
+002186,PRODUCT 2186,personal care,112.78,Y
+ P002187 , Product 2187 ,PHARMACY,104.93,Y
+ SKU-002188 ,Product 2188,Personal Care,92.63,Y
+SKU-002189,Product 2189,Electronics,95.25,Y
+002190,Product 2190,Pet,80.8,Y
+ 002191 ,Product 2191,baby,33.45,Y
+002192,Product 2192,GROCERY,109.14,N
+SKU-002193,Product 2193,BABY,81.48,Y
+002194,Product 2194,Baby,68.57,Y
+002195,PRODUCT 2195,Baby,15.99,Y
+ P002196 ,Product 2196,PET,55.31,Y
+SKU-002197,Product 2197,Grocery,56.86,N
+P002198, Product 2198 ,Personal Care,104.15,Y
+002199,product 2199,Electronics,66.96,Y
+002200,Product 2200, Electronics ,47.51,Y
+SKU-002201,Product 2201,pharmacy,117.29,Y
+002202,Product 2202, Pharmacy ,15.95,Y
+ 002203 ,product 2203, Baby ,52.44,N
+002204,Product 2204,pet,7.92,Y
+P002205,Product 2205, Household ,89.57,N
+SKU-002206,Product 2206,Personal Care,110.41,Y
+002207,Product 2207,Personal Care,35.76,Y
+P002208,product 2208,Household,103.43,Y
+p002209,PRODUCT 2209,Pet,37.19,Y
+p002210,Product 2210,Baby,109.56,Y
+ SKU-002211 , Product 2211 , Household ,91.21,N
+P002212,Product 2212,Pharmacy,97.17,N
+SKU-002213,PRODUCT 2213,Pet,5.11,Y
+002214,product 2214, Personal Care ,115.65,Y
+sku-002215,Product 2215, Pet ,88.02,Y
+P002216,PRODUCT 2216,electronics,38.66,Y
+SKU-002217,Product 2217,HOUSEHOLD,100.04,Y
+002218,Product 2218, Household ,35.94,Y
+P002219,PRODUCT 2219,Pharmacy,105.11,N
+SKU-002220,PRODUCT 2220,pharmacy,16.17,Y
+ P002221 ,product 2221,Pharmacy,85.33,Y
+ P002222 ,PRODUCT 2222,ELECTRONICS,66.26,N
+002223,Product 2223,grocery,14.29,N
+002224,PRODUCT 2224,PERSONAL CARE,31.3,Y
+ 002225 ,PRODUCT 2225, Household ,4.45,Y
+P002226,Product 2226,Baby,57.85,N
+002227, Product 2227 ,Electronics,38.25,N
+SKU-002228,PRODUCT 2228,pet,73.01,Y
+SKU-002229, Product 2229 ,grocery,37.78,Y
+002230,Product 2230, Baby ,38.09,N
+P002231,Product 2231,Household,89.95,Y
+ SKU-002232 ,Product 2232, Electronics ,8.63,Y
+SKU-002233,Product 2233,Baby,108.64,N
+ SKU-002234 ,Product 2234,Personal Care,102.71,Y
+002235,Product 2235,Pet,81.13,Y
+P002236,product 2236, Pharmacy ,72.41,Y
+P002237,PRODUCT 2237,Electronics,107.4,N
+ P002238 ,Product 2238,personal care,24.68,Y
+002239,PRODUCT 2239,Baby,12.24,Y
+ SKU-002240 ,Product 2240, Grocery ,31.02,Y
+002241,PRODUCT 2241,Pet,95.97,Y
+p002242,PRODUCT 2242,PERSONAL CARE,7.06,Y
+P002243,PRODUCT 2243,baby,71.19,Y
+SKU-002244,Product 2244, Electronics ,119.47,Y
+P002245,product 2245, Household ,103.12,Y
+ 002246 ,Product 2246,Household,64.01,Y
+SKU-002247,Product 2247,ELECTRONICS,10.45,Y
+002248, Product 2248 ,Personal Care,100.27,Y
+002249,Product 2249,Baby,73.08,Y
+002250, Product 2250 ,GROCERY,16.45,N
+SKU-002251,Product 2251,pharmacy,13.98,Y
+SKU-002252,Product 2252, Pharmacy ,109.43,Y
+ P002253 ,Product 2253,Baby,81.3,Y
+SKU-002254, Product 2254 ,Pet,100.03,Y
+P002255,Product 2255,household,105.84,Y
+ P002256 ,Product 2256,Household,69.9,Y
+P002257,Product 2257,Personal Care,63.54,Y
+002258,PRODUCT 2258,Electronics,53.36,Y
+p002259, Product 2259 ,BABY,40.08,Y
+002260, Product 2260 , Grocery ,53.85,Y
+002261,product 2261,ELECTRONICS,93.54,N
+002262,product 2262,Baby,73.43,Y
+P002263, Product 2263 ,Electronics,107.43,N
+SKU-002264,Product 2264, Household ,54.88,N
+SKU-002265,PRODUCT 2265,Pharmacy,74.03,N
+SKU-002266, Product 2266 ,Electronics,76.86,N
+ P002267 , Product 2267 ,Grocery,72.23,N
+P002268,Product 2268,Baby,85.21,Y
+P002269,product 2269, Electronics ,30.78,Y
+P002270,Product 2270,Personal Care,62.95,Y
+ 002271 ,Product 2271,Electronics,15.19,Y
+P002272,Product 2272,Pet,47.99,Y
+SKU-002273,PRODUCT 2273,ELECTRONICS,60.06,N
+P002274, Product 2274 ,Pharmacy,79.31,Y
+P002275, Product 2275 , Personal Care ,114.21,Y
+002276,Product 2276,PHARMACY,73.28,Y
+P002277,PRODUCT 2277,Baby,90.0,Y
+P002278,product 2278,PERSONAL CARE,62.23,Y
+p002279, Product 2279 ,Electronics,77.19,Y
+P002280,product 2280,PHARMACY,11.3,N
+ 002281 ,PRODUCT 2281, Personal Care ,32.76,N
+ 002282 ,PRODUCT 2282,HOUSEHOLD,,Y
+P002283, Product 2283 ,Personal Care,58.28,Y
+p002284,PRODUCT 2284,PHARMACY,8.34,Y
+P002285,product 2285, Baby ,19.38,N
+sku-002286, Product 2286 ,Pharmacy,35.39,Y
+002287, Product 2287 , Baby ,116.67,N
+002288,Product 2288, Electronics ,41.77,Y
+002289,Product 2289,Grocery,59.4,Y
+SKU-002290,PRODUCT 2290, Baby ,25.94,Y
+SKU-002291,Product 2291,Grocery,74.46,Y
+P002292,Product 2292, Household ,35.84,N
+002293,product 2293,PHARMACY,27.22,N
+002294,PRODUCT 2294,Pharmacy,63.44,N
+002295,PRODUCT 2295, Pet ,3.64,Y
+P002296,product 2296,Pet,3.9,N
+SKU-002297,Product 2297,PHARMACY,28.63,N
+ SKU-002298 ,Product 2298,Household,7.3,N
+ SKU-002299 , Product 2299 ,BABY,15.64,Y
+ 002300 ,Product 2300,Baby,42.65,Y
+ SKU-002301 ,Product 2301, Pharmacy ,96.9,Y
+002302, Product 2302 , Pharmacy ,69.93,Y
+P002303,PRODUCT 2303, Household ,62.98,Y
+P002304,Product 2304,Grocery,37.34,Y
+P002305, Product 2305 ,Pharmacy,112.02,Y
+002306,Product 2306, Grocery ,49.45,N
+002307,Product 2307,PHARMACY,13.19,N
+002308,Product 2308,Grocery,75.2,N
+002309,Product 2309,PET,16.32,Y
+p002310,product 2310,Pet,43.39,Y
+p002311, Product 2311 ,Household,62.37,Y
+P002312,Product 2312,Personal Care,105.28,Y
+002313, Product 2313 ,ELECTRONICS,60.74,Y
+SKU-002314,Product 2314,Pharmacy,85.16,Y
+SKU-002315,PRODUCT 2315,pharmacy,119.16,Y
+ SKU-002316 ,Product 2316,PERSONAL CARE,18.38,Y
+002317,product 2317,Grocery,35.14,Y
+002318,Product 2318,PET,49.17,N
+p002319,Product 2319, Pharmacy ,52.35,N
+002320, Product 2320 ,GROCERY,51.09,Y
+P002321,Product 2321,pharmacy,109.19,Y
+SKU-002322,product 2322,PET,86.54,Y
+sku-002323, Product 2323 ,HOUSEHOLD,74.12,Y
+P002324, Product 2324 ,Pet,39.2,Y
+SKU-002325,Product 2325,Baby,99.38,N
+002326,Product 2326,Pet,114.74,Y
+P002327,Product 2327,Household,99.08,Y
+P002328,Product 2328, Grocery ,3.18,Y
+002329,Product 2329,GROCERY,77.46,Y
+SKU-002330,PRODUCT 2330,Grocery,8.98,Y
+ P002331 ,PRODUCT 2331,Pharmacy,33.14,Y
+002332, Product 2332 ,PERSONAL CARE,9.96,Y
+P002333,PRODUCT 2333, Grocery ,73.64,Y
+002334,Product 2334,PET,83.33,Y
+P002335, Product 2335 ,Personal Care,16.4,N
+P002336, Product 2336 ,pet,47.91,Y
+SKU-002337,product 2337, Pharmacy ,56.38,Y
+P002338,product 2338,Household,46.18,N
+002339,PRODUCT 2339, Pharmacy ,17.16,Y
+P002340, Product 2340 ,Pharmacy,52.02,N
+P002341,Product 2341,Pet,90.89,N
+sku-002342,Product 2342,BABY,11.31,Y
+P002343,Product 2343,Baby,12.38,Y
+ P002344 ,Product 2344, Baby ,44.51,Y
+ SKU-002345 ,PRODUCT 2345,pet,113.18,N
+P002346, Product 2346 ,Baby,81.22,Y
+ 002347 ,Product 2347, Pharmacy ,82.4,Y
+ SKU-002348 ,PRODUCT 2348,pet,45.34,N
+P002349,PRODUCT 2349, Personal Care ,72.46,Y
+002350,Product 2350,Pharmacy,4.19,Y
+ SKU-002351 , Product 2351 ,electronics,77.42,N
+002352,Product 2352,PET,109.85,N
+SKU-002353,product 2353,Personal Care,74.67,N
+002354, Product 2354 ,Household,105.22,Y
+ P002355 ,Product 2355,PERSONAL CARE,87.7,Y
+P002356,Product 2356,Pet,17.11,N
+P002357,Product 2357,Pharmacy,108.59,Y
+P002358,Product 2358,Baby,10.77,Y
+ P002359 ,Product 2359,HOUSEHOLD,65.47,Y
+ P002360 ,PRODUCT 2360, Household ,19.63,Y
+p002361,Product 2361,pet,4.37,Y
+002362,product 2362,pet,52.38,N
+P002363,PRODUCT 2363,HOUSEHOLD,37.52,Y
+002364,PRODUCT 2364,HOUSEHOLD,59.86,Y
+002365, Product 2365 , Personal Care ,70.53,N
+002366, Product 2366 ,Pet,8.12,N
+P002367,PRODUCT 2367,GROCERY,,Y
+P002368, Product 2368 ,PERSONAL CARE,,Y
+SKU-002369,Product 2369,personal care,43.15,Y
+ P002370 ,Product 2370,Grocery,88.31,Y
+P002371,Product 2371,Pet,79.32,Y
+SKU-002372, Product 2372 ,Grocery,101.94,Y
+P002373,Product 2373,Electronics,84.02,Y
+p002374,PRODUCT 2374, Household ,53.3,Y
+P002375, Product 2375 ,ELECTRONICS,81.74,Y
+P002376, Product 2376 ,BABY,35.22,N
+002377,product 2377,electronics,38.84,N
+002378, Product 2378 , Pet ,95.31,Y
+002379,Product 2379,ELECTRONICS,55.23,Y
+002380,Product 2380, Grocery ,96.41,Y
+SKU-002381,PRODUCT 2381,Baby,99.22,Y
+p002382,Product 2382,Baby,103.33,Y
+002383,Product 2383,Pharmacy,110.25,Y
+SKU-002384,Product 2384,PHARMACY,53.43,Y
+SKU-002385,product 2385,Household,40.31,Y
+002386,product 2386,personal care,71.12,Y
+sku-002387,product 2387,PHARMACY,46.43,Y
+002388, Product 2388 ,PERSONAL CARE,73.33,Y
+P002389,Product 2389,PHARMACY,85.55,Y
+ P002390 , Product 2390 ,BABY,83.54,N
+p002391, Product 2391 , Pharmacy ,46.82,Y
+SKU-002392,product 2392, Pet ,22.52,N
+SKU-002393,product 2393,Household,53.37,N
+SKU-002394,PRODUCT 2394,GROCERY,19.68,Y
+SKU-002395, Product 2395 ,Household,107.14,Y
+p002396, Product 2396 , Personal Care ,43.47,Y
+002397, Product 2397 , Household ,21.07,Y
+002398,product 2398, Household ,5.98,Y
+002399,PRODUCT 2399,Baby,78.56,Y
+SKU-002400,product 2400, Pharmacy ,77.52,N
+002401,Product 2401,Grocery,42.85,Y
+SKU-002402,PRODUCT 2402,Pharmacy,11.39,Y
+P002403,PRODUCT 2403,PERSONAL CARE,50.93,Y
+SKU-002404,product 2404, Pharmacy ,39.41,Y
+SKU-002405,Product 2405,PHARMACY,82.22,Y
+ SKU-002406 , Product 2406 ,Baby,73.88,Y
+P002407,Product 2407,personal care,45.66,Y
+002408,Product 2408, Pet ,28.49,N
+P002409,PRODUCT 2409, Grocery ,118.6,Y
+ 002410 ,PRODUCT 2410, Pharmacy ,56.12,Y
+002411,Product 2411,Grocery,83.53,Y
+ 002412 , Product 2412 , Grocery ,19.44,Y
+p002413,PRODUCT 2413,baby,59.81,N
+P002414,Product 2414, Household ,6.22,Y
+P002415,Product 2415,HOUSEHOLD,62.14,Y
+002416,PRODUCT 2416, Grocery ,115.79,Y
+ SKU-002417 ,Product 2417,Grocery,47.95,Y
+P002418,Product 2418,Baby,7.56,N
+sku-002419,PRODUCT 2419, Electronics ,6.62,Y
+ P002420 ,Product 2420,Household,48.39,Y
+002421, Product 2421 , Household ,21.72,N
+SKU-002422,Product 2422,Pharmacy,5.73,Y
+sku-002423, Product 2423 ,BABY,91.48,N
+002424,PRODUCT 2424,Personal Care,56.65,Y
+P002425,product 2425, Baby ,36.84,Y
+ P002426 ,PRODUCT 2426,Household,108.31,Y
+002427,Product 2427, Electronics ,16.59,Y
+sku-002428,product 2428,personal care,114.84,Y
+ P002429 ,PRODUCT 2429, Pet ,39.73,Y
+SKU-002430,Product 2430, Electronics ,106.94,Y
+ SKU-002431 , Product 2431 ,Baby,73.54,Y
+SKU-002432,Product 2432,Household,99.72,Y
+P002433,Product 2433,Household,118.13,N
+ SKU-002434 ,product 2434, Pharmacy ,36.74,Y
+P002435,Product 2435,PET,115.45,N
+P002436,Product 2436,Pet,48.57,Y
+p002437, Product 2437 ,PHARMACY,48.1,Y
+SKU-002438,Product 2438,Personal Care,42.83,Y
+002439,product 2439,pet,66.34,N
+002440,PRODUCT 2440,Pharmacy,21.03,Y
+P002441,Product 2441,Grocery,67.78,N
+SKU-002442,Product 2442,Pharmacy,66.38,N
+ P002443 , Product 2443 ,Grocery,92.14,N
+ P002444 ,PRODUCT 2444, Grocery ,100.54,Y
+002445, Product 2445 ,PHARMACY,54.53,Y
+002446,Product 2446,BABY,38.37,Y
+002447,product 2447,Pet,33.34,N
+ 002448 ,product 2448,Electronics,25.77,Y
+P002449,Product 2449, Electronics ,9.74,Y
+p002450,Product 2450,Personal Care,43.07,Y
+SKU-002451,PRODUCT 2451, Grocery ,34.62,Y
+SKU-002452, Product 2452 ,Electronics,116.07,N
+SKU-002453, Product 2453 ,Electronics,68.25,Y
+P002454, Product 2454 , Baby ,43.63,N
+ SKU-002455 ,Product 2455,PET,70.91,Y
+002456,PRODUCT 2456,Electronics,19.29,Y
+P002457,Product 2457,Electronics,54.95,Y
+SKU-002458,product 2458,electronics,76.27,N
+002459,Product 2459,pet,60.2,Y
+002460,Product 2460,PET,50.01,Y
+sku-002461,Product 2461,Pet,119.28,Y
+002462,Product 2462,ELECTRONICS,106.0,Y
+SKU-002463,PRODUCT 2463,Pharmacy,75.94,Y
+ SKU-002464 ,Product 2464,Pet,69.62,Y
+ 002465 ,product 2465,household,75.62,Y
+SKU-002466,PRODUCT 2466,ELECTRONICS,26.55,Y
+SKU-002467,Product 2467,Pharmacy,49.23,N
+SKU-002468,PRODUCT 2468,Electronics,7.62,N
+ P002469 ,PRODUCT 2469,Baby,58.64,N
+SKU-002470,Product 2470,pet,,N
+p002471,PRODUCT 2471,Household,29.65,Y
+SKU-002472,product 2472,Grocery,115.79,Y
+sku-002473,PRODUCT 2473,Household,109.41,N
+ SKU-002474 ,Product 2474,Baby,87.49,N
+ SKU-002475 , Product 2475 ,Baby,65.41,Y
+002476,Product 2476,Pet,104.79,Y
+ SKU-002477 ,Product 2477, Grocery ,18.29,Y
+002478,Product 2478,Pet,95.49,Y
+ SKU-002479 ,PRODUCT 2479,Baby,17.6,Y
+ 002480 ,Product 2480,Household,95.92,Y
+ SKU-002481 ,product 2481,Personal Care,35.26,N
+SKU-002482,Product 2482, Pharmacy ,105.62,Y
+002483, Product 2483 ,household,113.45,Y
+SKU-002484,Product 2484,Household,20.41,Y
+P002485, Product 2485 ,Pharmacy,57.13,Y
+sku-002486,Product 2486,Pet,117.78,N
+SKU-002487, Product 2487 ,HOUSEHOLD,59.56,Y
+SKU-002488,Product 2488,Pet,104.04,N
+P002489,PRODUCT 2489,Household,71.88,N
+p002490,PRODUCT 2490,GROCERY,46.91,N
+002491,Product 2491, Grocery ,36.44,Y
+SKU-002492, Product 2492 ,PET,26.78,N
+p002493,Product 2493,Grocery,,Y
+P002494,PRODUCT 2494, Grocery ,,N
+P002495,product 2495,Baby,62.82,Y
+P002496,Product 2496,baby,60.6,Y
+P002497,Product 2497,GROCERY,70.54,Y
+P002498,product 2498,PET,104.27,N
+SKU-002499,Product 2499,household,117.75,N
+ P002500 ,PRODUCT 2500,ELECTRONICS,50.69,N
+P000922,Product 922, Personal Care ,60.03,Y
+P000558, Product 558 ,Grocery,6.37,N
+p001652,PRODUCT 1652, Grocery ,38.47,Y
+000952,PRODUCT 952,PET,80.81,Y
+sku-000398, Product 398 ,Pet,53.19,Y
+SKU-000623,PRODUCT 623,Electronics,46.35,Y
+002033,Product 2033, Household ,57.28,Y
+p002471,PRODUCT 2471,Household,29.65,Y
+SKU-000776, Product 776 ,HOUSEHOLD,20.54,Y
+001719, Product 1719 , Baby ,118.09,N
+ 001801 ,Product 1801,Household,114.91,Y
+SKU-001656, Product 1656 ,Household,112.62,Y
+000896,PRODUCT 896,Pet,26.98,Y
+P001878,Product 1878,Personal Care,62.48,N
+P002343,Product 2343,Baby,12.38,Y
+ 002001 ,PRODUCT 2001,Household,,Y
+000929,product 929,PHARMACY,77.12,Y
+P000292, Product 292 ,Pharmacy,7.37,N
+SKU-001343,Product 1343,electronics,104.59,N
+ P000236 ,Product 236,Pet,87.53,N
+000016,Product 16, Pet ,24.46,Y
+001221,Product 1221,pet,114.25,N
+P000348,Product 348,Electronics,8.3,Y
+P001263, Product 1263 , Personal Care ,39.31,Y
+ 000932 , Product 932 , Grocery ,100.69,Y
+P000881, Product 881 ,Pharmacy,30.04,Y
+SKU-000761,Product 761,GROCERY,20.75,Y
+P000348,Product 348,Electronics,8.3,Y
+P001035,Product 1035,Personal Care,,Y
+001986,Product 1986,Baby,12.43,N
+P002389,Product 2389,PHARMACY,85.55,Y
+000406, Product 406 , Personal Care ,107.78,Y
+SKU-000572,Product 572,pharmacy,94.69,Y
+P001593,PRODUCT 1593,ELECTRONICS,18.02,Y
+SKU-000811,PRODUCT 811, Personal Care ,118.23,Y
+SKU-000377, Product 377 ,Electronics,101.85,Y
+ 002125 ,Product 2125,Electronics,118.14,Y
+P000551, Product 551 ,Pharmacy,63.86,Y
+SKU-001698,Product 1698, Pharmacy ,18.81,Y
+p000189,Product 189,pet,64.97,N
+SKU-001969, Product 1969 ,Personal Care,42.14,N
+SKU-000381,PRODUCT 381, Electronics ,,Y
+P000203, Product 203 , Grocery ,21.91,Y
+ P001236 ,Product 1236, Pharmacy ,46.12,Y
+000486,Product 486,Electronics,108.44,N
+P000058, Product 58 ,PHARMACY,25.93,Y
+P000816,product 816,Personal Care,63.7,Y
+P000388,product 388, Electronics ,23.76,N
+000696,product 696,PERSONAL CARE,74.44,Y
+P002414,Product 2414, Household ,6.22,Y

@@ -1,0 +1,5 @@
+region_code,region_name,active_flag
+ R1 ,NORTHEAST,Y
+ R2 ,Midwest,Y
+ R3 , South ,Y
+ R4 , West ,N
