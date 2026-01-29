@@ -1,0 +1,115 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Cleaned and standardized customer data from raw.customers"
+    columns:
+      - name: customer_code
+        description: "Primary key - standardized customer identifier (cust-XXX)"
+        tests:
+          - unique
+          - not_null
+      - name: customer_segment
+        description: "Customer segment category"
+        tests:
+          - not_null
+          # Add accepted_values test once you know the actual segments
+          # Example:
+          # - accepted_values:
+          #     values: ['consumer', 'corporate', 'home office']
+
+  - name: stg_orders_line
+    description: "Cleaned order line items with standardized codes and relationships"
+    columns:
+      - name: order_code
+        tests:
+          - not_null
+      - name: line_number
+        tests:
+          - not_null
+      - name: customer_code
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_code
+      - name: store_code
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_stores')
+                field: store_code
+      - name: product_code
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_code
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [order_code, line_number]
+
+  - name: stg_products
+    description: "Cleaned product catalog"
+    columns:
+      - name: product_code
+        description: "Primary key - standardized product identifier (prd-XXX)"
+        tests:
+          - unique
+          - not_null
+      - name: product_name
+        description: "Product name"
+        tests:
+          - not_null
+      - name: category
+        description: "Product category"
+        tests:
+          - not_null
+          # Add accepted_values test once you know the actual categories
+      # Add other product columns with tests as discovered
+          
+  - name: stg_stores
+    description: "Cleaned store locations"
+    columns:
+      - name: store_code
+        description: "Primary key - standardized store identifier (store-XXX)"
+        tests:
+          - unique
+          - not_null
+      - name: store_name
+        description: "Store name"
+        tests:
+          - not_null
+      - name: city
+        description: "City where store is located"
+        tests:
+          - not_null
+      - name: state
+        description: "State abbreviation (2-letter code)"
+        tests:
+          - not_null
+          # Add accepted_values test for valid US states if applicable
+      - name: region_name
+        description: "Region name"
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_regions')
+                field: region_name
+      # Add other store columns with tests as discovered
+          
+  - name: stg_regions
+    description: "Cleaned region/geography data"
+    columns:
+      - name: region_name
+        description: "Primary key - region name"
+        tests:
+          - unique
+          - not_null
+      # Add region_code or region_id as primary key if it exists
+      # Add other region columns with tests as discovered

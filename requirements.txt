@@ -3,3 +3,7 @@ pandas
 numpy
 matplotlib
 seaborn
+dbt
+dbt-core
+dbt-postgres
+python-dotenv

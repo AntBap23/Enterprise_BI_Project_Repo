@@ -1,0 +1,34 @@
+# ===================================================================
+# dbt profiles.yml TEMPLATE
+# ===================================================================
+# 
+# This is a TEMPLATE file. The actual profiles.yml should be located at:
+# ~/.dbt/profiles.yml
+#
+# DO NOT commit the actual profiles.yml to git (it contains passwords)
+# This template is safe to commit as it has no sensitive data
+#
+# ===================================================================
+
+enterprise_bi_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: bapbap23
+      password: ""  # Add your password here if you have one
+      port: 5432
+      dbname: EnterpriseBI
+      schema: staging  # Default schema for development
+      threads: 4  # Number of parallel queries
+      
+    prod:
+      type: postgres
+      host: localhost
+      user: bapbap23
+      password: ""  # Set your production password here
+      port: 5432
+      dbname: EnterpriseBI
+      schema: mart  # Production schema
+      threads: 8  # More threads for production

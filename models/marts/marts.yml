@@ -1,0 +1,190 @@
+version: 2
+
+models:
+  # ============================================================
+  # DIMENSIONS
+  # ============================================================
+  
+  - name: dim_customer
+    description: "Customer dimension table with all customer attributes and surrogate key"
+    columns:
+      - name: customer_key
+        description: "Surrogate key (primary key) - auto-generated sequential ID"
+        tests:
+          - unique
+          - not_null
+      - name: customer_code
+        description: "Business key from source system (cust-XXX)"
+        tests:
+          - unique
+          - not_null
+      - name: customer_segment
+        description: "Customer segment"
+        tests:
+          - not_null
+      # Add other customer attributes as discovered
+      # Example:
+      # - name: customer_name
+      #   description: "Customer name"
+      # - name: customer_email
+      #   description: "Customer email address"
+      
+  - name: dim_product
+    description: "Product dimension table with all product attributes and surrogate key"
+    columns:
+      - name: product_key
+        description: "Surrogate key (primary key) - auto-generated sequential ID"
+        tests:
+          - unique
+          - not_null
+      - name: product_code
+        description: "Business key from source system (prd-XXX)"
+        tests:
+          - unique
+          - not_null
+      - name: product_name
+        description: "Product name"
+        tests:
+          - not_null
+      - name: category
+        description: "Product category"
+        tests:
+          - not_null
+      # Add other product attributes as discovered
+      # Example:
+      # - name: unit_price
+      #   description: "Standard unit price"
+      # - name: cost
+      #   description: "Product cost"
+      
+  - name: dim_store
+    description: "Store dimension table with all store attributes and surrogate key"
+    columns:
+      - name: store_key
+        description: "Surrogate key (primary key) - auto-generated sequential ID"
+        tests:
+          - unique
+          - not_null
+      - name: store_code
+        description: "Business key from source system (store-XXX)"
+        tests:
+          - unique
+          - not_null
+      - name: store_name
+        description: "Store name"
+        tests:
+          - not_null
+      - name: city
+        description: "City where store is located"
+        tests:
+          - not_null
+      - name: state
+        description: "State abbreviation"
+        tests:
+          - not_null
+      - name: region_key
+        description: "Foreign key to dim_region"
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_region')
+                field: region_key
+      # Add other store attributes as discovered
+      # Example:
+      # - name: address
+      #   description: "Store street address"
+      # - name: zip_code
+      #   description: "ZIP code"
+      
+  - name: dim_region
+    description: "Region/geography dimension table with surrogate key"
+    columns:
+      - name: region_key
+        description: "Surrogate key (primary key) - auto-generated sequential ID"
+        tests:
+          - unique
+          - not_null
+      - name: region_name
+        description: "Region name (business key)"
+        tests:
+          - unique
+          - not_null
+      # Add other region attributes as discovered
+      # Example:
+      # - name: region_code
+      #   description: "Region code"
+      # - name: country
+      #   description: "Country name"
+      
+  - name: dim_date
+    description: "Date dimension table for time-based analysis and reporting"
+    columns:
+      - name: date_key
+        description: "Primary key - date in YYYYMMDD integer format or date type"
+        tests:
+          - unique
+          - not_null
+      - name: date
+        description: "Actual date value"
+        tests:
+          - not_null
+      - name: year
+        description: "Year (e.g., 2024)"
+        tests:
+          - not_null
+      - name: quarter
+        description: "Quarter (1-4)"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 1
+                max_value: 4
+      - name: month
+        description: "Month (1-12)"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 1
+                max_value: 12
+      - name: month_name
+        description: "Month name (e.g., January)"
+        tests:
+          - not_null
+      - name: week
+        description: "Week number of year (1-53)"
+        tests:
+          - not_null
+      - name: day_of_week
+        description: "Day of week (1=Monday, 7=Sunday)"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 1
+                max_value: 7
+      - name: day_name
+        description: "Day name (e.g., Monday)"
+        tests:
+          - not_null
+      - name: is_weekend
+        description: "Boolean flag for weekend (Saturday/Sunday)"
+        tests:
+          - not_null
+      - name: day_of_month
+        description: "Day of month (1-31)"
+        tests:
+          - not_null
+      # Add other date attributes as needed
+      # Example:
+      # - name: is_holiday
+      #   description: "Boolean flag for holidays"
+      # - name: fiscal_year
+      #   description: "Fiscal year"
+      
+  # ============================================================
+  # FACTS
+  # ============================================================
+  # Note: fact model schema docs live in `models/marts/facts/fact_orders.yml`

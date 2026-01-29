@@ -36,3 +36,11 @@ data/staging/*
 !data/staging/.gitkeep
 data/analytics/*
 !data/analytics/.gitkeep
+
+# dbt
+target/
+dbt_packages/
+profiles.yml
+*.profiles.yml
+.dbt/
+dbt_internal_packages/

@@ -1,0 +1,239 @@
+================================================================================
+POSTGRESQL CONNECTION SETUP FOR CURSOR - WRITING dbt/SQL CODE
+================================================================================
+
+This guide will help you connect to your PostgreSQL database in Cursor so you
+can write and test dbt/SQL code directly in the editor.
+
+================================================================================
+OPTION 1: Using Cursor's Built-in Database Extension (Recommended)
+================================================================================
+
+1. INSTALL DATABASE EXTENSION
+   - Open Cursor
+   - Press Cmd+Shift+X (Mac) or Ctrl+Shift+X (Windows/Linux) to open Extensions
+   - Search for "PostgreSQL" or "Database Client"
+   - Install one of these:
+     * "PostgreSQL" by Chris Kolkman
+     * "SQLTools" by Matheus Teixeira (supports multiple databases)
+     * "Database Client" by Weijan Chen
+
+2. CONFIGURE CONNECTION
+   
+   For SQLTools (Recommended):
+   - Press Cmd+Shift+P (Mac) or Ctrl+Shift+P (Windows/Linux)
+   - Type "SQLTools: Add New Connection"
+   - Select "PostgreSQL"
+   - Fill in connection details:
+     
+     Connection Name: EnterpriseBI Local
+     Server Address: localhost
+     Server Port: 5432
+     Database: EnterpriseBI
+     Username: bapbap23
+     Password: [your password from .env, or leave empty if no password]
+     Connection Timeout: 30
+     SSL Mode: disable (for local)
+     
+   - Click "Test Connection" then "Save Connection"
+
+3. CONNECT AND USE
+   - Open SQLTools sidebar (database icon in left sidebar)
+   - Click on "EnterpriseBI Local" to connect
+   - Right-click on database/schema/table to explore
+   - Create new SQL file (.sql) and write queries
+   - Run queries with Cmd+E (Mac) or Ctrl+E (Windows/Linux)
+
+================================================================================
+OPTION 2: Using psql Command Line (Terminal in Cursor)
+================================================================================
+
+1. INSTALL POSTGRESQL CLIENT (if not already installed)
+   
+   Mac (Homebrew):
+   brew install postgresql@15
+   
+   Or use existing installation if PostgreSQL is already installed.
+
+2. CONNECT VIA TERMINAL
+   
+   Open terminal in Cursor (View > Terminal or Ctrl+`)
+   
+   Connection command:
+   psql -h localhost -p 5432 -U bapbap23 -d EnterpriseBI
+   
+   Or if you have a password:
+   PGPASSWORD='your_password' psql -h localhost -p 5432 -U bapbap23 -d EnterpriseBI
+
+3. USEFUL PSQL COMMANDS
+   
+   \l                    - List all databases
+   \c database_name      - Connect to a database
+   \dt                   - List tables in current schema
+   \dt raw.*             - List tables in raw schema
+   \d table_name         - Describe table structure
+   \dn                   - List all schemas
+   \q                    - Quit psql
+
+================================================================================
+OPTION 3: Using Python Script in Cursor (For Quick Queries)
+================================================================================
+
+Create a file: python/query_db.py
+
+```python
+import os
+import pandas as pd
+from sqlalchemy import create_engine
+from dotenv import load_dotenv
+
+load_dotenv()
+
+DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+engine = create_engine(DATABASE_URL)
+
+# Example query
+query = """
+SELECT table_schema, table_name 
+FROM information_schema.tables 
+WHERE table_schema = 'raw'
+ORDER BY table_name;
+"""
+
+df = pd.read_sql(query, engine)
+print(df)
+```
+
+Run: python python/query_db.py
+
+================================================================================
+YOUR DATABASE CONNECTION DETAILS (from .env)
+================================================================================
+
+Host: localhost
+Port: 5432
+Database: EnterpriseBI
+Username: bapbap23
+Password: [check your .env file]
+Schema (raw data): raw
+Schema (staging): staging (will be created by dbt)
+Schema (marts): mart (will be created by dbt)
+
+Full Connection String:
+postgresql://bapbap23:[password]@localhost:5432/EnterpriseBI
+
+================================================================================
+VERIFY YOUR CONNECTION
+================================================================================
+
+1. Check if PostgreSQL is running:
+   Mac: brew services list | grep postgresql
+   Or: pg_isready -h localhost -p 5432
+
+2. List your raw tables:
+   SELECT table_name 
+   FROM information_schema.tables 
+   WHERE table_schema = 'raw';
+
+3. Check table structure:
+   SELECT column_name, data_type 
+   FROM information_schema.columns 
+   WHERE table_schema = 'raw' 
+     AND table_name = 'customers';
+
+================================================================================
+WORKING WITH dbt IN CURSOR
+================================================================================
+
+1. WRITE SQL MODELS
+   - Open any .sql file in models/ directory
+   - Write your SQL using dbt functions:
+     * {{ source('raw', 'customers') }} - reference source tables
+     * {{ ref('stg_customers') }} - reference other models
+     * {{ config() }} - model configuration
+
+2. TEST QUERIES BEFORE dbt
+   - Use SQLTools or psql to test raw SQL first
+   - Replace dbt functions with actual table names:
+     * {{ source('raw', 'customers') }} → raw.customers
+     * {{ ref('stg_customers') }} → staging.stg_customers
+
+3. RUN dbt COMMANDS
+   - Open terminal in Cursor
+   - Navigate to project root
+   - Run: dbt run, dbt test, dbt compile, etc.
+
+4. VIEW COMPILED SQL
+   - Run: dbt compile
+   - Check: target/compiled/enterprise_bi_project/models/...
+   - This shows the actual SQL dbt will execute
+
+================================================================================
+RECOMMENDED WORKFLOW
+================================================================================
+
+1. Connect to database using SQLTools extension
+2. Explore raw schema tables to understand structure
+3. Write staging SQL models in models/staging/*.sql
+4. Test queries directly in SQLTools before running dbt
+5. Run dbt compile to see compiled SQL
+6. Run dbt run to build models
+7. Query staging/mart schemas to verify results
+8. Write tests in .yml files
+9. Run dbt test to validate data quality
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Connection Refused:
+- Check if PostgreSQL is running: pg_isready
+- Verify port 5432 is correct
+- Check firewall settings
+
+Authentication Failed:
+- Verify username/password in .env
+- Check pg_hba.conf if using local connections
+- Try: psql -h localhost -U postgres (superuser)
+
+Schema Not Found:
+- Raw schema should be created by load_to_db.py
+- Staging/mart schemas created automatically by dbt
+- Check: SELECT schema_name FROM information_schema.schemata;
+
+Table Not Found:
+- Verify data was loaded: SELECT COUNT(*) FROM raw.customers;
+- Check table names match exactly (case-sensitive in PostgreSQL)
+- List tables: SELECT * FROM information_schema.tables WHERE table_schema = 'raw';
+
+================================================================================
+QUICK REFERENCE: YOUR SCHEMA STRUCTURE
+================================================================================
+
+EnterpriseBI Database
+├── raw (source data from CSVs)
+│   ├── customers
+│   ├── orders
+│   ├── products
+│   ├── stores
+│   └── regions
+│
+├── staging (dbt views - cleaned/standardized)
+│   ├── stg_customers
+│   ├── stg_orders
+│   ├── stg_products
+│   ├── stg_stores
+│   └── stg_regions
+│
+└── mart (dbt tables - dimensional model)
+    ├── Dimensions
+    │   ├── dim_customer
+    │   ├── dim_product
+    │   ├── dim_store
+    │   ├── dim_region
+    │   └── dim_date
+    │
+    └── Facts
+        └── fact_orders
+
+================================================================================

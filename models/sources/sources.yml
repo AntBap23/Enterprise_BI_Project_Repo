@@ -1,0 +1,86 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Raw data tables loaded from cleaned CSVs via load_to_db.py"
+    schema: raw
+    database: EnterpriseBI
+    
+    tables:
+      - name: customers
+        description: "Raw customer data with standardized customer codes"
+        columns:
+          - name: customer_code
+            description: "Standardized customer code (cust-XXX format)"
+            data_type: varchar
+          - name: customer_segment
+            description: "Customer segment (lowercased, trimmed)"
+            data_type: varchar
+          # Add other customer columns as discovered (e.g., customer_name, email, etc.)
+          
+      - name: orders
+        description: "Raw order transactions with standardized codes"
+        columns:
+          - name: order_code
+            description: "Standardized order code (ord-XXX format)"
+            data_type: varchar
+          - name: customer_code
+            description: "Foreign key to customers table (cust-XXX format)"
+            data_type: varchar
+          - name: store_code
+            description: "Foreign key to stores table (store-XXX format)"
+            data_type: varchar
+          - name: product_code
+            description: "Foreign key to products table (prd-XXX format)"
+            data_type: varchar
+          - name: order_status
+            description: "Order status (lowercased, trimmed)"
+            data_type: varchar
+          - name: order_type
+            description: "Order type (lowercased, trimmed)"
+            data_type: varchar
+          # Add date columns as discovered (order_date, ship_date, etc.)
+          # Add metric columns as discovered (order_amount, quantity, discount, etc.)
+          
+      - name: products
+        description: "Raw product catalog"
+        columns:
+          - name: product_code
+            description: "Standardized product code (prd-XXX format)"
+            data_type: varchar
+          - name: product_name
+            description: "Product name (title case, trimmed)"
+            data_type: varchar
+          - name: category
+            description: "Product category (title case, trimmed)"
+            data_type: varchar
+          # Add other product columns as discovered (price, cost, etc.)
+          
+      - name: stores
+        description: "Raw store locations"
+        columns:
+          - name: store_code
+            description: "Standardized store code (store-XXX format)"
+            data_type: varchar
+          - name: store_name
+            description: "Store name (title case, trimmed)"
+            data_type: varchar
+          - name: city
+            description: "City name (title case, trimmed)"
+            data_type: varchar
+          - name: state
+            description: "State abbreviation (uppercase)"
+            data_type: varchar
+          - name: region_name
+            description: "Region name (title case, cleaned)"
+            data_type: varchar
+          # Add other store columns as discovered (address, zip_code, etc.)
+          
+      - name: regions
+        description: "Raw region/geography data"
+        columns:
+          - name: region_name
+            description: "Region name (title case)"
+            data_type: varchar
+          # Add region_code or region_id as discovered
+          # Add other region attributes as discovered
