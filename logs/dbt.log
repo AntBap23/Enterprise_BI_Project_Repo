@@ -3036,3 +3036,1637 @@ drop table if exists "EnterpriseBI"."staging_mart"."dim_date__dbt_backup" cascad
 [0m15:33:10.447702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dc27ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dce7930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dce6710>]}
 [0m15:33:10.447902 [debug] [MainThread]: Flushing usage events
 [0m15:33:10.691021 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:09:40.520383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c30590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106acf890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106acf9d0>]}
+
+
+============================== 03:09:40.526121 | a4a5072d-81f4-4c39-8230-fe10b2ae34a0 ==============================
+[0m03:09:40.526121 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:09:40.526472 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'printer_width': '80', 'cache_selected_only': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'introspect': 'True', 'quiet': 'False', 'no_print': 'None', 'empty': 'False', 'write_json': 'True', 'debug': 'False', 'static_parser': 'True', 'fail_fast': 'False', 'invocation_command': 'dbt run --select dim_product', 'indirect_selection': 'eager', 'log_path': '/Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/logs', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/bapbap23/.dbt'}
+[0m03:09:40.692776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a4a5072d-81f4-4c39-8230-fe10b2ae34a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105de0d60>]}
+[0m03:09:40.723951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a4a5072d-81f4-4c39-8230-fe10b2ae34a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b5c8d0>]}
+[0m03:09:40.724590 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m03:09:40.782201 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m03:09:40.874435 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 0 files added, 3 files changed.
+[0m03:09:40.874967 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_store.sql
+[0m03:09:40.875146 [debug] [MainThread]: Partial parsing: deleted file: enterprise_bi_project://models/marts/dimensions/dim_region.sql
+[0m03:09:40.875364 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_product.sql
+[0m03:09:40.875529 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_store.sql
+[0m03:09:40.875731 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_customer.sql
+[0m03:09:41.046597 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'dim_region' in the 'models' section of file 'models/marts/marts.yml'
+[0m03:09:41.119686 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.enterprise_bi_project.dim_store' (models/marts/dimensions/dim_store.sql) depends on a node named 'dim_region' which was not found
+[0m03:09:41.124087 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.64685947, "process_in_blocks": "0", "process_kernel_time": 0.22045, "process_mem_max_rss": "120061952", "process_out_blocks": "0", "process_user_time": 1.170492}
+[0m03:09:41.124342 [debug] [MainThread]: Command `dbt run` failed at 03:09:41.124288 after 0.65 seconds
+[0m03:09:41.124550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b61d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107bd9350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a63d40>]}
+[0m03:09:41.124735 [debug] [MainThread]: Flushing usage events
+[0m03:09:41.321090 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:12:14.532371 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1067d4590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10766f890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10766f9d0>]}
+
+
+============================== 03:12:14.540132 | 0450c1bb-3321-448e-9abc-5bc599c54b68 ==============================
+[0m03:12:14.540132 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:12:14.540475 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'target_path': 'None', 'partial_parse': 'True', 'quiet': 'False', 'debug': 'False', 'invocation_command': 'dbt run', 'static_parser': 'True', 'version_check': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'empty': 'False', 'write_json': 'True', 'profiles_dir': '/Users/bapbap23/.dbt', 'introspect': 'True', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'log_path': '/Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/logs', 'log_cache_events': 'False', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'printer_width': '80'}
+[0m03:12:14.658807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106980d60>]}
+[0m03:12:14.703328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076fc8d0>]}
+[0m03:12:14.705069 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m03:12:14.789648 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m03:12:14.921892 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 4 files changed.
+[0m03:12:14.922538 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_store.sql
+[0m03:12:14.922732 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_region.sql
+[0m03:12:14.922960 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_customer.sql
+[0m03:12:14.923130 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_store.sql
+[0m03:12:14.923343 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_product.sql
+[0m03:12:15.303968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087b5950>]}
+[0m03:12:15.357958 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/manifest.json
+[0m03:12:15.359357 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/semantic_manifest.json
+[0m03:12:15.377468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083ed400>]}
+[0m03:12:15.377747 [info ] [MainThread]: Found 11 models, 71 data tests, 5 sources, 464 macros
+[0m03:12:15.377932 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092126d0>]}
+[0m03:12:15.379571 [info ] [MainThread]: 
+[0m03:12:15.379759 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:12:15.379904 [info ] [MainThread]: 
+[0m03:12:15.380151 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m03:12:15.382354 [debug] [ThreadPool]: Acquiring new postgres connection 'list_EnterpriseBI'
+[0m03:12:15.382628 [debug] [ThreadPool]: Acquiring new postgres connection 'list_EnterpriseBI'
+[0m03:12:15.435674 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI"
+[0m03:12:15.435923 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI"
+[0m03:12:15.436221 [debug] [ThreadPool]: On list_EnterpriseBI: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m03:12:15.436438 [debug] [ThreadPool]: On list_EnterpriseBI: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m03:12:15.436624 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:12:15.436789 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:12:15.523891 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.087 seconds
+[0m03:12:15.524255 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.087 seconds
+[0m03:12:15.525351 [debug] [ThreadPool]: On list_EnterpriseBI: Close
+[0m03:12:15.526200 [debug] [ThreadPool]: On list_EnterpriseBI: Close
+[0m03:12:15.527879 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_EnterpriseBI, now list_EnterpriseBI_staging_staging)
+[0m03:12:15.528254 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_EnterpriseBI, now list_EnterpriseBI_staging_mart)
+[0m03:12:15.532209 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI_staging_staging"
+[0m03:12:15.533408 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI_staging_mart"
+[0m03:12:15.533648 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI_staging_staging"} */
+select
+      'EnterpriseBI' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'staging_staging'
+    union all
+    select
+      'EnterpriseBI' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'staging_staging'
+    union all
+    select
+      'EnterpriseBI' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'staging_staging'
+  
+[0m03:12:15.533887 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI_staging_mart"} */
+select
+      'EnterpriseBI' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'staging_mart'
+    union all
+    select
+      'EnterpriseBI' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'staging_mart'
+    union all
+    select
+      'EnterpriseBI' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'staging_mart'
+  
+[0m03:12:15.534087 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:12:15.534260 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:12:15.554661 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.021 seconds
+[0m03:12:15.554995 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.021 seconds
+[0m03:12:15.556028 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: ROLLBACK
+[0m03:12:15.556812 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: ROLLBACK
+[0m03:12:15.557115 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: Close
+[0m03:12:15.557309 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: Close
+[0m03:12:15.561704 [debug] [MainThread]: Using postgres connection "master"
+[0m03:12:15.562029 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m03:12:15.562283 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:12:15.583162 [debug] [MainThread]: SQL status: SELECT 5 in 0.021 seconds
+[0m03:12:15.584158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109314600>]}
+[0m03:12:15.584476 [debug] [MainThread]: On master: ROLLBACK
+[0m03:12:15.584786 [debug] [MainThread]: On master: COMMIT
+[0m03:12:15.584966 [debug] [MainThread]: Using postgres connection "master"
+[0m03:12:15.585138 [debug] [MainThread]: On master: COMMIT
+[0m03:12:15.585684 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m03:12:15.585856 [debug] [MainThread]: On master: Close
+[0m03:12:15.587731 [debug] [Thread-3 (]: Began running node model.enterprise_bi_project.stg_products
+[0m03:12:15.587989 [debug] [Thread-4 (]: Began running node model.enterprise_bi_project.stg_regions
+[0m03:12:15.588245 [debug] [Thread-1 (]: Began running node model.enterprise_bi_project.stg_customers
+[0m03:12:15.588459 [debug] [Thread-2 (]: Began running node model.enterprise_bi_project.stg_orders_line
+[0m03:12:15.588770 [info ] [Thread-3 (]: 3 of 11 START sql view model staging_staging.stg_products ...................... [RUN]
+[0m03:12:15.589101 [info ] [Thread-4 (]: 4 of 11 START sql view model staging_staging.stg_regions ....................... [RUN]
+[0m03:12:15.589418 [info ] [Thread-1 (]: 1 of 11 START sql view model staging_staging.stg_customers ..................... [RUN]
+[0m03:12:15.589721 [info ] [Thread-2 (]: 2 of 11 START sql view model staging_staging.stg_orders_line ................... [RUN]
+[0m03:12:15.590050 [debug] [Thread-3 (]: Acquiring new postgres connection 'model.enterprise_bi_project.stg_products'
+[0m03:12:15.590352 [debug] [Thread-4 (]: Acquiring new postgres connection 'model.enterprise_bi_project.stg_regions'
+[0m03:12:15.590587 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_EnterpriseBI_staging_staging, now model.enterprise_bi_project.stg_customers)
+[0m03:12:15.590817 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_EnterpriseBI_staging_mart, now model.enterprise_bi_project.stg_orders_line)
+[0m03:12:15.591039 [debug] [Thread-3 (]: Began compiling node model.enterprise_bi_project.stg_products
+[0m03:12:15.591263 [debug] [Thread-4 (]: Began compiling node model.enterprise_bi_project.stg_regions
+[0m03:12:15.591477 [debug] [Thread-1 (]: Began compiling node model.enterprise_bi_project.stg_customers
+[0m03:12:15.591680 [debug] [Thread-2 (]: Began compiling node model.enterprise_bi_project.stg_orders_line
+[0m03:12:15.596733 [debug] [Thread-3 (]: Writing injected SQL for node "model.enterprise_bi_project.stg_products"
+[0m03:12:15.598789 [debug] [Thread-4 (]: Writing injected SQL for node "model.enterprise_bi_project.stg_regions"
+[0m03:12:15.600343 [debug] [Thread-1 (]: Writing injected SQL for node "model.enterprise_bi_project.stg_customers"
+[0m03:12:15.602114 [debug] [Thread-2 (]: Writing injected SQL for node "model.enterprise_bi_project.stg_orders_line"
+[0m03:12:15.606378 [debug] [Thread-1 (]: Began executing node model.enterprise_bi_project.stg_customers
+[0m03:12:15.606633 [debug] [Thread-4 (]: Began executing node model.enterprise_bi_project.stg_regions
+[0m03:12:15.608535 [debug] [Thread-2 (]: Began executing node model.enterprise_bi_project.stg_orders_line
+[0m03:12:15.615897 [debug] [Thread-3 (]: Began executing node model.enterprise_bi_project.stg_products
+[0m03:12:15.629568 [debug] [Thread-1 (]: Writing runtime sql for node "model.enterprise_bi_project.stg_customers"
+[0m03:12:15.631572 [debug] [Thread-4 (]: Writing runtime sql for node "model.enterprise_bi_project.stg_regions"
+[0m03:12:15.633121 [debug] [Thread-2 (]: Writing runtime sql for node "model.enterprise_bi_project.stg_orders_line"
+[0m03:12:15.634793 [debug] [Thread-3 (]: Writing runtime sql for node "model.enterprise_bi_project.stg_products"
+[0m03:12:15.635628 [debug] [Thread-4 (]: Using postgres connection "model.enterprise_bi_project.stg_regions"
+[0m03:12:15.635856 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.stg_customers"
+[0m03:12:15.636047 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.stg_orders_line"
+[0m03:12:15.636246 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.stg_products"
+[0m03:12:15.636443 [debug] [Thread-4 (]: On model.enterprise_bi_project.stg_regions: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_regions"} */
+
+  create view "EnterpriseBI"."staging_staging"."stg_regions__dbt_tmp"
+    
+    
+  as (
+    select 
+    region_name::text as region_name,
+    active_flag::text as active_flag,
+    region_code::text as region_code
+from "EnterpriseBI"."raw"."regions"
+where region_name is not null
+  );
+[0m03:12:15.636645 [debug] [Thread-1 (]: On model.enterprise_bi_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_customers"} */
+
+  create view "EnterpriseBI"."staging_staging"."stg_customers__dbt_tmp"
+    
+    
+  as (
+    select 
+    customer_code::text as customer_code,
+    signup_date::date as signup_date,
+    customer_segment::text as customer_segment,
+    email::text as email,
+    loyalty_id::text as loyalty_id
+from "EnterpriseBI"."raw"."customers"
+where customer_code is not null
+  );
+[0m03:12:15.636857 [debug] [Thread-2 (]: On model.enterprise_bi_project.stg_orders_line: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_orders_line"} */
+
+  create view "EnterpriseBI"."staging_staging"."stg_orders_line__dbt_tmp"
+    
+    
+  as (
+    
+
+select
+  order_code::text        as order_id,
+  line_number::int        as line_number,
+
+  store_code::text        as store_id,
+  customer_code::text     as customer_id,
+  product_code::text      as product_id,
+
+  order_ts::date          as order_date,
+  delivery_ts::date       as delivery_date,
+
+  order_type::text        as order_type,
+  order_status::text      as order_status,
+
+  quantity::int           as quantity,
+  unit_price::numeric     as unit_price,
+  unit_cost::numeric      as unit_cost,
+
+  (quantity::numeric * unit_price::numeric) as line_revenue,
+  (quantity::numeric * unit_cost::numeric)  as line_cost,
+  (quantity::numeric * (unit_price::numeric - unit_cost::numeric)) as line_margin
+
+from "EnterpriseBI"."raw"."orders"
+where order_code is not null
+  and line_number is not null
+  );
+[0m03:12:15.637065 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_products: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_products"} */
+
+  create view "EnterpriseBI"."staging_staging"."stg_products__dbt_tmp"
+    
+    
+  as (
+    select 
+    product_code::text as product_code,
+    product_name::text as product_name,
+    category::text as category,
+    base_price::float as base_price,
+    active_flag::text as active_flag
+from "EnterpriseBI"."raw"."products"
+where product_code is not null
+  );
+[0m03:12:15.637246 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m03:12:15.637411 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m03:12:15.637569 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:12:15.637724 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m03:12:15.662028 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.024 seconds
+[0m03:12:15.662361 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.025 seconds
+[0m03:12:15.662607 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.025 seconds
+[0m03:12:15.666788 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.stg_products"
+[0m03:12:15.667035 [debug] [Thread-4 (]: SQL status: CREATE VIEW in 0.030 seconds
+[0m03:12:15.668969 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.stg_orders_line"
+[0m03:12:15.670591 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.stg_customers"
+[0m03:12:15.670820 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_products: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_products"} */
+alter table "EnterpriseBI"."staging_staging"."stg_products" rename to "stg_products__dbt_backup"
+[0m03:12:15.672477 [debug] [Thread-4 (]: Using postgres connection "model.enterprise_bi_project.stg_regions"
+[0m03:12:15.672691 [debug] [Thread-2 (]: On model.enterprise_bi_project.stg_orders_line: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_orders_line"} */
+alter table "EnterpriseBI"."staging_staging"."stg_orders_line" rename to "stg_orders_line__dbt_backup"
+[0m03:12:15.672892 [debug] [Thread-1 (]: On model.enterprise_bi_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_customers"} */
+alter table "EnterpriseBI"."staging_staging"."stg_customers" rename to "stg_customers__dbt_backup"
+[0m03:12:15.673143 [debug] [Thread-4 (]: On model.enterprise_bi_project.stg_regions: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_regions"} */
+alter table "EnterpriseBI"."staging_staging"."stg_regions" rename to "stg_regions__dbt_backup"
+[0m03:12:15.673602 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m03:12:15.675200 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.stg_orders_line"
+[0m03:12:15.675443 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m03:12:15.675667 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m03:12:15.675868 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.003 seconds
+[0m03:12:15.676070 [debug] [Thread-2 (]: On model.enterprise_bi_project.stg_orders_line: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_orders_line"} */
+alter table "EnterpriseBI"."staging_staging"."stg_orders_line__dbt_tmp" rename to "stg_orders_line"
+[0m03:12:15.677624 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.stg_customers"
+[0m03:12:15.679268 [debug] [Thread-4 (]: Using postgres connection "model.enterprise_bi_project.stg_regions"
+[0m03:12:15.680731 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.stg_products"
+[0m03:12:15.680967 [debug] [Thread-1 (]: On model.enterprise_bi_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_customers"} */
+alter table "EnterpriseBI"."staging_staging"."stg_customers__dbt_tmp" rename to "stg_customers"
+[0m03:12:15.681163 [debug] [Thread-4 (]: On model.enterprise_bi_project.stg_regions: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_regions"} */
+alter table "EnterpriseBI"."staging_staging"."stg_regions__dbt_tmp" rename to "stg_regions"
+[0m03:12:15.681360 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m03:12:15.681552 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_products: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_products"} */
+alter table "EnterpriseBI"."staging_staging"."stg_products__dbt_tmp" rename to "stg_products"
+[0m03:12:15.688108 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.006 seconds
+[0m03:12:15.688317 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.007 seconds
+[0m03:12:15.691028 [debug] [Thread-2 (]: On model.enterprise_bi_project.stg_orders_line: COMMIT
+[0m03:12:15.691864 [debug] [Thread-1 (]: On model.enterprise_bi_project.stg_customers: COMMIT
+[0m03:12:15.692102 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.004 seconds
+[0m03:12:15.692885 [debug] [Thread-4 (]: On model.enterprise_bi_project.stg_regions: COMMIT
+[0m03:12:15.693079 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.stg_orders_line"
+[0m03:12:15.693256 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.stg_customers"
+[0m03:12:15.693989 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_products: COMMIT
+[0m03:12:15.694171 [debug] [Thread-4 (]: Using postgres connection "model.enterprise_bi_project.stg_regions"
+[0m03:12:15.694339 [debug] [Thread-2 (]: On model.enterprise_bi_project.stg_orders_line: COMMIT
+[0m03:12:15.694500 [debug] [Thread-1 (]: On model.enterprise_bi_project.stg_customers: COMMIT
+[0m03:12:15.694661 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.stg_products"
+[0m03:12:15.694818 [debug] [Thread-4 (]: On model.enterprise_bi_project.stg_regions: COMMIT
+[0m03:12:15.695016 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_products: COMMIT
+[0m03:12:15.695838 [debug] [Thread-2 (]: SQL status: COMMIT in 0.001 seconds
+[0m03:12:15.696026 [debug] [Thread-4 (]: SQL status: COMMIT in 0.001 seconds
+[0m03:12:15.699531 [debug] [Thread-2 (]: Applying DROP to: "EnterpriseBI"."staging_staging"."stg_orders_line__dbt_backup"
+[0m03:12:15.699734 [debug] [Thread-1 (]: SQL status: COMMIT in 0.005 seconds
+[0m03:12:15.699918 [debug] [Thread-3 (]: SQL status: COMMIT in 0.005 seconds
+[0m03:12:15.700992 [debug] [Thread-4 (]: Applying DROP to: "EnterpriseBI"."staging_staging"."stg_regions__dbt_backup"
+[0m03:12:15.703445 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.stg_orders_line"
+[0m03:12:15.704659 [debug] [Thread-1 (]: Applying DROP to: "EnterpriseBI"."staging_staging"."stg_customers__dbt_backup"
+[0m03:12:15.705670 [debug] [Thread-3 (]: Applying DROP to: "EnterpriseBI"."staging_staging"."stg_products__dbt_backup"
+[0m03:12:15.706019 [debug] [Thread-4 (]: Using postgres connection "model.enterprise_bi_project.stg_regions"
+[0m03:12:15.706200 [debug] [Thread-2 (]: On model.enterprise_bi_project.stg_orders_line: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_orders_line"} */
+drop view if exists "EnterpriseBI"."staging_staging"."stg_orders_line__dbt_backup" cascade
+[0m03:12:15.706537 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.stg_customers"
+[0m03:12:15.706873 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.stg_products"
+[0m03:12:15.707042 [debug] [Thread-4 (]: On model.enterprise_bi_project.stg_regions: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_regions"} */
+drop view if exists "EnterpriseBI"."staging_staging"."stg_regions__dbt_backup" cascade
+[0m03:12:15.707245 [debug] [Thread-1 (]: On model.enterprise_bi_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_customers"} */
+drop view if exists "EnterpriseBI"."staging_staging"."stg_customers__dbt_backup" cascade
+[0m03:12:15.707418 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_products: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_products"} */
+drop view if exists "EnterpriseBI"."staging_staging"."stg_products__dbt_backup" cascade
+[0m03:12:15.709651 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.002 seconds
+[0m03:12:15.710978 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_products: Close
+[0m03:12:15.711181 [debug] [Thread-4 (]: SQL status: DROP VIEW in 0.004 seconds
+[0m03:12:15.711358 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.004 seconds
+[0m03:12:15.712169 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.005 seconds
+[0m03:12:15.712846 [debug] [Thread-4 (]: On model.enterprise_bi_project.stg_regions: Close
+[0m03:12:15.713530 [debug] [Thread-2 (]: On model.enterprise_bi_project.stg_orders_line: Close
+[0m03:12:15.714187 [debug] [Thread-1 (]: On model.enterprise_bi_project.stg_customers: Close
+[0m03:12:15.714782 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109337b90>]}
+[0m03:12:15.715333 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10933dc80>]}
+[0m03:12:15.715183 [info ] [Thread-3 (]: 3 of 11 OK created sql view model staging_staging.stg_products ................. [[32mCREATE VIEW[0m in 0.12s]
+[0m03:12:15.715552 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109782670>]}
+[0m03:12:15.715731 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d8c5d00>]}
+[0m03:12:15.716208 [debug] [Thread-3 (]: Finished running node model.enterprise_bi_project.stg_products
+[0m03:12:15.715973 [info ] [Thread-4 (]: 4 of 11 OK created sql view model staging_staging.stg_regions .................. [[32mCREATE VIEW[0m in 0.12s]
+[0m03:12:15.716539 [info ] [Thread-2 (]: 2 of 11 OK created sql view model staging_staging.stg_orders_line .............. [[32mCREATE VIEW[0m in 0.12s]
+[0m03:12:15.717010 [debug] [Thread-3 (]: Began running node model.enterprise_bi_project.stg_stores
+[0m03:12:15.716832 [info ] [Thread-1 (]: 1 of 11 OK created sql view model staging_staging.stg_customers ................ [[32mCREATE VIEW[0m in 0.12s]
+[0m03:12:15.717363 [debug] [Thread-4 (]: Finished running node model.enterprise_bi_project.stg_regions
+[0m03:12:15.717635 [debug] [Thread-2 (]: Finished running node model.enterprise_bi_project.stg_orders_line
+[0m03:12:15.718075 [debug] [Thread-1 (]: Finished running node model.enterprise_bi_project.stg_customers
+[0m03:12:15.717851 [info ] [Thread-3 (]: 5 of 11 START sql view model staging_staging.stg_stores ........................ [RUN]
+[0m03:12:15.718314 [debug] [Thread-4 (]: Began running node model.enterprise_bi_project.dim_product
+[0m03:12:15.718559 [debug] [Thread-2 (]: Began running node model.enterprise_bi_project.dim_region
+[0m03:12:15.718830 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.enterprise_bi_project.stg_products, now model.enterprise_bi_project.stg_stores)
+[0m03:12:15.719023 [debug] [Thread-1 (]: Began running node model.enterprise_bi_project.dim_customer
+[0m03:12:15.719241 [info ] [Thread-4 (]: 6 of 11 START sql table model staging_mart.dim_product ......................... [RUN]
+[0m03:12:15.719630 [debug] [Thread-3 (]: Began compiling node model.enterprise_bi_project.stg_stores
+[0m03:12:15.719442 [info ] [Thread-2 (]: 7 of 11 START sql table model staging_mart.dim_region .......................... [RUN]
+[0m03:12:15.719895 [info ] [Thread-1 (]: 8 of 11 START sql table model staging_mart.dim_customer ........................ [RUN]
+[0m03:12:15.720102 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.enterprise_bi_project.stg_regions, now model.enterprise_bi_project.dim_product)
+[0m03:12:15.721748 [debug] [Thread-3 (]: Writing injected SQL for node "model.enterprise_bi_project.stg_stores"
+[0m03:12:15.722015 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.enterprise_bi_project.stg_orders_line, now model.enterprise_bi_project.dim_region)
+[0m03:12:15.722228 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.enterprise_bi_project.stg_customers, now model.enterprise_bi_project.dim_customer)
+[0m03:12:15.722423 [debug] [Thread-4 (]: Began compiling node model.enterprise_bi_project.dim_product
+[0m03:12:15.722638 [debug] [Thread-2 (]: Began compiling node model.enterprise_bi_project.dim_region
+[0m03:12:15.722842 [debug] [Thread-1 (]: Began compiling node model.enterprise_bi_project.dim_customer
+[0m03:12:15.724633 [debug] [Thread-4 (]: Writing injected SQL for node "model.enterprise_bi_project.dim_product"
+[0m03:12:15.726042 [debug] [Thread-2 (]: Writing injected SQL for node "model.enterprise_bi_project.dim_region"
+[0m03:12:15.727571 [debug] [Thread-1 (]: Writing injected SQL for node "model.enterprise_bi_project.dim_customer"
+[0m03:12:15.727910 [debug] [Thread-3 (]: Began executing node model.enterprise_bi_project.stg_stores
+[0m03:12:15.730016 [debug] [Thread-3 (]: Writing runtime sql for node "model.enterprise_bi_project.stg_stores"
+[0m03:12:15.730294 [debug] [Thread-4 (]: Began executing node model.enterprise_bi_project.dim_product
+[0m03:12:15.730517 [debug] [Thread-2 (]: Began executing node model.enterprise_bi_project.dim_region
+[0m03:12:15.742894 [debug] [Thread-4 (]: Writing runtime sql for node "model.enterprise_bi_project.dim_product"
+[0m03:12:15.744658 [debug] [Thread-2 (]: Writing runtime sql for node "model.enterprise_bi_project.dim_region"
+[0m03:12:15.744921 [debug] [Thread-1 (]: Began executing node model.enterprise_bi_project.dim_customer
+[0m03:12:15.746664 [debug] [Thread-1 (]: Writing runtime sql for node "model.enterprise_bi_project.dim_customer"
+[0m03:12:15.746949 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.stg_stores"
+[0m03:12:15.747181 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_stores: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_stores"} */
+
+  create view "EnterpriseBI"."staging_staging"."stg_stores__dbt_tmp"
+    
+    
+  as (
+    select 
+    store_code::text as store_code,
+    store_name::text as store_name,
+    city::text as city,
+    state::text as state,
+    region_name::text as region_name,
+    open_date::date as open_date,
+    close_date::date as close_date,
+    square_feet::float as square_feet
+from "EnterpriseBI"."raw"."stores"
+where store_code is not null
+  );
+[0m03:12:15.747378 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m03:12:15.747583 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_region"
+[0m03:12:15.747879 [debug] [Thread-4 (]: Using postgres connection "model.enterprise_bi_project.dim_product"
+[0m03:12:15.748073 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_region: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_region"} */
+
+  
+    
+
+  create  table "EnterpriseBI"."staging_mart"."dim_region__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with base as (
+    select
+        region_name
+    from "EnterpriseBI"."staging_staging"."stg_regions"
+    where region_name is not null
+    group by region_name
+)
+
+select
+    row_number() over (order by region_name) as region_key,
+    region_name::text                         as region_name
+from base
+  );
+  
+[0m03:12:15.748298 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.dim_customer"
+[0m03:12:15.748506 [debug] [Thread-4 (]: On model.enterprise_bi_project.dim_product: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_product"} */
+
+  
+    
+
+  create  table "EnterpriseBI"."staging_mart"."dim_product__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select 
+    product_code::text as product_code,
+    product_name::text as product_name,
+    category::text as category,
+    base_price::float as base_price,
+    active_flag::text as active_flag
+from "EnterpriseBI"."staging_staging"."stg_products"
+where product_code is not null and is_unique(product_code)
+  );
+  
+[0m03:12:15.748711 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:12:15.748908 [debug] [Thread-1 (]: On model.enterprise_bi_project.dim_customer: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_customer"} */
+
+  
+    
+
+  create  table "EnterpriseBI"."staging_mart"."dim_customer__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select 
+    customer_code::text as customer_code,
+    signup_date::date as signup_date,
+    customer_segment::text as customer_segment,
+    email::text as email,
+    loyalty_id::text as loyalty_id
+from "EnterpriseBI"."staging_staging"."stg_customers"
+where customer_code is not null and is_unique(customer_code)
+  );
+  
+[0m03:12:15.749100 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m03:12:15.749321 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m03:12:15.764731 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.017 seconds
+[0m03:12:15.766774 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.stg_stores"
+[0m03:12:15.767059 [debug] [Thread-1 (]: Postgres adapter: Postgres error: function is_unique(text) does not exist
+LINE 21: where customer_code is not null and is_unique(customer_code)
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+[0m03:12:15.767311 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_stores: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_stores"} */
+alter table "EnterpriseBI"."staging_staging"."stg_stores" rename to "stg_stores__dbt_backup"
+[0m03:12:15.767543 [debug] [Thread-4 (]: Postgres adapter: Postgres error: function is_unique(text) does not exist
+LINE 21: where product_code is not null and is_unique(product_code)
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+[0m03:12:15.767767 [debug] [Thread-2 (]: SQL status: SELECT 4 in 0.019 seconds
+[0m03:12:15.767972 [debug] [Thread-1 (]: On model.enterprise_bi_project.dim_customer: ROLLBACK
+[0m03:12:15.768200 [debug] [Thread-4 (]: On model.enterprise_bi_project.dim_product: ROLLBACK
+[0m03:12:15.774097 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.006 seconds
+[0m03:12:15.774934 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_region"
+[0m03:12:15.776810 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.stg_stores"
+[0m03:12:15.777461 [debug] [Thread-1 (]: On model.enterprise_bi_project.dim_customer: Close
+[0m03:12:15.777804 [debug] [Thread-4 (]: On model.enterprise_bi_project.dim_product: Close
+[0m03:12:15.778057 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_region: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_region"} */
+alter table "EnterpriseBI"."staging_mart"."dim_region__dbt_tmp" rename to "dim_region"
+[0m03:12:15.778303 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_stores: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_stores"} */
+alter table "EnterpriseBI"."staging_staging"."stg_stores__dbt_tmp" rename to "stg_stores"
+[0m03:12:15.779917 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m03:12:15.780147 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m03:12:15.781047 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_stores: COMMIT
+[0m03:12:15.781804 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_region: COMMIT
+[0m03:12:15.782046 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.stg_stores"
+[0m03:12:15.782291 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_region"
+[0m03:12:15.782570 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_stores: COMMIT
+[0m03:12:15.782759 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_region: COMMIT
+[0m03:12:15.783289 [debug] [Thread-3 (]: SQL status: COMMIT in 0.000 seconds
+[0m03:12:15.783529 [debug] [Thread-2 (]: SQL status: COMMIT in 0.001 seconds
+[0m03:12:15.785008 [debug] [Thread-3 (]: Applying DROP to: "EnterpriseBI"."staging_staging"."stg_stores__dbt_backup"
+[0m03:12:15.786187 [debug] [Thread-2 (]: Applying DROP to: "EnterpriseBI"."staging_mart"."dim_region__dbt_backup"
+[0m03:12:15.786581 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.stg_stores"
+[0m03:12:15.788165 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_region"
+[0m03:12:15.788454 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_stores: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.stg_stores"} */
+drop view if exists "EnterpriseBI"."staging_staging"."stg_stores__dbt_backup" cascade
+[0m03:12:15.788655 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_region: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_region"} */
+drop table if exists "EnterpriseBI"."staging_mart"."dim_region__dbt_backup" cascade
+[0m03:12:15.789030 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.000 seconds
+[0m03:12:15.789814 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_region: Close
+[0m03:12:15.790017 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m03:12:15.790337 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d931400>]}
+[0m03:12:15.791123 [debug] [Thread-3 (]: On model.enterprise_bi_project.stg_stores: Close
+[0m03:12:15.791595 [info ] [Thread-2 (]: 7 of 11 OK created sql table model staging_mart.dim_region ..................... [[32mSELECT 4[0m in 0.07s]
+[0m03:12:15.792188 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d8055b0>]}
+[0m03:12:15.792476 [debug] [Thread-2 (]: Finished running node model.enterprise_bi_project.dim_region
+[0m03:12:15.792865 [info ] [Thread-3 (]: 5 of 11 OK created sql view model staging_staging.stg_stores ................... [[32mCREATE VIEW[0m in 0.07s]
+[0m03:12:15.793174 [debug] [Thread-2 (]: Began running node model.enterprise_bi_project.dim_date
+[0m03:12:15.793608 [debug] [Thread-3 (]: Finished running node model.enterprise_bi_project.stg_stores
+[0m03:12:15.794097 [debug] [Thread-3 (]: Began running node model.enterprise_bi_project.fact_orders
+[0m03:12:15.793859 [info ] [Thread-2 (]: 9 of 11 START sql table model staging_mart.dim_date ............................ [RUN]
+[0m03:12:15.794488 [info ] [Thread-3 (]: 10 of 11 START sql table model staging_mart.fact_orders ........................ [RUN]
+[0m03:12:15.794787 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.enterprise_bi_project.dim_region, now model.enterprise_bi_project.dim_date)
+[0m03:12:15.795050 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.enterprise_bi_project.stg_stores, now model.enterprise_bi_project.fact_orders)
+[0m03:12:15.795313 [debug] [Thread-2 (]: Began compiling node model.enterprise_bi_project.dim_date
+[0m03:12:15.795563 [debug] [Thread-3 (]: Began compiling node model.enterprise_bi_project.fact_orders
+[0m03:12:15.797221 [debug] [Thread-2 (]: Writing injected SQL for node "model.enterprise_bi_project.dim_date"
+[0m03:12:15.799518 [debug] [Thread-3 (]: Writing injected SQL for node "model.enterprise_bi_project.fact_orders"
+[0m03:12:15.800347 [debug] [Thread-2 (]: Began executing node model.enterprise_bi_project.dim_date
+[0m03:12:15.802461 [debug] [Thread-2 (]: Writing runtime sql for node "model.enterprise_bi_project.dim_date"
+[0m03:12:15.803129 [debug] [Thread-3 (]: Began executing node model.enterprise_bi_project.fact_orders
+[0m03:12:15.805140 [debug] [Thread-3 (]: Writing runtime sql for node "model.enterprise_bi_project.fact_orders"
+[0m03:12:15.808142 [debug] [Thread-4 (]: Database Error in model dim_product (models/marts/dimensions/dim_product.sql)
+  function is_unique(text) does not exist
+  LINE 21: where product_code is not null and is_unique(product_code)
+                                              ^
+  HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+  compiled code at target/run/enterprise_bi_project/models/marts/dimensions/dim_product.sql
+[0m03:12:15.808454 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10932bdd0>]}
+[0m03:12:15.808695 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_date"
+[0m03:12:15.809196 [debug] [Thread-1 (]: Database Error in model dim_customer (models/marts/dimensions/dim_customer.sql)
+  function is_unique(text) does not exist
+  LINE 21: where customer_code is not null and is_unique(customer_code)
+                                               ^
+  HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+  compiled code at target/run/enterprise_bi_project/models/marts/dimensions/dim_customer.sql
+[0m03:12:15.809528 [error] [Thread-4 (]: 6 of 11 ERROR creating sql table model staging_mart.dim_product ................ [[31mERROR[0m in 0.09s]
+[0m03:12:15.809902 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_date: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_date"} */
+
+  
+    
+
+  create  table "EnterpriseBI"."staging_mart"."dim_date__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with bounds as (
+    select
+        min(order_date::date) as start_date,
+        max(order_date::date) as end_date
+    from "EnterpriseBI"."staging_staging"."stg_orders_line"
+),
+
+date_spine as (
+    select generate_series(
+        (select start_date from bounds),
+        (select end_date from bounds),
+        interval '1 day'
+    )::date as date_day
+)
+
+select
+    date_day,
+
+    extract(year from date_day)::int as year,
+    extract(month from date_day)::int as month,
+    to_char(date_day, 'Mon') as month_name,
+
+    to_char(date_day, 'YYYY-MM') as year_month,
+
+    extract(quarter from date_day)::int as quarter,
+    extract(week from date_day)::int as week_of_year,
+
+    extract(day from date_day)::int as day_of_month,
+    to_char(date_day, 'Dy') as day_name,
+
+    case when extract(isodow from date_day) in (6,7) then true else false end as is_weekend
+from date_spine
+order by date_day
+  );
+  
+[0m03:12:15.810150 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.fact_orders"
+[0m03:12:15.810418 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d8f8bf0>]}
+[0m03:12:15.810770 [debug] [Thread-4 (]: Finished running node model.enterprise_bi_project.dim_product
+[0m03:12:15.810972 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:12:15.811205 [debug] [Thread-3 (]: On model.enterprise_bi_project.fact_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fact_orders"} */
+
+  
+    
+
+  create  table "EnterpriseBI"."staging_mart"."fact_orders__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with lines as (
+    select
+        order_id      as order_code,
+        customer_id   as customer_code,
+        store_id      as store_code,
+
+        order_date    as order_ts,
+        delivery_date as delivery_ts,
+        order_status,
+        order_type,
+
+        quantity,
+        unit_price,
+        unit_cost
+    from "EnterpriseBI"."staging_staging"."stg_orders_line"
+)
+
+select
+    order_code,
+
+    -- dimensions / keys for slicing
+    customer_code,
+    store_code,
+
+    -- timestamps (choose a rule; min/max is safe)
+    min(order_ts)    as order_ts,
+    max(delivery_ts) as delivery_ts,
+
+    -- order-level metrics (sum across lines)
+    sum(quantity * unit_price)                        as order_revenue,
+    sum(quantity * unit_cost)                         as order_cost,
+    sum(quantity * (unit_price - unit_cost))          as order_margin,
+    count(*)                                          as line_count,
+    sum(quantity)                                     as total_units,
+
+    -- status/type: if consistent per order, max() is fine
+    max(order_status) as order_status,
+    max(order_type)   as order_type
+
+from lines
+group by 1,2,3
+  );
+  
+[0m03:12:15.811763 [debug] [Thread-4 (]: Began running node model.enterprise_bi_project.dim_store
+[0m03:12:15.811581 [error] [Thread-1 (]: 8 of 11 ERROR creating sql table model staging_mart.dim_customer ............... [[31mERROR[0m in 0.09s]
+[0m03:12:15.812553 [debug] [Thread-7 (]: Marking all children of 'model.enterprise_bi_project.dim_product' to be skipped because of status 'error'.  Reason: Database Error in model dim_product (models/marts/dimensions/dim_product.sql)
+  function is_unique(text) does not exist
+  LINE 21: where product_code is not null and is_unique(product_code)
+                                              ^
+  HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+  compiled code at target/run/enterprise_bi_project/models/marts/dimensions/dim_product.sql.
+[0m03:12:15.812912 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m03:12:15.813197 [info ] [Thread-4 (]: 11 of 11 START sql table model staging_mart.dim_store .......................... [RUN]
+[0m03:12:15.813523 [debug] [Thread-1 (]: Finished running node model.enterprise_bi_project.dim_customer
+[0m03:12:15.814214 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.enterprise_bi_project.dim_product, now model.enterprise_bi_project.dim_store)
+[0m03:12:15.814501 [debug] [Thread-7 (]: Marking all children of 'model.enterprise_bi_project.dim_customer' to be skipped because of status 'error'.  Reason: Database Error in model dim_customer (models/marts/dimensions/dim_customer.sql)
+  function is_unique(text) does not exist
+  LINE 21: where customer_code is not null and is_unique(customer_code)
+                                               ^
+  HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+  compiled code at target/run/enterprise_bi_project/models/marts/dimensions/dim_customer.sql.
+[0m03:12:15.814722 [debug] [Thread-4 (]: Began compiling node model.enterprise_bi_project.dim_store
+[0m03:12:15.817895 [debug] [Thread-4 (]: Writing injected SQL for node "model.enterprise_bi_project.dim_store"
+[0m03:12:15.818530 [debug] [Thread-4 (]: Began executing node model.enterprise_bi_project.dim_store
+[0m03:12:15.820909 [debug] [Thread-4 (]: Writing runtime sql for node "model.enterprise_bi_project.dim_store"
+[0m03:12:15.821520 [debug] [Thread-4 (]: Using postgres connection "model.enterprise_bi_project.dim_store"
+[0m03:12:15.821798 [debug] [Thread-4 (]: On model.enterprise_bi_project.dim_store: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_store"} */
+
+  
+    
+
+  create  table "EnterpriseBI"."staging_mart"."dim_store__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select
+    "EnterpriseBI"."staging_staging"."stg_stores".store_code::text as store_code,
+    "EnterpriseBI"."staging_staging"."stg_stores".store_name::text as store_name,
+    "EnterpriseBI"."staging_staging"."stg_stores".city::text as city,
+    "EnterpriseBI"."staging_staging"."stg_stores".state::text as state,
+    "EnterpriseBI"."staging_mart"."dim_region".region_name::text as region_name,
+    "EnterpriseBI"."staging_staging"."stg_stores".open_date::date as open_date,
+    "EnterpriseBI"."staging_staging"."stg_stores".close_date::date as close_date,
+    "EnterpriseBI"."staging_staging"."stg_stores".square_feet::float as square_feet
+from "EnterpriseBI"."staging_staging"."stg_stores"
+join "EnterpriseBI"."staging_mart"."dim_region" on "EnterpriseBI"."staging_staging"."stg_stores".region_name = "EnterpriseBI"."staging_mart"."dim_region".region_name
+  );
+  
+[0m03:12:15.822041 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m03:12:15.852493 [debug] [Thread-4 (]: SQL status: SELECT 1949 in 0.030 seconds
+[0m03:12:15.854945 [debug] [Thread-4 (]: Using postgres connection "model.enterprise_bi_project.dim_store"
+[0m03:12:15.855216 [debug] [Thread-4 (]: On model.enterprise_bi_project.dim_store: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_store"} */
+alter table "EnterpriseBI"."staging_mart"."dim_store__dbt_tmp" rename to "dim_store"
+[0m03:12:15.856932 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m03:12:15.858085 [debug] [Thread-4 (]: On model.enterprise_bi_project.dim_store: COMMIT
+[0m03:12:15.858333 [debug] [Thread-4 (]: Using postgres connection "model.enterprise_bi_project.dim_store"
+[0m03:12:15.858538 [debug] [Thread-4 (]: On model.enterprise_bi_project.dim_store: COMMIT
+[0m03:12:15.859076 [debug] [Thread-4 (]: SQL status: COMMIT in 0.000 seconds
+[0m03:12:15.860454 [debug] [Thread-4 (]: Applying DROP to: "EnterpriseBI"."staging_mart"."dim_store__dbt_backup"
+[0m03:12:15.860879 [debug] [Thread-4 (]: Using postgres connection "model.enterprise_bi_project.dim_store"
+[0m03:12:15.861088 [debug] [Thread-4 (]: On model.enterprise_bi_project.dim_store: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_store"} */
+drop table if exists "EnterpriseBI"."staging_mart"."dim_store__dbt_backup" cascade
+[0m03:12:15.861457 [debug] [Thread-4 (]: SQL status: DROP TABLE in 0.000 seconds
+[0m03:12:15.862253 [debug] [Thread-4 (]: On model.enterprise_bi_project.dim_store: Close
+[0m03:12:15.862589 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d806990>]}
+[0m03:12:15.863246 [info ] [Thread-4 (]: 11 of 11 OK created sql table model staging_mart.dim_store ..................... [[32mSELECT 1949[0m in 0.05s]
+[0m03:12:15.863955 [debug] [Thread-4 (]: Finished running node model.enterprise_bi_project.dim_store
+[0m03:12:16.209167 [debug] [Thread-2 (]: SQL status: SELECT 2899 in 0.398 seconds
+[0m03:12:16.215229 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_date"
+[0m03:12:16.215852 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_date: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_date"} */
+alter table "EnterpriseBI"."staging_mart"."dim_date" rename to "dim_date__dbt_backup"
+[0m03:12:16.216517 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m03:12:16.218178 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_date"
+[0m03:12:16.218374 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_date: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_date"} */
+alter table "EnterpriseBI"."staging_mart"."dim_date__dbt_tmp" rename to "dim_date"
+[0m03:12:16.218823 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m03:12:16.219655 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_date: COMMIT
+[0m03:12:16.219843 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_date"
+[0m03:12:16.220009 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_date: COMMIT
+[0m03:12:16.220802 [debug] [Thread-2 (]: SQL status: COMMIT in 0.001 seconds
+[0m03:12:16.222292 [debug] [Thread-2 (]: Applying DROP to: "EnterpriseBI"."staging_mart"."dim_date__dbt_backup"
+[0m03:12:16.222681 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_date"
+[0m03:12:16.222865 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_date: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_date"} */
+drop table if exists "EnterpriseBI"."staging_mart"."dim_date__dbt_backup" cascade
+[0m03:12:16.228654 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.006 seconds
+[0m03:12:16.229568 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_date: Close
+[0m03:12:16.229941 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10932b350>]}
+[0m03:12:16.230361 [info ] [Thread-2 (]: 9 of 11 OK created sql table model staging_mart.dim_date ....................... [[32mSELECT 2899[0m in 0.44s]
+[0m03:12:16.230769 [debug] [Thread-2 (]: Finished running node model.enterprise_bi_project.dim_date
+[0m03:12:17.330810 [debug] [Thread-3 (]: SQL status: SELECT 193079 in 1.517 seconds
+[0m03:12:17.339270 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.fact_orders"
+[0m03:12:17.340184 [debug] [Thread-3 (]: On model.enterprise_bi_project.fact_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fact_orders"} */
+alter table "EnterpriseBI"."staging_mart"."fact_orders" rename to "fact_orders__dbt_backup"
+[0m03:12:17.341218 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m03:12:17.342829 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.fact_orders"
+[0m03:12:17.343021 [debug] [Thread-3 (]: On model.enterprise_bi_project.fact_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fact_orders"} */
+alter table "EnterpriseBI"."staging_mart"."fact_orders__dbt_tmp" rename to "fact_orders"
+[0m03:12:17.343393 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m03:12:17.344207 [debug] [Thread-3 (]: On model.enterprise_bi_project.fact_orders: COMMIT
+[0m03:12:17.344389 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.fact_orders"
+[0m03:12:17.344555 [debug] [Thread-3 (]: On model.enterprise_bi_project.fact_orders: COMMIT
+[0m03:12:17.347089 [debug] [Thread-3 (]: SQL status: COMMIT in 0.002 seconds
+[0m03:12:17.348674 [debug] [Thread-3 (]: Applying DROP to: "EnterpriseBI"."staging_mart"."fact_orders__dbt_backup"
+[0m03:12:17.349057 [debug] [Thread-3 (]: Using postgres connection "model.enterprise_bi_project.fact_orders"
+[0m03:12:17.349242 [debug] [Thread-3 (]: On model.enterprise_bi_project.fact_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fact_orders"} */
+drop table if exists "EnterpriseBI"."staging_mart"."fact_orders__dbt_backup" cascade
+[0m03:12:17.351505 [debug] [Thread-3 (]: SQL status: DROP TABLE in 0.002 seconds
+[0m03:12:17.352231 [debug] [Thread-3 (]: On model.enterprise_bi_project.fact_orders: Close
+[0m03:12:17.352587 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0450c1bb-3321-448e-9abc-5bc599c54b68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10932b9b0>]}
+[0m03:12:17.353031 [info ] [Thread-3 (]: 10 of 11 OK created sql table model staging_mart.fact_orders ................... [[32mSELECT 193079[0m in 1.56s]
+[0m03:12:17.353473 [debug] [Thread-3 (]: Finished running node model.enterprise_bi_project.fact_orders
+[0m03:12:17.354432 [debug] [MainThread]: On master: COMMIT
+[0m03:12:17.354639 [debug] [MainThread]: Using postgres connection "master"
+[0m03:12:17.354795 [debug] [MainThread]: On master: COMMIT
+[0m03:12:17.354937 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:12:17.367877 [debug] [MainThread]: SQL status: COMMIT in 0.013 seconds
+[0m03:12:17.369477 [debug] [MainThread]: On master: Close
+[0m03:12:17.369735 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:12:17.369888 [debug] [MainThread]: Connection 'model.enterprise_bi_project.dim_customer' was properly closed.
+[0m03:12:17.370054 [debug] [MainThread]: Connection 'model.enterprise_bi_project.dim_date' was properly closed.
+[0m03:12:17.370216 [debug] [MainThread]: Connection 'model.enterprise_bi_project.fact_orders' was properly closed.
+[0m03:12:17.370352 [debug] [MainThread]: Connection 'model.enterprise_bi_project.dim_store' was properly closed.
+[0m03:12:17.370597 [info ] [MainThread]: 
+[0m03:12:17.370776 [info ] [MainThread]: Finished running 6 table models, 5 view models in 0 hours 0 minutes and 1.99 seconds (1.99s).
+[0m03:12:17.371728 [debug] [MainThread]: Command end result
+[0m03:12:17.410449 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/manifest.json
+[0m03:12:17.412346 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/semantic_manifest.json
+[0m03:12:17.417393 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/run_results.json
+[0m03:12:17.417637 [info ] [MainThread]: 
+[0m03:12:17.417931 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m03:12:17.418178 [info ] [MainThread]: 
+[0m03:12:17.418473 [error] [MainThread]: [31mFailure in model dim_product (models/marts/dimensions/dim_product.sql)[0m
+[0m03:12:17.418761 [error] [MainThread]:   Database Error in model dim_product (models/marts/dimensions/dim_product.sql)
+  function is_unique(text) does not exist
+  LINE 21: where product_code is not null and is_unique(product_code)
+                                              ^
+  HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+  compiled code at target/run/enterprise_bi_project/models/marts/dimensions/dim_product.sql
+[0m03:12:17.418983 [info ] [MainThread]: 
+[0m03:12:17.419235 [info ] [MainThread]:   compiled code at target/compiled/enterprise_bi_project/models/marts/dimensions/dim_product.sql
+[0m03:12:17.419454 [info ] [MainThread]: 
+[0m03:12:17.419706 [error] [MainThread]: [31mFailure in model dim_customer (models/marts/dimensions/dim_customer.sql)[0m
+[0m03:12:17.419946 [error] [MainThread]:   Database Error in model dim_customer (models/marts/dimensions/dim_customer.sql)
+  function is_unique(text) does not exist
+  LINE 21: where customer_code is not null and is_unique(customer_code)
+                                               ^
+  HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+  compiled code at target/run/enterprise_bi_project/models/marts/dimensions/dim_customer.sql
+[0m03:12:17.420128 [info ] [MainThread]: 
+[0m03:12:17.420330 [info ] [MainThread]:   compiled code at target/compiled/enterprise_bi_project/models/marts/dimensions/dim_customer.sql
+[0m03:12:17.420505 [info ] [MainThread]: 
+[0m03:12:17.420703 [info ] [MainThread]: Done. PASS=9 WARN=0 ERROR=2 SKIP=0 NO-OP=0 TOTAL=11
+[0m03:12:17.423546 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 2.9331698, "process_in_blocks": "0", "process_kernel_time": 0.287775, "process_mem_max_rss": "130875392", "process_out_blocks": "0", "process_user_time": 1.664652}
+[0m03:12:17.423969 [debug] [MainThread]: Command `dbt run` failed at 03:12:17.423894 after 2.93 seconds
+[0m03:12:17.424418 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106946450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087a07d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d894170>]}
+[0m03:12:17.424676 [debug] [MainThread]: Flushing usage events
+[0m03:12:17.642615 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:13:42.362962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042d8590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105173890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051739d0>]}
+
+
+============================== 03:13:42.376044 | ff2791e1-fbf0-43cc-b349-e410eb9b7890 ==============================
+[0m03:13:42.376044 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:13:42.376405 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'printer_width': '80', 'debug': 'False', 'indirect_selection': 'eager', 'version_check': 'True', 'no_print': 'None', 'empty': 'False', 'write_json': 'True', 'log_path': '/Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/logs', 'invocation_command': 'dbt run --select dim_customer dim_product', 'warn_error': 'None', 'target_path': 'None', 'partial_parse': 'True', 'fail_fast': 'False', 'log_format': 'default', 'log_cache_events': 'False', 'profiles_dir': '/Users/bapbap23/.dbt', 'use_colors': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m03:13:42.494676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ff2791e1-fbf0-43cc-b349-e410eb9b7890', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104488d60>]}
+[0m03:13:42.526158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ff2791e1-fbf0-43cc-b349-e410eb9b7890', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1052008d0>]}
+[0m03:13:42.526726 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m03:13:42.628571 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m03:13:42.714473 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m03:13:42.714957 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_product.sql
+[0m03:13:42.715184 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/dimensions/dim_customer.sql
+[0m03:13:42.973873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ff2791e1-fbf0-43cc-b349-e410eb9b7890', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106272e50>]}
+[0m03:13:43.027795 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/manifest.json
+[0m03:13:43.029181 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/semantic_manifest.json
+[0m03:13:43.045695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ff2791e1-fbf0-43cc-b349-e410eb9b7890', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f31400>]}
+[0m03:13:43.045979 [info ] [MainThread]: Found 11 models, 71 data tests, 5 sources, 464 macros
+[0m03:13:43.046166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ff2791e1-fbf0-43cc-b349-e410eb9b7890', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105149010>]}
+[0m03:13:43.047646 [info ] [MainThread]: 
+[0m03:13:43.047826 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:13:43.047974 [info ] [MainThread]: 
+[0m03:13:43.048218 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m03:13:43.050111 [debug] [ThreadPool]: Acquiring new postgres connection 'list_EnterpriseBI'
+[0m03:13:43.096861 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI"
+[0m03:13:43.097108 [debug] [ThreadPool]: On list_EnterpriseBI: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m03:13:43.097261 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:13:43.147453 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.050 seconds
+[0m03:13:43.148449 [debug] [ThreadPool]: On list_EnterpriseBI: Close
+[0m03:13:43.149700 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_EnterpriseBI, now list_EnterpriseBI_staging_staging)
+[0m03:13:43.153534 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI_staging_staging"
+[0m03:13:43.153852 [debug] [ThreadPool]: Acquiring new postgres connection 'list_EnterpriseBI_staging_mart'
+[0m03:13:43.154098 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI_staging_staging"} */
+select
+      'EnterpriseBI' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'staging_staging'
+    union all
+    select
+      'EnterpriseBI' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'staging_staging'
+    union all
+    select
+      'EnterpriseBI' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'staging_staging'
+  
+[0m03:13:43.155256 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI_staging_mart"
+[0m03:13:43.155463 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:13:43.155691 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI_staging_mart"} */
+select
+      'EnterpriseBI' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'staging_mart'
+    union all
+    select
+      'EnterpriseBI' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'staging_mart'
+    union all
+    select
+      'EnterpriseBI' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'staging_mart'
+  
+[0m03:13:43.155988 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:13:43.177485 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.021 seconds
+[0m03:13:43.177829 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.022 seconds
+[0m03:13:43.178910 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: ROLLBACK
+[0m03:13:43.180340 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: ROLLBACK
+[0m03:13:43.180759 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: Close
+[0m03:13:43.180966 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: Close
+[0m03:13:43.184971 [debug] [MainThread]: Using postgres connection "master"
+[0m03:13:43.185270 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m03:13:43.185522 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:13:43.206987 [debug] [MainThread]: SQL status: SELECT 5 in 0.021 seconds
+[0m03:13:43.208078 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ff2791e1-fbf0-43cc-b349-e410eb9b7890', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1067d6270>]}
+[0m03:13:43.208420 [debug] [MainThread]: On master: ROLLBACK
+[0m03:13:43.208784 [debug] [MainThread]: On master: COMMIT
+[0m03:13:43.208996 [debug] [MainThread]: Using postgres connection "master"
+[0m03:13:43.209190 [debug] [MainThread]: On master: COMMIT
+[0m03:13:43.209609 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m03:13:43.209789 [debug] [MainThread]: On master: Close
+[0m03:13:43.211598 [debug] [Thread-1 (]: Began running node model.enterprise_bi_project.dim_customer
+[0m03:13:43.211874 [debug] [Thread-2 (]: Began running node model.enterprise_bi_project.dim_product
+[0m03:13:43.212248 [info ] [Thread-1 (]: 1 of 2 START sql table model staging_mart.dim_customer ......................... [RUN]
+[0m03:13:43.212620 [info ] [Thread-2 (]: 2 of 2 START sql table model staging_mart.dim_product .......................... [RUN]
+[0m03:13:43.212924 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_EnterpriseBI_staging_staging, now model.enterprise_bi_project.dim_customer)
+[0m03:13:43.213192 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_EnterpriseBI_staging_mart, now model.enterprise_bi_project.dim_product)
+[0m03:13:43.213440 [debug] [Thread-1 (]: Began compiling node model.enterprise_bi_project.dim_customer
+[0m03:13:43.213668 [debug] [Thread-2 (]: Began compiling node model.enterprise_bi_project.dim_product
+[0m03:13:43.219094 [debug] [Thread-1 (]: Writing injected SQL for node "model.enterprise_bi_project.dim_customer"
+[0m03:13:43.220734 [debug] [Thread-2 (]: Writing injected SQL for node "model.enterprise_bi_project.dim_product"
+[0m03:13:43.221340 [debug] [Thread-2 (]: Began executing node model.enterprise_bi_project.dim_product
+[0m03:13:43.221574 [debug] [Thread-1 (]: Began executing node model.enterprise_bi_project.dim_customer
+[0m03:13:43.247241 [debug] [Thread-2 (]: Writing runtime sql for node "model.enterprise_bi_project.dim_product"
+[0m03:13:43.247760 [debug] [Thread-1 (]: Writing runtime sql for node "model.enterprise_bi_project.dim_customer"
+[0m03:13:43.248541 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_product"
+[0m03:13:43.248760 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.dim_customer"
+[0m03:13:43.248978 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_product: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_product"} */
+
+  
+    
+
+  create  table "EnterpriseBI"."staging_mart"."dim_product__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with base as (
+    select 
+        product_code::text as product_code,
+        product_name::text as product_name,
+        category::text as category,
+        base_price::float as base_price,
+        active_flag::text as active_flag,
+        row_number() over (partition by product_code order by product_code) as rn
+    from "EnterpriseBI"."staging_staging"."stg_products"
+    where product_code is not null
+)
+
+select
+    product_code,
+    product_name,
+    category,
+    base_price,
+    active_flag
+from base
+where rn = 1
+  );
+  
+[0m03:13:43.249196 [debug] [Thread-1 (]: On model.enterprise_bi_project.dim_customer: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_customer"} */
+
+  
+    
+
+  create  table "EnterpriseBI"."staging_mart"."dim_customer__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with base as (
+    select 
+        customer_code::text as customer_code,
+        signup_date::date as signup_date,
+        customer_segment::text as customer_segment,
+        email::text as email,
+        loyalty_id::text as loyalty_id,
+        row_number() over (partition by customer_code order by customer_code) as rn
+    from "EnterpriseBI"."staging_staging"."stg_customers"
+    where customer_code is not null
+)
+
+select
+    customer_code,
+    signup_date,
+    customer_segment,
+    email,
+    loyalty_id
+from base
+where rn = 1
+  );
+  
+[0m03:13:43.249382 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:13:43.249544 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m03:13:43.277010 [debug] [Thread-2 (]: SQL status: SELECT 2441 in 0.028 seconds
+[0m03:13:43.283768 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_product"
+[0m03:13:43.284032 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_product: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_product"} */
+alter table "EnterpriseBI"."staging_mart"."dim_product__dbt_tmp" rename to "dim_product"
+[0m03:13:43.284661 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m03:13:43.293739 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_product: COMMIT
+[0m03:13:43.294036 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_product"
+[0m03:13:43.294236 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_product: COMMIT
+[0m03:13:43.295375 [debug] [Thread-2 (]: SQL status: COMMIT in 0.001 seconds
+[0m03:13:43.299073 [debug] [Thread-2 (]: Applying DROP to: "EnterpriseBI"."staging_mart"."dim_product__dbt_backup"
+[0m03:13:43.301817 [debug] [Thread-2 (]: Using postgres connection "model.enterprise_bi_project.dim_product"
+[0m03:13:43.302040 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_product: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_product"} */
+drop table if exists "EnterpriseBI"."staging_mart"."dim_product__dbt_backup" cascade
+[0m03:13:43.302416 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.000 seconds
+[0m03:13:43.303734 [debug] [Thread-2 (]: On model.enterprise_bi_project.dim_product: Close
+[0m03:13:43.304815 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ff2791e1-fbf0-43cc-b349-e410eb9b7890', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069b8050>]}
+[0m03:13:43.305198 [info ] [Thread-2 (]: 2 of 2 OK created sql table model staging_mart.dim_product ..................... [[32mSELECT 2441[0m in 0.09s]
+[0m03:13:43.305510 [debug] [Thread-2 (]: Finished running node model.enterprise_bi_project.dim_product
+[0m03:13:43.374319 [debug] [Thread-1 (]: SQL status: SELECT 40000 in 0.125 seconds
+[0m03:13:43.376116 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.dim_customer"
+[0m03:13:43.376315 [debug] [Thread-1 (]: On model.enterprise_bi_project.dim_customer: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_customer"} */
+alter table "EnterpriseBI"."staging_mart"."dim_customer__dbt_tmp" rename to "dim_customer"
+[0m03:13:43.377242 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m03:13:43.377966 [debug] [Thread-1 (]: On model.enterprise_bi_project.dim_customer: COMMIT
+[0m03:13:43.378146 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.dim_customer"
+[0m03:13:43.378310 [debug] [Thread-1 (]: On model.enterprise_bi_project.dim_customer: COMMIT
+[0m03:13:43.379766 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m03:13:43.380825 [debug] [Thread-1 (]: Applying DROP to: "EnterpriseBI"."staging_mart"."dim_customer__dbt_backup"
+[0m03:13:43.381180 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.dim_customer"
+[0m03:13:43.381345 [debug] [Thread-1 (]: On model.enterprise_bi_project.dim_customer: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.dim_customer"} */
+drop table if exists "EnterpriseBI"."staging_mart"."dim_customer__dbt_backup" cascade
+[0m03:13:43.381670 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.000 seconds
+[0m03:13:43.382397 [debug] [Thread-1 (]: On model.enterprise_bi_project.dim_customer: Close
+[0m03:13:43.382683 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ff2791e1-fbf0-43cc-b349-e410eb9b7890', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065f2a40>]}
+[0m03:13:43.383007 [info ] [Thread-1 (]: 1 of 2 OK created sql table model staging_mart.dim_customer .................... [[32mSELECT 40000[0m in 0.17s]
+[0m03:13:43.383297 [debug] [Thread-1 (]: Finished running node model.enterprise_bi_project.dim_customer
+[0m03:13:43.383921 [debug] [MainThread]: On master: COMMIT
+[0m03:13:43.384083 [debug] [MainThread]: Using postgres connection "master"
+[0m03:13:43.384218 [debug] [MainThread]: On master: COMMIT
+[0m03:13:43.384347 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:13:43.397892 [debug] [MainThread]: SQL status: COMMIT in 0.013 seconds
+[0m03:13:43.398146 [debug] [MainThread]: On master: Close
+[0m03:13:43.398380 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:13:43.398524 [debug] [MainThread]: Connection 'model.enterprise_bi_project.dim_customer' was properly closed.
+[0m03:13:43.398652 [debug] [MainThread]: Connection 'model.enterprise_bi_project.dim_product' was properly closed.
+[0m03:13:43.398833 [info ] [MainThread]: 
+[0m03:13:43.398997 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 0.35 seconds (0.35s).
+[0m03:13:43.399388 [debug] [MainThread]: Command end result
+[0m03:13:43.424020 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/manifest.json
+[0m03:13:43.425309 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/semantic_manifest.json
+[0m03:13:43.428798 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/run_results.json
+[0m03:13:43.428998 [info ] [MainThread]: 
+[0m03:13:43.429210 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m03:13:43.429373 [info ] [MainThread]: 
+[0m03:13:43.429545 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m03:13:43.431805 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.1108423, "process_in_blocks": "0", "process_kernel_time": 0.216261, "process_mem_max_rss": "134725632", "process_out_blocks": "0", "process_user_time": 1.37465}
+[0m03:13:43.432042 [debug] [MainThread]: Command `dbt run` succeeded at 03:13:43.431998 after 1.11 seconds
+[0m03:13:43.432228 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a0e170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106806450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058afd50>]}
+[0m03:13:43.432412 [debug] [MainThread]: Flushing usage events
+[0m03:13:43.646950 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:22:23.058240 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107aa4590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108943890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089439d0>]}
+
+
+============================== 03:22:23.067496 | 93fb5b10-e55f-4159-bfcf-95656c409381 ==============================
+[0m03:22:23.067496 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:22:23.067865 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'log_path': '/Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/logs', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'write_json': 'True', 'invocation_command': 'dbt run --select fct_orders', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'log_cache_events': 'False', 'debug': 'False', 'target_path': 'None', 'static_parser': 'True', 'introspect': 'True', 'warn_error': 'None', 'profiles_dir': '/Users/bapbap23/.dbt', 'partial_parse': 'True', 'quiet': 'False'}
+[0m03:22:23.192809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '93fb5b10-e55f-4159-bfcf-95656c409381', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c58d60>]}
+[0m03:22:23.224564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '93fb5b10-e55f-4159-bfcf-95656c409381', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089d08d0>]}
+[0m03:22:23.225604 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m03:22:23.293818 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m03:22:23.387062 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 0 files changed.
+[0m03:22:23.387484 [debug] [MainThread]: Partial parsing: added file: enterprise_bi_project://models/marts/facts/fct_orders.sql
+[0m03:22:23.387719 [debug] [MainThread]: Partial parsing: added file: enterprise_bi_project://models/marts/facts/fct_orders.yml
+[0m03:22:23.648836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '93fb5b10-e55f-4159-bfcf-95656c409381', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109a41950>]}
+[0m03:22:23.713971 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/manifest.json
+[0m03:22:23.715545 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/semantic_manifest.json
+[0m03:22:23.731908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '93fb5b10-e55f-4159-bfcf-95656c409381', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096c9400>]}
+[0m03:22:23.732214 [info ] [MainThread]: Found 12 models, 78 data tests, 5 sources, 464 macros
+[0m03:22:23.732404 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '93fb5b10-e55f-4159-bfcf-95656c409381', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096e7770>]}
+[0m03:22:23.733768 [info ] [MainThread]: 
+[0m03:22:23.734111 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:22:23.734375 [info ] [MainThread]: 
+[0m03:22:23.734866 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m03:22:23.735400 [debug] [ThreadPool]: Acquiring new postgres connection 'list_EnterpriseBI'
+[0m03:22:23.779015 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI"
+[0m03:22:23.779258 [debug] [ThreadPool]: On list_EnterpriseBI: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m03:22:23.779408 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:22:23.886938 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.107 seconds
+[0m03:22:23.888165 [debug] [ThreadPool]: On list_EnterpriseBI: Close
+[0m03:22:23.892651 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_EnterpriseBI, now list_EnterpriseBI_staging_mart)
+[0m03:22:23.897598 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI_staging_mart"
+[0m03:22:23.898071 [debug] [ThreadPool]: Acquiring new postgres connection 'list_EnterpriseBI_staging_staging'
+[0m03:22:23.898339 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI_staging_mart"} */
+select
+      'EnterpriseBI' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'staging_mart'
+    union all
+    select
+      'EnterpriseBI' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'staging_mart'
+    union all
+    select
+      'EnterpriseBI' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'staging_mart'
+  
+[0m03:22:23.900057 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI_staging_staging"
+[0m03:22:23.900325 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:22:23.900605 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI_staging_staging"} */
+select
+      'EnterpriseBI' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'staging_staging'
+    union all
+    select
+      'EnterpriseBI' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'staging_staging'
+    union all
+    select
+      'EnterpriseBI' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'staging_staging'
+  
+[0m03:22:23.901004 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:22:23.923253 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.023 seconds
+[0m03:22:23.923683 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.023 seconds
+[0m03:22:23.925283 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: ROLLBACK
+[0m03:22:23.926336 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: ROLLBACK
+[0m03:22:23.926832 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: Close
+[0m03:22:23.927115 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: Close
+[0m03:22:23.932396 [debug] [MainThread]: Using postgres connection "master"
+[0m03:22:23.932762 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m03:22:23.933021 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:22:23.951739 [debug] [MainThread]: SQL status: SELECT 5 in 0.019 seconds
+[0m03:22:23.952628 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '93fb5b10-e55f-4159-bfcf-95656c409381', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ce8ae0>]}
+[0m03:22:23.952907 [debug] [MainThread]: On master: ROLLBACK
+[0m03:22:23.953154 [debug] [MainThread]: On master: COMMIT
+[0m03:22:23.953317 [debug] [MainThread]: Using postgres connection "master"
+[0m03:22:23.953468 [debug] [MainThread]: On master: COMMIT
+[0m03:22:23.953901 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m03:22:23.954053 [debug] [MainThread]: On master: Close
+[0m03:22:23.955584 [debug] [Thread-1 (]: Began running node model.enterprise_bi_project.fct_orders
+[0m03:22:23.955919 [info ] [Thread-1 (]: 1 of 1 START sql table model staging_mart.fct_orders ........................... [RUN]
+[0m03:22:23.956188 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_EnterpriseBI_staging_mart, now model.enterprise_bi_project.fct_orders)
+[0m03:22:23.956392 [debug] [Thread-1 (]: Began compiling node model.enterprise_bi_project.fct_orders
+[0m03:22:23.961184 [debug] [Thread-1 (]: Writing injected SQL for node "model.enterprise_bi_project.fct_orders"
+[0m03:22:23.961635 [debug] [Thread-1 (]: Began executing node model.enterprise_bi_project.fct_orders
+[0m03:22:23.988523 [debug] [Thread-1 (]: Writing runtime sql for node "model.enterprise_bi_project.fct_orders"
+[0m03:22:23.989163 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.fct_orders"
+[0m03:22:23.989405 [debug] [Thread-1 (]: On model.enterprise_bi_project.fct_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fct_orders"} */
+
+  
+    
+
+  create  table "EnterpriseBI"."staging_mart"."fct_orders__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with lines as (
+    select
+        order_id      as order_code,
+        customer_id   as customer_code,
+        store_id      as store_code,
+
+        order_date    as order_ts,
+        delivery_date as delivery_ts,
+        order_status,
+        order_type,
+
+        quantity,
+        unit_price,
+        unit_cost
+    from "EnterpriseBI"."staging_staging"."stg_orders_line"
+)
+
+select
+    order_code,
+
+    -- dimension keys
+    customer_code,
+    store_code,
+
+    -- timestamps (safe aggregation)
+    min(order_ts)    as order_ts,
+    max(delivery_ts) as delivery_ts,
+
+    -- order-level metrics
+    sum(quantity * unit_price)               as order_revenue,
+    sum(quantity * unit_cost)                as order_cost,
+    sum(quantity * (unit_price - unit_cost)) as order_margin,
+    count(*)                                 as line_count,
+    sum(quantity)                            as total_units,
+
+    -- assume status/type are consistent per order
+    max(order_status) as order_status,
+    max(order_type)   as order_type
+
+from lines
+group by 1,2,3
+  );
+  
+[0m03:22:23.989644 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m03:22:25.598551 [debug] [Thread-1 (]: SQL status: SELECT 193079 in 1.608 seconds
+[0m03:22:25.609515 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.fct_orders"
+[0m03:22:25.609760 [debug] [Thread-1 (]: On model.enterprise_bi_project.fct_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fct_orders"} */
+alter table "EnterpriseBI"."staging_mart"."fct_orders__dbt_tmp" rename to "fct_orders"
+[0m03:22:25.616786 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.007 seconds
+[0m03:22:25.624563 [debug] [Thread-1 (]: On model.enterprise_bi_project.fct_orders: COMMIT
+[0m03:22:25.624833 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.fct_orders"
+[0m03:22:25.625011 [debug] [Thread-1 (]: On model.enterprise_bi_project.fct_orders: COMMIT
+[0m03:22:25.625777 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m03:22:25.629164 [debug] [Thread-1 (]: Applying DROP to: "EnterpriseBI"."staging_mart"."fct_orders__dbt_backup"
+[0m03:22:25.631728 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.fct_orders"
+[0m03:22:25.631938 [debug] [Thread-1 (]: On model.enterprise_bi_project.fct_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fct_orders"} */
+drop table if exists "EnterpriseBI"."staging_mart"."fct_orders__dbt_backup" cascade
+[0m03:22:25.632322 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.000 seconds
+[0m03:22:25.633752 [debug] [Thread-1 (]: On model.enterprise_bi_project.fct_orders: Close
+[0m03:22:25.634977 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '93fb5b10-e55f-4159-bfcf-95656c409381', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a208710>]}
+[0m03:22:25.635345 [info ] [Thread-1 (]: 1 of 1 OK created sql table model staging_mart.fct_orders ...................... [[32mSELECT 193079[0m in 1.68s]
+[0m03:22:25.635652 [debug] [Thread-1 (]: Finished running node model.enterprise_bi_project.fct_orders
+[0m03:22:25.636420 [debug] [MainThread]: On master: COMMIT
+[0m03:22:25.636629 [debug] [MainThread]: Using postgres connection "master"
+[0m03:22:25.636784 [debug] [MainThread]: On master: COMMIT
+[0m03:22:25.636927 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:22:25.651162 [debug] [MainThread]: SQL status: COMMIT in 0.014 seconds
+[0m03:22:25.651453 [debug] [MainThread]: On master: Close
+[0m03:22:25.651740 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:22:25.651891 [debug] [MainThread]: Connection 'model.enterprise_bi_project.fct_orders' was properly closed.
+[0m03:22:25.652028 [debug] [MainThread]: Connection 'list_EnterpriseBI_staging_staging' was properly closed.
+[0m03:22:25.652200 [info ] [MainThread]: 
+[0m03:22:25.652419 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 1.92 seconds (1.92s).
+[0m03:22:25.652840 [debug] [MainThread]: Command end result
+[0m03:22:25.680113 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/manifest.json
+[0m03:22:25.681641 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/semantic_manifest.json
+[0m03:22:25.685901 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/run_results.json
+[0m03:22:25.686141 [info ] [MainThread]: 
+[0m03:22:25.686513 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m03:22:25.686689 [info ] [MainThread]: 
+[0m03:22:25.686875 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m03:22:25.689398 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 2.6763096, "process_in_blocks": "0", "process_kernel_time": 0.236971, "process_mem_max_rss": "131203072", "process_out_blocks": "0", "process_user_time": 1.438056}
+[0m03:22:25.689687 [debug] [MainThread]: Command `dbt run` succeeded at 03:22:25.689637 after 2.68 seconds
+[0m03:22:25.689943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109d07e30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a0a4e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a0a7f70>]}
+[0m03:22:25.690157 [debug] [MainThread]: Flushing usage events
+[0m03:22:25.880961 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:41:34.550483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111868590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112dd7890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112dd79d0>]}
+
+
+============================== 04:41:34.559084 | bd14d3e2-c938-41dd-9857-868217819fb7 ==============================
+[0m04:41:34.559084 [info ] [MainThread]: Running with dbt=1.11.2
+[0m04:41:34.559438 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --select fact_orders', 'empty': 'False', 'debug': 'False', 'write_json': 'True', 'introspect': 'True', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'use_colors': 'True', 'indirect_selection': 'eager', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/bapbap23/.dbt', 'quiet': 'False', 'log_path': '/Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/logs'}
+[0m04:41:34.720691 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bd14d3e2-c938-41dd-9857-868217819fb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111becd60>]}
+[0m04:41:34.752150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bd14d3e2-c938-41dd-9857-868217819fb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112e648d0>]}
+[0m04:41:34.752754 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m04:41:34.808793 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m04:41:34.897962 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m04:41:34.898556 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/facts/fact_orders.yml
+[0m04:41:34.898751 [debug] [MainThread]: Partial parsing: updated file: enterprise_bi_project://models/marts/facts/fact_orders.sql
+[0m04:41:35.161003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bd14d3e2-c938-41dd-9857-868217819fb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114586d50>]}
+[0m04:41:35.217064 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/manifest.json
+[0m04:41:35.218893 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/semantic_manifest.json
+[0m04:41:35.237101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bd14d3e2-c938-41dd-9857-868217819fb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113b23d40>]}
+[0m04:41:35.237384 [info ] [MainThread]: Found 12 models, 79 data tests, 5 sources, 464 macros
+[0m04:41:35.237569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bd14d3e2-c938-41dd-9857-868217819fb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1147bc670>]}
+[0m04:41:35.238855 [info ] [MainThread]: 
+[0m04:41:35.239031 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m04:41:35.239176 [info ] [MainThread]: 
+[0m04:41:35.239431 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m04:41:35.239869 [debug] [ThreadPool]: Acquiring new postgres connection 'list_EnterpriseBI'
+[0m04:41:35.292054 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI"
+[0m04:41:35.292294 [debug] [ThreadPool]: On list_EnterpriseBI: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m04:41:35.292450 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:41:35.370700 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.078 seconds
+[0m04:41:35.371828 [debug] [ThreadPool]: On list_EnterpriseBI: Close
+[0m04:41:35.375851 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_EnterpriseBI, now list_EnterpriseBI_staging_staging)
+[0m04:41:35.379982 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI_staging_staging"
+[0m04:41:35.380330 [debug] [ThreadPool]: Acquiring new postgres connection 'list_EnterpriseBI_staging_mart'
+[0m04:41:35.380590 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI_staging_staging"} */
+select
+      'EnterpriseBI' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'staging_staging'
+    union all
+    select
+      'EnterpriseBI' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'staging_staging'
+    union all
+    select
+      'EnterpriseBI' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'staging_staging'
+  
+[0m04:41:35.381844 [debug] [ThreadPool]: Using postgres connection "list_EnterpriseBI_staging_mart"
+[0m04:41:35.382070 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m04:41:35.382304 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "list_EnterpriseBI_staging_mart"} */
+select
+      'EnterpriseBI' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'staging_mart'
+    union all
+    select
+      'EnterpriseBI' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'staging_mart'
+    union all
+    select
+      'EnterpriseBI' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'staging_mart'
+  
+[0m04:41:35.382619 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:41:35.404243 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.022 seconds
+[0m04:41:35.404556 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.022 seconds
+[0m04:41:35.405965 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: ROLLBACK
+[0m04:41:35.406930 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: ROLLBACK
+[0m04:41:35.407290 [debug] [ThreadPool]: On list_EnterpriseBI_staging_staging: Close
+[0m04:41:35.407475 [debug] [ThreadPool]: On list_EnterpriseBI_staging_mart: Close
+[0m04:41:35.411621 [debug] [MainThread]: Using postgres connection "master"
+[0m04:41:35.411932 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m04:41:35.412188 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:41:35.433561 [debug] [MainThread]: SQL status: SELECT 5 in 0.021 seconds
+[0m04:41:35.434632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bd14d3e2-c938-41dd-9857-868217819fb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114974d50>]}
+[0m04:41:35.434978 [debug] [MainThread]: On master: ROLLBACK
+[0m04:41:35.435308 [debug] [MainThread]: On master: COMMIT
+[0m04:41:35.435512 [debug] [MainThread]: Using postgres connection "master"
+[0m04:41:35.435702 [debug] [MainThread]: On master: COMMIT
+[0m04:41:35.436217 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m04:41:35.436413 [debug] [MainThread]: On master: Close
+[0m04:41:35.438396 [debug] [Thread-1 (]: Began running node model.enterprise_bi_project.fact_orders
+[0m04:41:35.438745 [info ] [Thread-1 (]: 1 of 1 START sql table model staging_mart.fact_orders .......................... [RUN]
+[0m04:41:35.439018 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_EnterpriseBI_staging_staging, now model.enterprise_bi_project.fact_orders)
+[0m04:41:35.439339 [debug] [Thread-1 (]: Began compiling node model.enterprise_bi_project.fact_orders
+[0m04:41:35.444893 [debug] [Thread-1 (]: Writing injected SQL for node "model.enterprise_bi_project.fact_orders"
+[0m04:41:35.445951 [debug] [Thread-1 (]: Began executing node model.enterprise_bi_project.fact_orders
+[0m04:41:35.469788 [debug] [Thread-1 (]: Writing runtime sql for node "model.enterprise_bi_project.fact_orders"
+[0m04:41:35.470440 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.fact_orders"
+[0m04:41:35.470669 [debug] [Thread-1 (]: On model.enterprise_bi_project.fact_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fact_orders"} */
+
+  
+    
+
+  create  table "EnterpriseBI"."staging_mart"."fact_orders__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with lines as (
+    select
+        order_id      as order_code,
+        customer_id   as customer_code,
+        store_id      as store_code,
+        product_id    as product_code,
+
+        order_date    as order_ts,
+        delivery_date as delivery_ts,
+        order_status,
+        order_type,
+
+        quantity,
+        unit_price,
+        unit_cost
+    from "EnterpriseBI"."staging_staging"."stg_orders_line"
+)
+
+select
+    order_code,
+
+    -- dimensions / keys for slicing (including product for product analysis)
+    customer_code,
+    store_code,
+    product_code,
+
+    -- timestamps (min/max safe at order level)
+    min(order_ts)    as order_ts,
+    max(delivery_ts) as delivery_ts,
+
+    -- metrics per order-product (sum across lines for this product in this order)
+    sum(quantity * unit_price)               as order_revenue,
+    sum(quantity * unit_cost)                as order_cost,
+    sum(quantity * (unit_price - unit_cost)) as order_margin,
+    count(*)                                as line_count,
+    sum(quantity)                            as total_units,
+
+    -- status/type at order level
+    max(order_status) as order_status,
+    max(order_type)   as order_type
+
+from lines
+group by 1, 2, 3, 4
+  );
+  
+[0m04:41:35.470881 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m04:41:38.196089 [debug] [Thread-1 (]: SQL status: SELECT 555816 in 2.725 seconds
+[0m04:41:38.213097 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.fact_orders"
+[0m04:41:38.213631 [debug] [Thread-1 (]: On model.enterprise_bi_project.fact_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fact_orders"} */
+alter table "EnterpriseBI"."staging_mart"."fact_orders" rename to "fact_orders__dbt_backup"
+[0m04:41:38.214920 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m04:41:38.216485 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.fact_orders"
+[0m04:41:38.216689 [debug] [Thread-1 (]: On model.enterprise_bi_project.fact_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fact_orders"} */
+alter table "EnterpriseBI"."staging_mart"."fact_orders__dbt_tmp" rename to "fact_orders"
+[0m04:41:38.222809 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.006 seconds
+[0m04:41:38.236583 [debug] [Thread-1 (]: On model.enterprise_bi_project.fact_orders: COMMIT
+[0m04:41:38.237083 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.fact_orders"
+[0m04:41:38.237435 [debug] [Thread-1 (]: On model.enterprise_bi_project.fact_orders: COMMIT
+[0m04:41:38.240834 [debug] [Thread-1 (]: SQL status: COMMIT in 0.003 seconds
+[0m04:41:38.244348 [debug] [Thread-1 (]: Applying DROP to: "EnterpriseBI"."staging_mart"."fact_orders__dbt_backup"
+[0m04:41:38.247047 [debug] [Thread-1 (]: Using postgres connection "model.enterprise_bi_project.fact_orders"
+[0m04:41:38.247263 [debug] [Thread-1 (]: On model.enterprise_bi_project.fact_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "enterprise_bi_project", "target_name": "dev", "node_id": "model.enterprise_bi_project.fact_orders"} */
+drop table if exists "EnterpriseBI"."staging_mart"."fact_orders__dbt_backup" cascade
+[0m04:41:38.251199 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.004 seconds
+[0m04:41:38.252688 [debug] [Thread-1 (]: On model.enterprise_bi_project.fact_orders: Close
+[0m04:41:38.253868 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bd14d3e2-c938-41dd-9857-868217819fb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114e78350>]}
+[0m04:41:38.254254 [info ] [Thread-1 (]: 1 of 1 OK created sql table model staging_mart.fact_orders ..................... [[32mSELECT 555816[0m in 2.81s]
+[0m04:41:38.254577 [debug] [Thread-1 (]: Finished running node model.enterprise_bi_project.fact_orders
+[0m04:41:38.255343 [debug] [MainThread]: On master: COMMIT
+[0m04:41:38.255514 [debug] [MainThread]: Using postgres connection "master"
+[0m04:41:38.255665 [debug] [MainThread]: On master: COMMIT
+[0m04:41:38.255804 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m04:41:38.320506 [debug] [MainThread]: SQL status: COMMIT in 0.064 seconds
+[0m04:41:38.322040 [debug] [MainThread]: On master: Close
+[0m04:41:38.322997 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:41:38.323883 [debug] [MainThread]: Connection 'model.enterprise_bi_project.fact_orders' was properly closed.
+[0m04:41:38.324624 [debug] [MainThread]: Connection 'list_EnterpriseBI_staging_mart' was properly closed.
+[0m04:41:38.325370 [info ] [MainThread]: 
+[0m04:41:38.325977 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 3.09 seconds (3.09s).
+[0m04:41:38.327180 [debug] [MainThread]: Command end result
+[0m04:41:38.390024 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/manifest.json
+[0m04:41:38.391620 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/semantic_manifest.json
+[0m04:41:38.395393 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/bapbap23/Desktop/Enterprise_BI_Project_Repo/target/run_results.json
+[0m04:41:38.395644 [info ] [MainThread]: 
+[0m04:41:38.395894 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m04:41:38.396096 [info ] [MainThread]: 
+[0m04:41:38.396286 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m04:41:38.399919 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 3.8917093, "process_in_blocks": "0", "process_kernel_time": 0.263425, "process_mem_max_rss": "130973696", "process_out_blocks": "0", "process_user_time": 1.419145}
+[0m04:41:38.400276 [debug] [MainThread]: Command `dbt run` succeeded at 04:41:38.400223 after 3.89 seconds
+[0m04:41:38.400509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114982570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114e51e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114e51db0>]}
+[0m04:41:38.400717 [debug] [MainThread]: Flushing usage events
+[0m04:41:38.578384 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -2,11 +2,14 @@ version: 2
 
 models:
   - name: fact_orders
-    description: "Order-level fact table (1 row per order_code)"
+    description: "Order-product fact table (1 row per order_code + product_code) for order and product analysis"
     columns:
       - name: order_code
-        tests: [not_null, unique]
+        description: "Order business key (ord-XXX)"
+        tests:
+          - not_null
       - name: customer_code
+        description: "Customer business key (cust-XXX)"
         tests:
           - not_null
           - relationships:
@@ -14,11 +17,30 @@ models:
                 to: ref('stg_customers')
                 field: customer_code
       - name: store_code
+        description: "Store business key (store-XXX)"
         tests:
           - not_null
           - relationships:
               arguments:
                 to: ref('stg_stores')
                 field: store_code
+      - name: product_code
+        description: "Product business key (prd-XXX) for product-level analysis"
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_code
       - name: order_revenue
-        tests: [not_null]
+        description: "Revenue for this order-product, sum(quantity * unit_price)"
+        tests:
+          - not_null
+      - name: order_cost
+        description: "Cost for this order-product, sum(quantity * unit_cost)"
+      - name: order_margin
+        description: "Margin for this order-product, sum(quantity * (unit_price - unit_cost))"
+      - name: line_count
+        description: "Number of lines for this product in this order"
+      - name: total_units
+        description: "Total quantity for this product in this order"

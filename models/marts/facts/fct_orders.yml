@@ -1,0 +1,59 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: "Order-level fact table (1 row per order_code)"
+    columns:
+      - name: order_code
+        description: "Business key for the order (ord-XXX)"
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_code
+        description: "Customer business key (cust-XXX) associated with the order"
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customer')
+                field: customer_code
+
+      - name: store_code
+        description: "Store business key (store-XXX) associated with the order"
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_store')
+                field: store_code
+
+      - name: order_ts
+        description: "Order timestamp (min of underlying line-level order dates)"
+
+      - name: delivery_ts
+        description: "Delivery timestamp (max of underlying line-level delivery dates)"
+
+      - name: order_revenue
+        description: "Total revenue for the order, sum(quantity * unit_price) across all lines"
+        tests:
+          - not_null
+
+      - name: order_cost
+        description: "Total cost for the order, sum(quantity * unit_cost) across all lines"
+
+      - name: order_margin
+        description: "Total margin for the order, sum(quantity * (unit_price - unit_cost)) across all lines"
+
+      - name: line_count
+        description: "Number of line items in the order"
+
+      - name: total_units
+        description: "Total quantity of units in the order (sum of quantity across lines)"
+
+      - name: order_status
+        description: "Order status, aggregated from underlying lines (assumed consistent per order)"
+
+      - name: order_type
+        description: "Order type, aggregated from underlying lines (assumed consistent per order)"
+

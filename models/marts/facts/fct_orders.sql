@@ -5,7 +5,6 @@ with lines as (
         order_id      as order_code,
         customer_id   as customer_code,
         store_id      as store_code,
-        product_id    as product_code,
 
         order_date    as order_ts,
         delivery_date as delivery_ts,
@@ -21,25 +20,25 @@ with lines as (
 select
     order_code,
 
-    -- dimensions / keys for slicing (including product for product analysis)
+    -- dimension keys
     customer_code,
     store_code,
-    product_code,
 
-    -- timestamps (min/max safe at order level)
+    -- timestamps (safe aggregation)
     min(order_ts)    as order_ts,
     max(delivery_ts) as delivery_ts,
 
-    -- metrics per order-product (sum across lines for this product in this order)
+    -- order-level metrics
     sum(quantity * unit_price)               as order_revenue,
     sum(quantity * unit_cost)                as order_cost,
     sum(quantity * (unit_price - unit_cost)) as order_margin,
-    count(*)                                as line_count,
+    count(*)                                 as line_count,
     sum(quantity)                            as total_units,
 
-    -- status/type at order level
+    -- assume status/type are consistent per order
     max(order_status) as order_status,
     max(order_type)   as order_type
 
 from lines
-group by 1, 2, 3, 4
+group by 1,2,3
+
