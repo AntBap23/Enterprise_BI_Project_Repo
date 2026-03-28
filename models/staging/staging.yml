@@ -21,27 +21,32 @@ models:
   - name: stg_orders_line
     description: "Cleaned order line items with standardized codes and relationships"
     columns:
-      - name: order_code
+      - name: order_id
+        description: "Order business key (ord-XXX), aliased from raw order_code"
         tests:
           - not_null
       - name: line_number
+        description: "Line number within the order"
         tests:
           - not_null
-      - name: customer_code
+      - name: customer_id
+        description: "Customer business key (cust-XXX), aliased from raw customer_code"
         tests:
           - not_null
           - relationships:
               arguments:
                 to: ref('stg_customers')
                 field: customer_code
-      - name: store_code
+      - name: store_id
+        description: "Store business key (store-XXX), aliased from raw store_code"
         tests:
           - not_null
           - relationships:
               arguments:
                 to: ref('stg_stores')
                 field: store_code
-      - name: product_code
+      - name: product_id
+        description: "Product business key (prd-XXX), aliased from raw product_code"
         tests:
           - not_null
           - relationships:
@@ -51,7 +56,8 @@ models:
 
     tests:
       - dbt_utils.unique_combination_of_columns:
-          combination_of_columns: [order_code, line_number]
+          arguments:
+            combination_of_columns: [order_id, line_number]
 
   - name: stg_products
     description: "Cleaned product catalog"

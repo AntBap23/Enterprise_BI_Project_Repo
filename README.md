@@ -24,6 +24,7 @@ You get a star schema ready for dashboards and ad-hoc analysis (e.g. by product,
 - **Validation**: Schema checks, nulls, dtypes, uniqueness, and foreign keys before load.
 - **dbt models**: Staging (from `raw`), dimensions (customer, product, store, region, date), and order-level / order-product fact tables.
 - **Tests**: dbt schema and data tests (uniqueness, relationships, not_null).
+- **Dashboard data SQL**: Standalone queries in `dashboard_data/` for exporting or wiring BI tools to mart tables.
 
 ---
 
@@ -55,6 +56,10 @@ You get a star schema ready for dashboards and ad-hoc analysis (e.g. by product,
 │   └── marts/
 │       ├── dimensions/   # dim_customer, dim_product, dim_store, dim_region, dim_date
 │       └── facts/       # fact_orders (order-product), fct_orders (order-level)
+├── dashboard_data/      # Ad-hoc SQL to pull data for dashboards (run in psql / your BI tool against Postgres)
+│   ├── Data_Pull.sql    # Example full data pull
+│   └── Data_Pulled_prd.sql
+├── dashboards/          # Dashboard exports or references (e.g. PDF mockups)
 ├── docs/
 ├── dbt_project.yml
 ├── profiles.yml.template # Copy to ~/.dbt/profiles.yml and set DB credentials
@@ -155,6 +160,18 @@ Useful selects:
 | **Facts** | `fact_orders`, `fct_orders` | **fact_orders**: one row per order + product (for product analysis). **fct_orders**: one row per order (order-level metrics). Both built from `stg_orders_line`. |
 
 Staging uses schema `staging`; marts use schema `mart` (see `dbt_project.yml`).
+
+---
+
+## Dashboard data (`dashboard_data/`)
+
+These `.sql` files are **not** dbt models. They are queries you run manually against PostgreSQL after `dbt run` (or equivalent), usually targeting **mart** schemas (e.g. `staging_mart`, `mart`) depending on your `profiles.yml` and `dbt_project.yml` settings.
+
+- Point your SQL client or BI **data source** at the same database you use for dbt.
+- Open a script under `dashboard_data/`, adjust schema names (`staging_mart`, `staging`, etc.) if they differ on your machine.
+- Execute the query and save results as CSV or connect the BI tool with the same SQL as a **custom SQL** dataset.
+
+The `dashboards/` folder can hold exported PDFs or other assets for design references—not executed by the pipeline.
 
 ---
 

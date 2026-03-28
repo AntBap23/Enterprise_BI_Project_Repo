@@ -4670,3 +4670,322 @@ drop table if exists "EnterpriseBI"."staging_mart"."fact_orders__dbt_backup" cas
 [0m04:41:38.400509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114982570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114e51e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114e51db0>]}
 [0m04:41:38.400717 [debug] [MainThread]: Flushing usage events
 [0m04:41:38.578384 [debug] [MainThread]: An error was encountered while trying to flush usage events
+==================== 2026-03-22T09:49:02.809366Z | 019d14f2-b1c2-7e81-8fdc-4a51f43c0652 ====================
+09:49:02.814248 [info ]: dbt-fusion 2.0.0-preview.126
+09:49:02.818583 [info ]: Started loading project
+09:49:02.848776 [info ]: Loading ~/.dbt/profiles.yml
+09:49:03.168616 [debug]:    Started loading packages
+09:49:03.182395 [debug]:     Loaded [  0.01s] packages
+09:49:03.188817 [info ]: Finished loading project [  0.37s]
+09:49:03.193932 [info ]: Started parsing
+09:49:03.331777 [debug]: Finished parsing models/marts/facts/fact_orders.yml [  0.01s]
+09:49:03.332775 [debug]: Finished parsing models/marts/facts/fct_orders.yml [  0.00s]
+09:49:03.336148 [debug]: Finished parsing models/marts/marts.yml [  0.00s]
+09:49:03.337916 [debug]: Finished parsing models/sources/sources.yml [  0.00s]
+09:49:03.339753 [debug]: Finished parsing models/staging/staging.yml [  0.00s]
+09:49:03.378662 [debug]: Finished parsing models/marts/dimensions/dim_customer.sql [  0.02s]
+09:49:03.379589 [debug]: Finished parsing models/marts/dimensions/dim_date.sql [  0.00s]
+09:49:03.380096 [debug]: Finished parsing models/marts/dimensions/dim_product.sql [  0.00s]
+09:49:03.380915 [debug]: Finished parsing models/marts/dimensions/dim_region.sql [  0.00s]
+09:49:03.382372 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:4:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:03.383018 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:5:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:03.383049 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:6:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:03.383065 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:7:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:03.383079 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:8:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:03.383093 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:9:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:03.383106 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:10:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:03.383119 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:11:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:03.383132 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:13:33
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:03.383145 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:13:71
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:03.383519 [debug]: Finished parsing models/marts/dimensions/dim_store.sql [  0.00s]
+09:49:03.384982 [debug]: Finished parsing models/marts/facts/fact_orders.sql [  0.00s]
+09:49:03.386572 [debug]: Finished parsing models/marts/facts/fct_orders.sql [  0.00s]
+09:49:03.388004 [debug]: Finished parsing models/staging/stg_customers.sql [  0.00s]
+09:49:03.388969 [debug]: Finished parsing models/staging/stg_orders_line.sql [  0.00s]
+09:49:03.391213 [debug]: Finished parsing models/staging/stg_products.sql [  0.00s]
+09:49:03.393026 [debug]: Finished parsing models/staging/stg_regions.sql [  0.00s]
+09:49:03.393891 [debug]: Finished parsing models/staging/stg_stores.sql [  0.00s]
+09:49:19.467696 [error]: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models/staging/staging.yml:59:35
+09:49:28.457441 [debug]: Finished parsing target/generic_tests/unique_stg_regions_region_name.sql [  0.00s]
+09:49:28.457448 [debug]: Finished parsing target/generic_tests/relationships_fact_orders_0d243111704b852db027f8f02e6e2c9c.sql [  0.00s]
+09:49:28.457595 [debug]: Finished parsing target/generic_tests/not_null_dim_date_day_of_week.sql [  0.00s]
+09:49:28.457671 [debug]: Finished parsing target/generic_tests/not_null_dim_store_city.sql [  0.00s]
+09:49:28.457683 [debug]: Finished parsing target/generic_tests/not_null_dim_product_category.sql [  0.00s]
+09:49:28.457794 [debug]: Finished parsing target/generic_tests/unique_dim_customer_customer_code.sql [  0.00s]
+09:49:28.457867 [debug]: Finished parsing target/generic_tests/not_null_stg_orders_line_line_number.sql [  0.00s]
+09:49:28.458003 [debug]: Finished parsing target/generic_tests/unique_fct_orders_order_code.sql [  0.00s]
+09:49:28.458638 [debug]: Finished parsing target/generic_tests/dbt_utils_accepted_range_dim_date_day_of_week__7__1.sql [  0.00s]
+09:49:28.458746 [debug]: Finished parsing target/generic_tests/not_null_fact_orders_order_code.sql [  0.00s]
+09:49:28.458835 [debug]: Finished parsing target/generic_tests/not_null_stg_regions_region_name.sql [  0.00s]
+09:49:28.458854 [debug]: Finished parsing target/generic_tests/not_null_dim_customer_customer_code.sql [  0.00s]
+09:49:28.458927 [debug]: Finished parsing target/generic_tests/not_null_dim_store_region_key.sql [  0.00s]
+09:49:28.459415 [debug]: Finished parsing target/generic_tests/not_null_stg_stores_city.sql [  0.00s]
+09:49:28.460405 [debug]: Finished parsing target/generic_tests/not_null_fct_orders_order_revenue.sql [  0.00s]
+09:49:28.460535 [debug]: Finished parsing target/generic_tests/unique_dim_customer_customer_key.sql [  0.00s]
+09:49:28.460587 [debug]: Finished parsing target/generic_tests/not_null_stg_stores_region_name.sql [  0.00s]
+09:49:28.460741 [debug]: Finished parsing target/generic_tests/not_null_stg_orders_line_order_id.sql [  0.00s]
+09:49:28.460768 [debug]: Finished parsing target/generic_tests/unique_dim_product_product_code.sql [  0.00s]
+09:49:28.460838 [debug]: Finished parsing target/generic_tests/not_null_fact_orders_order_revenue.sql [  0.00s]
+09:49:28.460892 [debug]: Finished parsing target/generic_tests/not_null_dim_date_is_weekend.sql [  0.00s]
+09:49:28.460929 [debug]: Finished parsing target/generic_tests/relationships_dim_store_region_key__region_key__ref_dim_region_.sql [  0.00s]
+09:49:28.462005 [debug]: Finished parsing target/generic_tests/relationships_stg_stores_41d0f9a65426c9e4948fe9a7d6614510.sql [  0.00s]
+09:49:28.462181 [debug]: Finished parsing target/generic_tests/not_null_dim_customer_customer_key.sql [  0.00s]
+09:49:28.462239 [debug]: Finished parsing target/generic_tests/not_null_fct_orders_store_code.sql [  0.00s]
+09:49:28.462258 [debug]: Finished parsing target/generic_tests/not_null_dim_date_month.sql [  0.00s]
+09:49:28.462323 [debug]: Finished parsing target/generic_tests/not_null_fact_orders_product_code.sql [  0.00s]
+09:49:28.462381 [debug]: Finished parsing target/generic_tests/not_null_dim_store_state.sql [  0.00s]
+09:49:28.462444 [debug]: Finished parsing target/generic_tests/not_null_dim_product_product_code.sql [  0.00s]
+09:49:28.462525 [debug]: Finished parsing target/generic_tests/not_null_stg_orders_line_product_id.sql [  0.00s]
+09:49:28.463057 [debug]: Finished parsing target/generic_tests/dbt_utils_accepted_range_dim_date_month__12__1.sql [  0.00s]
+09:49:28.463153 [debug]: Finished parsing target/generic_tests/not_null_dim_customer_customer_segment.sql [  0.00s]
+09:49:28.463172 [debug]: Finished parsing target/generic_tests/unique_dim_product_product_key.sql [  0.00s]
+09:49:28.463233 [debug]: Finished parsing target/generic_tests/relationships_fact_orders_8487ad34bdb00c9e45e7433c5a6f8422.sql [  0.00s]
+09:49:28.463293 [debug]: Finished parsing target/generic_tests/not_null_stg_stores_state.sql [  0.00s]
+09:49:28.463705 [debug]: Finished parsing target/generic_tests/relationships_fct_orders_store_code__store_code__ref_dim_store_.sql [  0.00s]
+09:49:28.464181 [debug]: Finished parsing target/generic_tests/unique_stg_stores_store_code.sql [  0.00s]
+09:49:28.464481 [debug]: Finished parsing target/generic_tests/unique_dim_store_store_code.sql [  0.00s]
+09:49:28.464583 [debug]: Finished parsing target/generic_tests/not_null_dim_product_product_key.sql [  0.00s]
+09:49:28.464835 [debug]: Finished parsing target/generic_tests/not_null_fact_orders_store_code.sql [  0.00s]
+09:49:28.464901 [debug]: Finished parsing target/generic_tests/unique_stg_customers_customer_code.sql [  0.00s]
+09:49:28.464940 [debug]: Finished parsing target/generic_tests/not_null_dim_date_date.sql [  0.00s]
+09:49:28.464861 [debug]: Finished parsing target/generic_tests/relationships_stg_orders_line_20420bd62601d111b924f4f6bca29472.sql [  0.00s]
+09:49:28.465050 [debug]: Finished parsing target/generic_tests/not_null_stg_stores_store_code.sql [  0.00s]
+09:49:28.465114 [debug]: Finished parsing target/generic_tests/not_null_dim_date_month_name.sql [  0.00s]
+09:49:28.465543 [debug]: Finished parsing target/generic_tests/not_null_dim_store_store_code.sql [  0.00s]
+09:49:28.465769 [debug]: Finished parsing target/generic_tests/not_null_dim_product_product_name.sql [  0.00s]
+09:49:28.466548 [debug]: Finished parsing target/generic_tests/relationships_fact_orders_5eee4d6681fb02c72125a62588ced73c.sql [  0.00s]
+09:49:28.466607 [debug]: Finished parsing target/generic_tests/not_null_dim_date_quarter.sql [  0.00s]
+09:49:28.466718 [debug]: Finished parsing target/generic_tests/unique_dim_region_region_key.sql [  0.00s]
+09:49:28.466876 [debug]: Finished parsing target/generic_tests/not_null_stg_orders_line_store_id.sql [  0.00s]
+09:49:28.467076 [debug]: Finished parsing target/generic_tests/not_null_stg_stores_store_name.sql [  0.00s]
+09:49:28.467078 [debug]: Finished parsing target/generic_tests/unique_dim_store_store_key.sql [  0.00s]
+09:49:28.467190 [debug]: Finished parsing target/generic_tests/unique_dim_date_date_key.sql [  0.00s]
+09:49:28.467217 [debug]: Finished parsing target/generic_tests/dbt_utils_accepted_range_dim_date_quarter__4__1.sql [  0.00s]
+09:49:28.467314 [debug]: Finished parsing target/generic_tests/not_null_stg_customers_customer_code.sql [  0.00s]
+09:49:28.467894 [debug]: Finished parsing target/generic_tests/not_null_fct_orders_customer_code.sql [  0.00s]
+09:49:28.467978 [debug]: Finished parsing target/generic_tests/not_null_dim_date_date_key.sql [  0.00s]
+09:49:28.468056 [debug]: Finished parsing target/generic_tests/not_null_dim_region_region_key.sql [  0.00s]
+09:49:28.468090 [debug]: Finished parsing target/generic_tests/relationships_stg_orders_line_a7c1301402a4d88f98b885e55ffa14dd.sql [  0.00s]
+09:49:28.468155 [debug]: Finished parsing target/generic_tests/not_null_dim_date_week.sql [  0.00s]
+09:49:28.468360 [debug]: Finished parsing target/generic_tests/not_null_dim_store_store_key.sql [  0.00s]
+09:49:28.468608 [debug]: Finished parsing target/generic_tests/not_null_stg_customers_customer_segment.sql [  0.00s]
+09:49:28.468816 [debug]: Finished parsing target/generic_tests/relationships_fct_orders_85a5b7069c2d42b16327ae31ffcbb015.sql [  0.00s]
+09:49:28.469120 [debug]: Finished parsing target/generic_tests/dbt_utils_unique_combination_o_b5edb517e9de936fff318d7543660339.sql [  0.00s]
+09:49:28.469174 [debug]: Finished parsing target/generic_tests/not_null_dim_date_year.sql [  0.00s]
+09:49:28.469203 [debug]: Finished parsing target/generic_tests/not_null_dim_date_day_name.sql [  0.00s]
+09:49:28.469336 [debug]: Finished parsing target/generic_tests/unique_dim_region_region_name.sql [  0.00s]
+09:49:28.469338 [debug]: Finished parsing target/generic_tests/not_null_dim_store_store_name.sql [  0.00s]
+09:49:28.469369 [debug]: Finished parsing target/generic_tests/not_null_stg_products_category.sql [  0.00s]
+09:49:28.469676 [debug]: Finished parsing target/generic_tests/not_null_fct_orders_order_code.sql [  0.00s]
+09:49:28.469905 [debug]: Finished parsing target/generic_tests/not_null_stg_orders_line_customer_id.sql [  0.00s]
+09:49:28.470052 [debug]: Finished parsing target/generic_tests/not_null_dim_region_region_name.sql [  0.00s]
+09:49:28.470058 [debug]: Finished parsing target/generic_tests/not_null_dim_date_day_of_month.sql [  0.00s]
+09:49:28.470122 [debug]: Finished parsing target/generic_tests/unique_stg_products_product_code.sql [  0.00s]
+09:49:28.470174 [debug]: Finished parsing target/generic_tests/not_null_fact_orders_customer_code.sql [  0.00s]
+09:49:28.470554 [debug]: Finished parsing target/generic_tests/relationships_stg_orders_line_dd13031513631ebdc4d33d6a63c70139.sql [  0.00s]
+09:49:28.470645 [debug]: Finished parsing target/generic_tests/not_null_stg_products_product_code.sql [  0.00s]
+09:49:28.471187 [debug]: Finished parsing target/generic_tests/not_null_stg_products_product_name.sql [  0.00s]
+09:49:28.502393 [info ]: Finished parsing [ 25.31s]
+09:49:29.216742 [info ]: suggestion: Run 'dbt deps' to see the latest fusion compatible packages. For compatibility errors, try the autofix script: https://github.com/dbt-labs/dbt-autofix
+09:49:29.216742 [info ]: 
+==================== Execution Summary =====================
+Finished 'parse' with 10 warnings and 1 error for target 'dev' [26.4s]
+==================== 2026-03-22T09:49:31.945298Z | 019d14f3-23a5-7ae2-994a-b1f8a1076341 ====================
+09:49:31.946114 [info ]: dbt-fusion 2.0.0-preview.126
+09:49:31.946865 [info ]: Started loading project
+09:49:31.951007 [info ]: Loading ~/.dbt/profiles.yml
+09:49:32.182140 [debug]:    Started loading packages
+09:49:32.183112 [debug]:     Loaded [  0.00s] packages
+09:49:32.183448 [info ]: Finished loading project [  0.24s]
+09:49:32.183970 [info ]: Started parsing
+09:49:32.200434 [debug]: Finished parsing models/marts/facts/fact_orders.yml [  0.00s]
+09:49:32.200638 [debug]: Finished parsing models/marts/facts/fct_orders.yml [  0.00s]
+09:49:32.201054 [debug]: Finished parsing models/marts/marts.yml [  0.00s]
+09:49:32.201397 [debug]: Finished parsing models/sources/sources.yml [  0.00s]
+09:49:32.201746 [debug]: Finished parsing models/staging/staging.yml [  0.00s]
+09:49:32.205902 [debug]: Finished parsing models/marts/dimensions/dim_customer.sql [  0.00s]
+09:49:32.206539 [debug]: Finished parsing models/marts/dimensions/dim_date.sql [  0.00s]
+09:49:32.206929 [debug]: Finished parsing models/marts/dimensions/dim_product.sql [  0.00s]
+09:49:32.207259 [debug]: Finished parsing models/marts/dimensions/dim_region.sql [  0.00s]
+09:49:32.207760 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:4:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:32.207783 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:5:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:32.207789 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:6:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:32.207795 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:7:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:32.207801 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:8:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:32.207806 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:9:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:32.207811 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:10:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:32.207817 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:11:5
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:32.207823 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:13:33
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:32.207829 [warn ]: dbt1069: Mangled ref() has non-whitespace content directly after it. This may cause unexpected behavior. Add whitespace or use a separator.
+  --> models/marts/dimensions/dim_store.sql:13:71
+To suppress this warning, add to dbt_project.yml:
+  custom_checks:
+    analysis.mangled_ref: off
+09:49:32.207855 [debug]: Finished parsing models/marts/dimensions/dim_store.sql [  0.00s]
+09:49:32.208337 [debug]: Finished parsing models/marts/facts/fact_orders.sql [  0.00s]
+09:49:32.208825 [debug]: Finished parsing models/marts/facts/fct_orders.sql [  0.00s]
+09:49:32.209297 [debug]: Finished parsing models/staging/stg_customers.sql [  0.00s]
+09:49:32.209725 [debug]: Finished parsing models/staging/stg_orders_line.sql [  0.00s]
+09:49:32.210039 [debug]: Finished parsing models/staging/stg_products.sql [  0.00s]
+09:49:32.210286 [debug]: Finished parsing models/staging/stg_regions.sql [  0.00s]
+09:49:32.210631 [debug]: Finished parsing models/staging/stg_stores.sql [  0.00s]
+09:49:32.228689 [debug]: Finished parsing target/generic_tests/unique_stg_regions_region_name.sql [  0.00s]
+09:49:32.228741 [debug]: Finished parsing target/generic_tests/not_null_dim_date_day_of_week.sql [  0.00s]
+09:49:32.228756 [debug]: Finished parsing target/generic_tests/unique_fct_orders_order_code.sql [  0.00s]
+09:49:32.229358 [debug]: Finished parsing target/generic_tests/dbt_utils_accepted_range_dim_date_day_of_week__7__1.sql [  0.00s]
+09:49:32.229380 [debug]: Finished parsing target/generic_tests/relationships_fact_orders_0d243111704b852db027f8f02e6e2c9c.sql [  0.00s]
+09:49:32.229441 [debug]: Finished parsing target/generic_tests/not_null_dim_product_category.sql [  0.00s]
+09:49:32.229485 [debug]: Finished parsing target/generic_tests/not_null_stg_orders_line_line_number.sql [  0.00s]
+09:49:32.229565 [debug]: Finished parsing target/generic_tests/unique_dim_customer_customer_code.sql [  0.00s]
+09:49:32.229758 [debug]: Finished parsing target/generic_tests/not_null_stg_regions_region_name.sql [  0.00s]
+09:49:32.229823 [debug]: Finished parsing target/generic_tests/not_null_dim_store_city.sql [  0.00s]
+09:49:32.230143 [debug]: Finished parsing target/generic_tests/unique_dim_product_product_code.sql [  0.00s]
+09:49:32.230144 [debug]: Finished parsing target/generic_tests/not_null_fact_orders_order_code.sql [  0.00s]
+09:49:32.230421 [debug]: Finished parsing target/generic_tests/not_null_fct_orders_order_revenue.sql [  0.00s]
+09:49:32.230481 [debug]: Finished parsing target/generic_tests/not_null_dim_date_is_weekend.sql [  0.00s]
+09:49:32.230552 [debug]: Finished parsing target/generic_tests/not_null_dim_product_product_code.sql [  0.00s]
+09:49:32.230610 [debug]: Finished parsing target/generic_tests/not_null_dim_customer_customer_code.sql [  0.00s]
+09:49:32.230751 [debug]: Finished parsing target/generic_tests/not_null_dim_store_region_key.sql [  0.00s]
+09:49:32.230829 [debug]: Finished parsing target/generic_tests/not_null_fct_orders_store_code.sql [  0.00s]
+09:49:32.230980 [debug]: Finished parsing target/generic_tests/unique_dim_customer_customer_key.sql [  0.00s]
+09:49:32.230997 [debug]: Finished parsing target/generic_tests/not_null_fact_orders_order_revenue.sql [  0.00s]
+09:49:32.231012 [debug]: Finished parsing target/generic_tests/not_null_stg_stores_city.sql [  0.00s]
+09:49:32.231058 [debug]: Finished parsing target/generic_tests/not_null_stg_orders_line_order_id.sql [  0.00s]
+09:49:32.231083 [debug]: Finished parsing target/generic_tests/not_null_dim_date_month.sql [  0.00s]
+09:49:32.231438 [debug]: Finished parsing target/generic_tests/relationships_dim_store_region_key__region_key__ref_dim_region_.sql [  0.00s]
+09:49:32.231635 [debug]: Finished parsing target/generic_tests/unique_dim_product_product_key.sql [  0.00s]
+09:49:32.231906 [debug]: Finished parsing target/generic_tests/not_null_dim_store_state.sql [  0.00s]
+09:49:32.231938 [debug]: Finished parsing target/generic_tests/not_null_dim_customer_customer_key.sql [  0.00s]
+09:49:32.232079 [debug]: Finished parsing target/generic_tests/dbt_utils_accepted_range_dim_date_month__12__1.sql [  0.00s]
+09:49:32.232360 [debug]: Finished parsing target/generic_tests/unique_dim_store_store_code.sql [  0.00s]
+09:49:32.232344 [debug]: Finished parsing target/generic_tests/not_null_stg_stores_region_name.sql [  0.00s]
+09:49:32.232391 [debug]: Finished parsing target/generic_tests/not_null_fact_orders_product_code.sql [  0.00s]
+09:49:32.232486 [debug]: Finished parsing target/generic_tests/relationships_fct_orders_store_code__store_code__ref_dim_store_.sql [  0.00s]
+09:49:32.232591 [debug]: Finished parsing target/generic_tests/not_null_stg_orders_line_product_id.sql [  0.00s]
+09:49:32.233151 [debug]: Finished parsing target/generic_tests/not_null_dim_product_product_key.sql [  0.00s]
+09:49:32.233229 [debug]: Finished parsing target/generic_tests/not_null_dim_date_month_name.sql [  0.00s]
+09:49:32.233268 [debug]: Finished parsing target/generic_tests/relationships_stg_orders_line_20420bd62601d111b924f4f6bca29472.sql [  0.00s]
+09:49:32.233372 [debug]: Finished parsing target/generic_tests/relationships_stg_stores_41d0f9a65426c9e4948fe9a7d6614510.sql [  0.00s]
+09:49:32.233464 [debug]: Finished parsing target/generic_tests/unique_stg_customers_customer_code.sql [  0.00s]
+09:49:32.233599 [debug]: Finished parsing target/generic_tests/not_null_dim_store_store_code.sql [  0.00s]
+09:49:32.233879 [debug]: Finished parsing target/generic_tests/not_null_dim_product_product_name.sql [  0.00s]
+09:49:32.233973 [debug]: Finished parsing target/generic_tests/not_null_dim_date_quarter.sql [  0.00s]
+09:49:32.234330 [debug]: Finished parsing target/generic_tests/dbt_utils_accepted_range_dim_date_quarter__4__1.sql [  0.00s]
+09:49:32.234342 [debug]: Finished parsing target/generic_tests/not_null_stg_orders_line_store_id.sql [  0.00s]
+09:49:32.234514 [debug]: Finished parsing target/generic_tests/relationships_fact_orders_8487ad34bdb00c9e45e7433c5a6f8422.sql [  0.00s]
+09:49:32.234554 [debug]: Finished parsing target/generic_tests/unique_dim_store_store_key.sql [  0.00s]
+09:49:32.234858 [debug]: Finished parsing target/generic_tests/unique_dim_region_region_key.sql [  0.00s]
+09:49:32.235297 [debug]: Finished parsing target/generic_tests/not_null_dim_customer_customer_segment.sql [  0.00s]
+09:49:32.235522 [debug]: Finished parsing target/generic_tests/not_null_stg_stores_state.sql [  0.00s]
+09:49:32.235568 [debug]: Finished parsing target/generic_tests/relationships_stg_orders_line_a7c1301402a4d88f98b885e55ffa14dd.sql [  0.00s]
+09:49:32.236140 [debug]: Finished parsing target/generic_tests/not_null_stg_customers_customer_code.sql [  0.00s]
+09:49:32.236190 [debug]: Finished parsing target/generic_tests/not_null_fact_orders_store_code.sql [  0.00s]
+09:49:32.236225 [debug]: Finished parsing target/generic_tests/not_null_dim_region_region_key.sql [  0.00s]
+09:49:32.236439 [debug]: Finished parsing target/generic_tests/not_null_dim_date_date.sql [  0.00s]
+09:49:32.236938 [debug]: Finished parsing target/generic_tests/relationships_fact_orders_5eee4d6681fb02c72125a62588ced73c.sql [  0.00s]
+09:49:32.236951 [debug]: Finished parsing target/generic_tests/not_null_dim_date_week.sql [  0.00s]
+09:49:32.237030 [debug]: Finished parsing target/generic_tests/unique_stg_stores_store_code.sql [  0.00s]
+09:49:32.237578 [debug]: Finished parsing target/generic_tests/unique_dim_region_region_name.sql [  0.00s]
+09:49:32.237694 [debug]: Finished parsing target/generic_tests/unique_dim_date_date_key.sql [  0.00s]
+09:49:32.237804 [debug]: Finished parsing target/generic_tests/not_null_stg_customers_customer_segment.sql [  0.00s]
+09:49:32.237987 [debug]: Finished parsing target/generic_tests/not_null_dim_store_store_key.sql [  0.00s]
+09:49:32.238370 [debug]: Finished parsing target/generic_tests/not_null_dim_region_region_name.sql [  0.00s]
+09:49:32.238419 [debug]: Finished parsing target/generic_tests/not_null_fct_orders_customer_code.sql [  0.00s]
+09:49:32.238571 [debug]: Finished parsing target/generic_tests/not_null_stg_stores_store_code.sql [  0.00s]
+09:49:32.238830 [debug]: Finished parsing target/generic_tests/dbt_utils_unique_combination_o_b5edb517e9de936fff318d7543660339.sql [  0.00s]
+09:49:32.239438 [debug]: Finished parsing target/generic_tests/not_null_dim_date_year.sql [  0.00s]
+09:49:32.239492 [debug]: Finished parsing target/generic_tests/not_null_stg_products_category.sql [  0.00s]
+09:49:32.239577 [debug]: Finished parsing target/generic_tests/relationships_fct_orders_85a5b7069c2d42b16327ae31ffcbb015.sql [  0.00s]
+09:49:32.239692 [debug]: Finished parsing target/generic_tests/not_null_dim_store_store_name.sql [  0.00s]
+09:49:32.239717 [debug]: Finished parsing target/generic_tests/not_null_stg_stores_store_name.sql [  0.00s]
+09:49:32.239782 [debug]: Finished parsing target/generic_tests/not_null_dim_date_date_key.sql [  0.00s]
+09:49:32.239983 [debug]: Finished parsing target/generic_tests/not_null_stg_orders_line_customer_id.sql [  0.00s]
+09:49:32.240233 [debug]: Finished parsing target/generic_tests/not_null_fct_orders_order_code.sql [  0.00s]
+09:49:32.240431 [debug]: Finished parsing target/generic_tests/unique_stg_products_product_code.sql [  0.00s]
+09:49:32.240561 [debug]: Finished parsing target/generic_tests/not_null_fact_orders_customer_code.sql [  0.00s]
+09:49:32.240643 [debug]: Finished parsing target/generic_tests/not_null_dim_date_day_name.sql [  0.00s]
+09:49:32.240843 [debug]: Finished parsing target/generic_tests/not_null_stg_products_product_code.sql [  0.00s]
+09:49:32.240899 [debug]: Finished parsing target/generic_tests/relationships_stg_orders_line_dd13031513631ebdc4d33d6a63c70139.sql [  0.00s]
+09:49:32.240953 [debug]: Finished parsing target/generic_tests/not_null_dim_date_day_of_month.sql [  0.00s]
+09:49:32.241112 [debug]: Finished parsing target/generic_tests/not_null_stg_products_product_name.sql [  0.00s]
+09:49:32.259127 [info ]: Finished parsing [  0.08s]
+09:49:32.381683 [info ]: 
+==================== Execution Summary =====================
+Finished 'parse' with 10 warnings for target 'dev' [436ms]
