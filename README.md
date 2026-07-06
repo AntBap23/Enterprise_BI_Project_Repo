@@ -1,189 +1,309 @@
 # Enterprise Operations Intelligence Platform
 
-End-to-end BI platform: raw CSVs → cleaned & validated data → PostgreSQL → dbt star schema for reporting and product analysis.
+> A modern analytics engineering project demonstrating how raw operational data can be transformed into trusted, analytics-ready datasets using Python, PostgreSQL, dbt, and dimensional modeling.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 ---
 
-## Overview
+# Overview
 
-This repo runs a full analytics pipeline:
+Organizations rely on accurate, well-modeled data to make strategic decisions. However, operational data is often fragmented, inconsistent, and difficult to analyze directly.
 
-1. **Ingest** raw CSV files (regions, customers, products, stores, orders).
-2. **Clean & validate** with Python (standardized codes, deduping, null handling, referential integrity).
-3. **Load** into PostgreSQL (`raw` schema).
-4. **Transform** with dbt into staging views and mart tables (dimensions + facts).
+This project demonstrates a complete analytics engineering workflow that transforms raw business data into a production-style dimensional model optimized for reporting and business intelligence.
 
-You get a star schema ready for dashboards and ad-hoc analysis (e.g. by product, store, region, customer, date).
+The pipeline includes data cleaning, validation, database ingestion, dimensional modeling with dbt, and dashboard-ready datasets suitable for executive reporting.
 
 ---
 
-## Features
+# Business Problem
 
-- **Python pipeline**: Cleaning, validation, and load-to-DB with configurable `.env`.
-- **Standardized IDs**: `cust-*`, `store-*`, `prd-*`, `ord-*`; sentinels (`cust-0`, `store-0`, `prd-0`) for nulls.
-- **Validation**: Schema checks, nulls, dtypes, uniqueness, and foreign keys before load.
-- **dbt models**: Staging (from `raw`), dimensions (customer, product, store, region, date), and order-level / order-product fact tables.
-- **Tests**: dbt schema and data tests (uniqueness, relationships, not_null).
-- **Dashboard data SQL**: Standalone queries in `dashboard_data/` for exporting or wiring BI tools to mart tables.
+Business teams often face challenges such as:
 
----
+- Duplicate customer records
+- Missing or inconsistent values
+- Difficult-to-query transactional datasets
+- Lack of standardized business metrics
+- Slow reporting caused by poorly structured data
 
-## Prerequisites
-
-- **Python 3.9+** (recommend a venv)
-- **PostgreSQL** (for load and dbt)
-- **dbt-core** and **dbt-postgres** (installed via `requirements.txt`)
+This project addresses those problems by building a repeatable analytics pipeline that converts raw operational data into trusted business datasets.
 
 ---
 
-## Project Structure
+# Architecture
 
 ```
-.
-├── data/
-│   ├── raw/          # Input CSVs: raw_regions.csv, raw_orders.csv, raw_products.csv, raw_stores.csv, raw_customers.csv
-│   └── cleaned/      # Output CSVs after cleaning (used by validation + load_to_db)
+                 Raw CSV Files
+                       │
+                       ▼
+            Python Cleaning Pipeline
+                       │
+                       ▼
+          Validation & Data Quality Checks
+                       │
+                       ▼
+             PostgreSQL Raw Schema
+                       │
+                       ▼
+                 dbt Staging Models
+                       │
+                       ▼
+              Dimension & Fact Models
+                       │
+                       ▼
+              Analytics-Ready Data Marts
+                       │
+                       ▼
+              Power BI Dashboards
+```
+
+---
+
+# Project Goals
+
+- Build an end-to-end analytics engineering pipeline
+- Apply modern ELT principles
+- Create a scalable dimensional model
+- Improve data quality through automated validation
+- Produce analytics-ready datasets for business reporting
+- Demonstrate production-style analytics engineering workflows
+
+---
+
+# Technology Stack
+
+## Languages
+
+- Python
+- SQL
+
+## Data Engineering
+
+- PostgreSQL
+- dbt
+- CSV Processing
+
+## Analytics
+
+- Power BI
+- Star Schema Modeling
+- Data Validation
+- Data Quality Testing
+
+## Development
+
+- Git
+- Virtual Environments
+- Environment Variables
+
+---
+
+# Pipeline Overview
+
+## 1. Data Ingestion
+
+Raw business data is collected from multiple CSV files representing:
+
+- Customers
+- Products
+- Stores
+- Regions
+- Orders
+
+---
+
+## 2. Data Cleaning
+
+Python scripts standardize and clean incoming datasets by:
+
+- Removing duplicates
+- Handling missing values
+- Standardizing identifiers
+- Normalizing formats
+- Preparing records for loading
+
+---
+
+## 3. Data Validation
+
+Before loading, datasets undergo quality checks including:
+
+- Schema validation
+- Null checks
+- Duplicate detection
+- Data type validation
+- Foreign key validation
+- Referential integrity
+
+This ensures only trusted data enters the warehouse.
+
+---
+
+## 4. Database Loading
+
+Validated datasets are loaded into PostgreSQL using a dedicated raw schema.
+
+Separating raw data from transformed models preserves source integrity while supporting reproducible transformations.
+
+---
+
+## 5. Analytics Engineering with dbt
+
+dbt transforms raw operational tables into analytics-ready models using a layered architecture.
+
+### Staging Models
+
+- Clean source tables
+- Standardize naming conventions
+- Prepare datasets for business logic
+
+### Dimension Models
+
+- Customers
+- Products
+- Stores
+- Regions
+- Dates
+
+### Fact Models
+
+- Orders
+- Order Line Items
+
+This dimensional design enables efficient reporting while reducing query complexity.
+
+---
+
+# Star Schema
+
+The final warehouse follows a dimensional star schema.
+
+```
+                Dim Customer
+                      │
+                      │
+Dim Product ─── Fact Orders ─── Dim Store
+                      │
+                      │
+                 Dim Date
+                      │
+                      │
+                 Dim Region
+```
+
+This design supports fast aggregation, simplified reporting, and scalable analytics.
+
+---
+
+# Dashboard Layer
+
+The transformed data is designed for business intelligence tools such as Power BI.
+
+Example reporting includes:
+
+- Executive KPI dashboards
+- Revenue analysis
+- Store performance
+- Regional trends
+- Product performance
+- Customer insights
+
+Example dashboard exports are included in the repository.
+
+---
+
+# Repository Structure
+
+```
+Enterprise_BI_Project_Repo/
+
 ├── python/
-│   ├── pipeline.py       # Full pipeline: run_cleaning → run_validation → load_to_db
-│   ├── run_cleaning.py   # Clean all raw CSVs → data/cleaned/
-│   ├── validation.py    # Validate cleaned CSVs (schemas, FKs, nulls, etc.)
-│   ├── load_to_db.py    # Load data/cleaned/*.csv → PostgreSQL raw.*
-│   ├── clean_*.py       # Per-entity cleaning (customers, orders, products, regions, stores)
-│   └── standard_clean.py
+│   ├── cleaning
+│   ├── validation
+│   ├── loading
+│   └── pipeline
+│
 ├── models/
-│   ├── sources/          # Source definitions (raw.customers, raw.orders, …)
-│   ├── staging/         # stg_customers, stg_orders_line, stg_products, stg_stores, stg_regions
-│   └── marts/
-│       ├── dimensions/   # dim_customer, dim_product, dim_store, dim_region, dim_date
-│       └── facts/       # fact_orders (order-product), fct_orders (order-level)
-├── dashboard_data/      # Ad-hoc SQL to pull data for dashboards (run in psql / your BI tool against Postgres)
-│   ├── Data_Pull.sql    # Example full data pull
-│   └── Data_Pulled_prd.sql
-├── dashboards/          # Dashboard exports or references (e.g. PDF mockups)
+│   ├── sources
+│   ├── staging
+│   └── marts
+│
+├── dashboard_data/
+│
+├── dashboards/
+│
 ├── docs/
-├── dbt_project.yml
-├── profiles.yml.template # Copy to ~/.dbt/profiles.yml and set DB credentials
-├── requirements.txt
-└── .env                  # DATABASE_URL, DATA_DIR, RAW_SCHEMA, etc. (not committed)
+│
+├── data/
+│
+└── README.md
 ```
 
 ---
 
-## Setup
+# Key Skills Demonstrated
 
-### 1. Clone and install Python dependencies
-
-```bash
-git clone <your-repo-url>
-cd Enterprise_BI_Project_Repo
-
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 2. Raw data
-
-Place your raw CSVs in `data/raw/` with names:
-
-- `raw_regions.csv`
-- `raw_customers.csv`
-- `raw_products.csv`
-- `raw_stores.csv`
-- `raw_orders.csv`
-
-(Column names should match what the cleaning scripts expect; see `python/clean_*.py` and `python/validation.py`.)
-
-### 3. Environment and database
-
-- Copy `profiles.yml.template` to `~/.dbt/profiles.yml` and set `host`, `user`, `password`, `dbname`, and `schema` for your PostgreSQL instance.
-- Create a `.env` in the project root (see `python/load_to_db.py` and `python/validation.py`). At minimum:
-
-  ```env
-  DATABASE_URL=postgresql://user:password@localhost:5432/EnterpriseBI
-  ```
-
-- Ensure the database and `raw` schema exist (the load script can create the schema).
+- Analytics Engineering
+- Data Modeling
+- ETL / ELT Pipelines
+- Data Quality
+- SQL Development
+- Python Automation
+- PostgreSQL
+- dbt
+- Dimensional Modeling
+- Business Intelligence
+- Dashboard Development
 
 ---
 
-## Usage
+# Lessons Learned
 
-### Run the full Python pipeline (clean → validate → load)
+This project strengthened my understanding of modern analytics engineering practices, including:
 
-From the **project root** (so paths like `data/cleaned` resolve correctly):
-
-```bash
-source .venv/bin/activate
-python python/pipeline.py
-```
-
-- Writes cleaned CSVs to `data/cleaned/`.
-- Validates them; if validation fails, the pipeline stops before load.
-- Loads `data/cleaned/*.csv` into PostgreSQL `raw.*` tables.
-
-To run only cleaning:
-
-```bash
-python python/run_cleaning.py
-```
-
-### Run dbt (staging + marts)
-
-After the pipeline has loaded data into `raw`:
-
-```bash
-dbt run
-```
-
-Run or test specific models:
-
-```bash
-dbt run --select stg_orders_line fact_orders
-dbt test --select fact_orders
-```
-
-Useful selects:
-
-- `dbt run --select staging.*` — all staging views
-- `dbt run --select marts.*` — all dimension and fact tables
-- `dbt build` — run models and then run tests
+- Designing scalable dimensional models
+- Building maintainable ELT pipelines
+- Separating raw and transformed datasets
+- Automating data validation
+- Creating reusable analytics models
+- Structuring data for business decision-making
 
 ---
 
-## dbt Models
+# Future Improvements
 
-| Layer      | Models | Description |
-|-----------|--------|-------------|
-| **Staging** | `stg_customers`, `stg_orders_line`, `stg_products`, `stg_stores`, `stg_regions` | One-to-one or cleaned views from `raw.*`; standardized column names (e.g. `order_id` / `order_code` in SQL). |
-| **Dimensions** | `dim_customer`, `dim_product`, `dim_store`, `dim_region`, `dim_date` | Deduplicated dimension tables; `dim_date` is a generated date spine. |
-| **Facts** | `fact_orders`, `fct_orders` | **fact_orders**: one row per order + product (for product analysis). **fct_orders**: one row per order (order-level metrics). Both built from `stg_orders_line`. |
+Potential enhancements include:
 
-Staging uses schema `staging`; marts use schema `mart` (see `dbt_project.yml`).
-
----
-
-## Dashboard data (`dashboard_data/`)
-
-These `.sql` files are **not** dbt models. They are queries you run manually against PostgreSQL after `dbt run` (or equivalent), usually targeting **mart** schemas (e.g. `staging_mart`, `mart`) depending on your `profiles.yml` and `dbt_project.yml` settings.
-
-- Point your SQL client or BI **data source** at the same database you use for dbt.
-- Open a script under `dashboard_data/`, adjust schema names (`staging_mart`, `staging`, etc.) if they differ on your machine.
-- Execute the query and save results as CSV or connect the BI tool with the same SQL as a **custom SQL** dataset.
-
-The `dashboards/` folder can hold exported PDFs or other assets for design references—not executed by the pipeline.
+- Dockerized deployment
+- CI/CD pipeline
+- Automated scheduling
+- Incremental dbt models
+- Cloud warehouse migration
+- Great Expectations data quality tests
+- Data lineage visualization
+- Automated monitoring and alerts
 
 ---
 
-## Documentation
+# About Me
 
-- **DBT_QUICK_REFERENCE.md** — dbt commands and concepts.
-- **DBT_SETUP_GUIDE.md** — Detailed dbt setup and project config.
-- **INSTALL_DBT.md** — Installing dbt.
-- **docs/metrics.md** — Metric definitions and usage.
+I'm passionate about building products and analytics systems that combine data engineering, experimentation, and AI to help organizations make better decisions.
+
+I'm currently focused on:
+
+- Product Analytics
+- Experimentation
+- Analytics Engineering
+- AI-powered Products
+- Business Intelligence
+
+Feel free to connect or reach out if you'd like to discuss analytics engineering, product analytics, or AI.
 
 ---
 
 ## License
 
-See repository license file.
+This project is intended for educational and portfolio purposes.
